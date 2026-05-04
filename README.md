@@ -1,25 +1,35 @@
 # GR Suchti Mods
 
-Quality-of-life mods for **Global Rescue**, made by Suchti On Tour.
+Collection and overview for Global Rescue mods by Suchti On Tour.
 
-## Mods
+## Individual Mods
 
-- **Better Vehicle Menu v1.0**  
-  Adds vehicle quick buttons, base selection, better vehicle menu navigation, sorting, and live UI settings.
+- [Better Vehicle Menu](https://github.com/SuchtiOnTour/GR_Suchti_BetterVehicleMenu)  
+  Quick vehicle buttons, base selection, vehicle menu navigation, and sorting.
 
-- **Less Micro v1.0**  
-  Adds configurable automation helpers for unlocked task/research flows, mission timer options, and debug controls.
+- [Less Micro](https://github.com/SuchtiOnTour/GR_Suchti_LessMicro)  
+  Reduces repeated manual task clicks with configurable automation helpers.
 
-- **More Tiles v1.0**  
-  Adds configurable map tile limits and configurable research point step costs for tile unlocks.
+- [More Tiles](https://github.com/SuchtiOnTour/GR_Suchti_MoreTiles)  
+  Configurable map tile limits and research point step costs.
 
-- **Mod Manager v1.0**  
+- [Suchti Mod Manager](https://github.com/SuchtiOnTour/GR_Suchti_ModManager)  
   In-game settings menu for Suchti mods. Default hotkey: `F10`.
+
+## Collection Download
+
+Use the Releases page of this repo for the full collection ZIP:
+
+```text
+GR_Suchti_Mods_Collection_v1.0.zip
+```
+
+If you only want one mod, download it from the matching individual mod repository.
 
 ## Installation
 
 1. Install BepInEx for Global Rescue.
-2. Download the ZIP for the mod you want, or download the collection ZIP.
+2. Download either one individual mod ZIP or the full collection ZIP.
 3. Extract the ZIP into the Global Rescue game folder.
 4. The files should end up under:
 
@@ -27,18 +37,7 @@ Quality-of-life mods for **Global Rescue**, made by Suchti On Tour.
 BepInEx/plugins/GR_Suchti_ModName/
 ```
 
-## Downloads
-
-Use GitHub Releases for the ZIP files:
-
-- `GR_Suchti_BetterVehicleMenu.zip`
-- `GR_Suchti_LessMicro.zip`
-- `GR_Suchti_MoreTiles.zip`
-- `GR_Suchti_ModManager.zip`
-- `GR_Suchti_Mods_Collection_v1.0.zip`
-
 ## Notes
 
 - Tested with Global Rescue `0.3.18`.
 - Config files are stored next to each mod DLL inside its plugin folder.
-- The Mod Manager only lists Suchti mods, not every installed BepInEx plugin.
