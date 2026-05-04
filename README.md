@@ -2,6 +2,10 @@
 
 Collection and overview for Global Rescue mods by Suchti On Tour.
 
+## Info
+
+[Suchti Mod Manager](https://github.com/SuchtiOnTour/GR_Suchti_ModManager) is recommended for changing settings in-game for supported Suchti mods.
+
 ## Individual Mods
 
 - [Better Vehicle Menu](https://github.com/SuchtiOnTour/GR_Suchti_BetterVehicleMenu)  
