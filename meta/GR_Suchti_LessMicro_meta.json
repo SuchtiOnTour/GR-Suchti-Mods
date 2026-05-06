@@ -4,7 +4,7 @@
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
     { "id": "Learning", "label": "Learning", "order": 20 },
-    { "id": "Debug", "label": "Debug TEST", "order": 1000 }
+    { "id": "Debug", "label": "Debug", "order": 1000 }
   ],
   "groups": [
     {
@@ -24,30 +24,37 @@
   ],
   "settings": {
     "EnableAutoComplete": {
+      "control": "toggle",
       "label": "Enable LessMicro Automation",
       "description": "Automatically handle supported low-interaction mission tasks after the required automation research is unlocked."
     },
     "ExtendMissionTimers": {
+      "control": "toggle",
       "label": "Extend Mission Timers",
       "description": "Increase mission and task timers once when they become active."
     },
     "MissionTimerMultiplier": {
+      "control": "number",
       "label": "Timer Multiplier",
       "description": "Multiplies active mission/task timers. Original game value is 1x; mod default is 2x."
     },
     "AutomationMoneyCost": {
+      "control": "number",
       "label": "Automation Money Cost",
       "description": "Money cost for each department automation research."
     },
     "AutomationResearchPointCost": {
+      "control": "number",
       "label": "Automation Research Point Cost",
       "description": "Research point cost for each department automation research."
     },
     "EnableAssignmentLearning": {
+      "control": "toggle",
       "label": "Assignment Learning",
       "description": "Learn class-based assignment rules from manual vehicle and employee assignments."
     },
     "AssignmentLearningConfirmSeconds": {
+      "control": "number",
       "label": "Learning Confirm Delay",
       "description": "Seconds to wait before confirming a manual assignment for learning."
     },
@@ -56,58 +63,72 @@
       "description": "Internal class-based assignment rules learned from manual assignments."
     },
     "AssignmentSweepIntervalSeconds": {
+      "control": "number",
       "label": "Fallback Assignment Check Interval",
       "description": "Fallback interval for periodic assignment checks. Higher values reduce overhead."
     },
     "AssignmentBackoffSeconds": {
+      "control": "number",
       "label": "Blocked Assignment Backoff",
       "description": "Seconds before retrying the same blocked task/vehicle assignment."
     },
     "FollowupAssignmentDelaySeconds": {
+      "control": "number",
       "label": "Follow-Up Assignment Delay",
       "description": "Delay before assigning follow-up tasks after vehicles are already at a mission."
     },
     "FollowupAssignmentJitterSeconds": {
+      "control": "number",
       "label": "Follow-Up Delay Jitter",
       "description": "Small stable delay variation to avoid many assignments firing in the same frame."
     },
     "ArrivalAssignmentDelaySeconds": {
+      "control": "number",
       "label": "Arrival Assignment Delay",
       "description": "Delay before assigning tasks after the first vehicle arrives."
     },
     "TaskSwitchAssignmentDelaySeconds": {
+      "control": "number",
       "label": "Next Task Assignment Delay",
       "description": "Delay before assigning the next task after a mission task completes."
     },
     "MissionReassignCooldownSeconds": {
+      "control": "number",
       "label": "Mission Reassign Cooldown",
       "description": "Minimum seconds between assignment bursts for the same mission."
     },
     "AutoAssignmentConfirmSeconds": {
+      "control": "number",
       "label": "Auto Assignment Confirm Delay",
       "description": "Seconds to wait before confirming whether an automatic assignment was accepted."
     },
     "MaxVehiclesPerMissionAssignPass": {
+      "control": "number",
       "label": "Max Vehicles per Assignment Pass",
       "description": "Maximum vehicles scanned during one mission assignment pass. Lower values can reduce lag."
     },
     "MaxMissionTasksPerSweep": {
+      "control": "number",
       "label": "Max Tasks per Sweep",
       "description": "Maximum open mission tasks processed during each fallback sweep."
     },
     "EnableVerboseLogging": {
+      "control": "toggle",
       "label": "Verbose Logging",
       "description": "Write detailed debug traces to BepInEx/LogOutput.log."
     },
     "ShowDebugOverlay": {
+      "control": "toggle",
       "label": "Debug Overlay",
       "description": "Show recent LessMicro debug messages in-game."
     },
     "EnableVehicleStateDiagnostics": {
+      "control": "toggle",
       "label": "Vehicle State Diagnostics",
       "description": "Write vehicle state snapshots for assignment debugging. Keep disabled for normal play."
     },
     "EnableAssignmentDiagnostics": {
+      "control": "toggle",
       "label": "Assignment Diagnostics",
       "description": "Write throttled assignment decision diagnostics. Disable after investigating issues."
     }

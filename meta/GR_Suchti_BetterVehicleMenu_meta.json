@@ -24,74 +24,114 @@
   ],
   "settings": {
     "Enabled": {
+      "control": "toggle",
       "label": "Enable Mod",
       "description": "Enable or disable Better Vehicle Menu completely."
     },
     "ShowOverlay": {
+      "control": "toggle",
       "label": "Show Vehicle Buttons",
       "description": "Show the department vehicle buttons on screen."
     },
     "EnableVehicleSorting": {
+      "control": "toggle",
       "label": "Sort Vehicle List",
       "description": "Sort vehicles in the original vehicle menu by name."
     },
     "EnablePassiveRefresh": {
+      "control": "toggle",
       "label": "Refresh Vehicle Menu on Timer",
       "description": "Automatically refresh the vehicle menu cache on a timer."
     },
     "RefreshIntervalSeconds": {
+      "control": "number",
       "label": "Timer Refresh Interval",
       "description": "Seconds between automatic timed refreshes."
     },
     "EnableChangeWatcher": {
+      "control": "toggle",
       "label": "Detect Vehicle/Base Changes",
       "description": "Detect when vehicles or bases changed, then refresh once after things settle."
     },
     "ChangeCheckIntervalSeconds": {
+      "control": "number",
       "label": "Change Detection Interval",
       "description": "Seconds between lightweight vehicle/base change checks."
     },
     "ChangeRefreshDebounceSeconds": {
+      "control": "number",
       "label": "Wait Before Refreshing Changes",
       "description": "After a change is detected, wait this many seconds before doing the full refresh."
     },
     "ShortcutAnchor": {
+      "control": "choice",
       "label": "Screen Corner",
-      "description": "Choose which screen corner the vehicle menu buttons are attached to."
+      "description": "Choose which screen corner the vehicle menu buttons are attached to.",
+      "options": [
+        { "value": "TopLeft", "label": "Up Left" },
+        { "value": "TopRight", "label": "Up Right" },
+        { "value": "BottomLeft", "label": "Down Left" },
+        { "value": "BottomRight", "label": "Down Right" }
+      ]
     },
     "ShortcutButtonSize": {
+      "control": "slider",
+      "min": 44,
+      "max": 300,
+      "step": 1,
+      "showValueField": true,
       "label": "Button Size",
       "description": "Changes the height of each vehicle menu button."
     },
     "ShortcutRightOffset": {
+      "control": "slider",
+      "min": 0,
+      "max": 800,
+      "step": 1,
+      "showValueField": true,
       "label": "Horizontal Offset",
       "description": "Moves the vehicle menu buttons horizontally away from the selected corner."
     },
     "ShortcutBottomOffset": {
+      "control": "slider",
+      "min": 0,
+      "max": 800,
+      "step": 1,
+      "showValueField": true,
       "label": "Vertical Offset",
       "description": "Moves the vehicle menu buttons vertically away from the selected corner."
     },
     "ShortcutAspectRatio": {
+      "control": "slider",
+      "min": 1,
+      "max": 2.4,
+      "step": 0.05,
+      "showValueField": true,
       "label": "Button Width",
       "description": "Changes button width. Higher values make the vehicle image cards wider."
     },
     "UseResolutionScaling": {
+      "control": "toggle",
       "label": "Auto Scale by Resolution",
       "description": "Keeps the vehicle menu buttons visually similar across different screen resolutions."
     },
     "ShowDebugOverlay": {
+      "control": "toggle",
       "label": "Debug Overlay",
       "description": "Show diagnostic scan information in the upper right corner."
     },
     "ReloadConfigHotkey": {
+      "control": "hotkey",
       "label": "Reload Hotkey",
       "description": "Optional hotkey to reload config, icons, and the base cache while in-game. Leave empty to disable."
     },
     "EnableMenuResearchLogging": {
+      "control": "toggle",
       "label": "Menu Research Logging",
       "description": "Log original vehicle menu discovery details. Only useful for mod development."
     },
     "TraceVehicleOverviewMethods": {
+      "control": "toggle",
       "label": "Vehicle Menu Method Trace",
       "description": "Log original VehicleOverview methods. Only useful for mod development."
     }
