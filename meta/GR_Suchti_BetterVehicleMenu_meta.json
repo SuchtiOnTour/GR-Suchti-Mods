@@ -81,7 +81,6 @@
     },
     "ShortcutAnchor": {
       "control": "choice",
-      "order": 300,
       "label": "Screen Corner",
       "description": "Choose which screen corner the vehicle menu buttons are attached to.",
       "options": [
@@ -93,7 +92,6 @@
     },
     "ShortcutButtonSize": {
       "control": "slider",
-      "order": 0,
       "min": 44,
       "max": 300,
       "step": 1,
@@ -103,7 +101,6 @@
     },
     "ShortcutRightOffset": {
       "control": "slider",
-      "order": 200,
       "min": 0,
       "max": 800,
       "step": 1,
@@ -113,7 +110,6 @@
     },
     "ShortcutBottomOffset": {
       "control": "slider",
-      "order": 100,
       "min": 0,
       "max": 800,
       "step": 1,
@@ -123,7 +119,6 @@
     },
     "ShortcutAspectRatio": {
       "control": "slider",
-      "order": 400,
       "min": 1,
       "max": 2.4,
       "step": 0.05,
@@ -133,7 +128,6 @@
     },
     "UseResolutionScaling": {
       "control": "toggle",
-      "order": 500,
       "label": "Auto Scale by Resolution",
       "description": "Keeps the vehicle menu buttons visually similar across different screen resolutions."
     },
