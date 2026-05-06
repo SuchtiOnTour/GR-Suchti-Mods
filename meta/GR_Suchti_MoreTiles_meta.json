@@ -1,0 +1,21 @@
+{
+  "displayName": "More Tiles",
+  "settings": {
+    "Enabled": {
+      "label": "Enable More Tiles",
+      "description": "Enable or disable More Tiles."
+    },
+    "MaxTotalTiles": {
+      "label": "Max Map Tiles",
+      "description": "Maximum total map tiles that can be unlocked."
+    },
+    "ResearchPointStepCost": {
+      "label": "Research Cost Step",
+      "description": "Research point cost increase per tile unlock step."
+    },
+    "VerboseLogging": {
+      "label": "Verbose Logging",
+      "description": "Write extra debug information to the log."
+    }
+  }
+}
