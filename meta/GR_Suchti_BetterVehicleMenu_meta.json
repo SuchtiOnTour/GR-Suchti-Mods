@@ -1,9 +1,9 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "Dev Note:\nKnown Issue in v1.1: The game may stutter or have short FPS drops every few seconds. I'm already working on a fix.\nThanks to BABAKPF for reporting this bug.",
-    "de": "Dev Note:\nBekanntes Problem in v1.1: Das Spiel kann alle paar Sekunden kurz ruckeln oder kleine FPS-Drops haben. Ich arbeite bereits an einem Fix.\nDanke an BABAKPF fürs Melden dieses Bugs."
-    },
+    "en": "Dev Note:\n- Known Issue in v1.1: Enabling \"Detect Vehicle/Base Changes\" can cause short stutters or FPS drops every few seconds.\n- Workaround: Disable \"Detect Vehicle/Base Changes\" in the mod settings.\n- After that, you must use the small refresh icon on the right side next to the ambulance/rescue button whenever vehicles or bases changed.\n- Fix: I'm already working on an improvement.\n- Thanks to BABAKPF for reporting this bug.",
+    "de": "Dev Note:\n- Bekanntes Problem in v1.1: Wenn \"Fahrzeug-/Basis-Änderungen erkennen\" aktiviert ist, kann es alle paar Sekunden zu kurzem Ruckeln oder FPS-Drops kommen.\n- Workaround: Deaktiviere \"Fahrzeug-/Basis-Änderungen erkennen\" in den Mod-Einstellungen.\n- Danach musst du das kleine Refresh-Symbol rechts neben dem Krankenwagen-/Rettungs-Button immer dann benutzen, wenn sich Fahrzeuge oder Basen geändert haben.\n- Fix: Ich arbeite bereits an einer Verbesserung.\n- Danke an BABAKPF fürs Melden dieses Bugs."
+  },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
@@ -110,12 +110,12 @@
     "EnableChangeWatcher": {
       "control": "toggle",
       "label": {
-        "en": "Detect Vehicle/Base Changes",
-        "de": "Fahrzeug-/Basis-Änderungen erkennen"
+        "en": "Detect Vehicle/Base Changes (Can Cause Lag)",
+        "de": "Fahrzeug-/Basis-Änderungen erkennen (Kann Lags verursachen)"
       },
       "description": {
-        "en": "Detect when vehicles or bases changed, then refresh once after things settle.",
-        "de": "Erkennt Änderungen an Fahrzeugen oder Basen und aktualisiert einmal, sobald sich alles beruhigt hat."
+        "en": "Detect when vehicles or bases changed, then refresh once after things settle.\n- Lag workaround: Disable this option if your game stutters.\n- After that, refresh bases manually after buying new vehicles or when base data changed.",
+        "de": "Erkennt Änderungen an Fahrzeugen oder Basen und aktualisiert einmal, sobald sich alles beruhigt hat.\n- Lag-Workaround: Deaktiviere diese Option, wenn dein Spiel ruckelt.\n- Danach aktualisiere die Basen manuell, wenn du neue Fahrzeuge kaufst oder sich Basisdaten geändert haben."
       }
     },
     "ChangeCheckIntervalSeconds": {
