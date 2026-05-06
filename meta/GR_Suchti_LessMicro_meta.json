@@ -1,6 +1,9 @@
 {
   "displayName": "Less Micro",
-  "devMessage": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
+  "devMessage": {
+    "en": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
+    "de": "Danke, dass du meine Mod benutzt!\nIn diesem Devlog findest du die neuesten Infos, Updates und ein paar Einblicke hinter die Kulissen der Entwicklung.\nWenn du Feedback, Vorschläge oder einen Bug gefunden hast, hinterlasse gern einen Kommentar auf der Mod-Seite (Steam Guides oder Nexus Mods)."
+  },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
@@ -13,125 +16,263 @@
       "section": "General",
       "before": "ExtendMissionTimers",
       "title": "Timers",
-      "description": "Change mission and task time limits. Original game value is 1x; mod default is 2x."
+      "description": {
+        "en": "Change mission and task time limits. Original game value is 1x; mod default is 2x.",
+        "de": "Ändert die Zeitlimits für Missionen und Aufgaben. Der Originalwert ist 1x, der Mod-Standard 2x."
+      }
     },
     {
       "id": "researchCost",
       "section": "General",
       "before": "AutomationMoneyCost",
       "title": "Research Cost",
-      "description": "Change the money and research point cost for unlocking LessMicro automation."
+      "description": {
+        "en": "Change the money and research point cost for unlocking LessMicro automation.",
+        "de": "Ändert die Geld- und Forschungspunkt-Kosten zum Freischalten der LessMicro-Automatisierung."
+      }
     }
   ],
   "settings": {
     "EnableAutoComplete": {
       "control": "toggle",
-      "label": "Enable LessMicro Automation",
-      "description": "Automatically handle supported low-interaction mission tasks after the required automation research is unlocked."
+      "label": {
+        "en": "Enable LessMicro Automation",
+        "de": "LessMicro-Automatisierung aktivieren"
+      },
+      "description": {
+        "en": "Automatically handle supported low-interaction mission tasks after the required automation research is unlocked.",
+        "de": "Übernimmt unterstützte Missionaufgaben mit wenig Mikroverwaltung automatisch, sobald die passende Automatisierungsforschung freigeschaltet ist."
+      }
     },
     "ExtendMissionTimers": {
       "control": "toggle",
-      "label": "Extend Mission Timers",
-      "description": "Increase mission and task timers once when they become active."
+      "label": {
+        "en": "Extend Mission Timers",
+        "de": "Missionstimer verlängern"
+      },
+      "description": {
+        "en": "Increase mission and task timers once when they become active.",
+        "de": "Erhöht Missions- und Aufgabentimer einmalig, sobald sie aktiv werden."
+      }
     },
     "MissionTimerMultiplier": {
       "control": "number",
-      "label": "Timer Multiplier",
-      "description": "Multiplies active mission/task timers. Original game value is 1x; mod default is 2x."
+      "label": {
+        "en": "Timer Multiplier",
+        "de": "Timer-Multiplikator"
+      },
+      "description": {
+        "en": "Multiplies active mission/task timers. Original game value is 1x; mod default is 2x.",
+        "de": "Multipliziert aktive Missions- und Aufgabentimer. Der Originalwert ist 1x, der Mod-Standard 2x."
+      }
     },
     "AutomationMoneyCost": {
       "control": "number",
-      "label": "Automation Money Cost",
-      "description": "Money cost for each department automation research."
+      "label": {
+        "en": "Automation Money Cost",
+        "de": "Geldkosten für Automatisierung"
+      },
+      "description": {
+        "en": "Money cost for each department automation research.",
+        "de": "Geldkosten für die Automatisierungsforschung jeder Abteilung."
+      }
     },
     "AutomationResearchPointCost": {
       "control": "number",
-      "label": "Automation Research Point Cost",
-      "description": "Research point cost for each department automation research."
+      "label": {
+        "en": "Automation Research Point Cost",
+        "de": "Forschungspunktkosten für Automatisierung"
+      },
+      "description": {
+        "en": "Research point cost for each department automation research.",
+        "de": "Forschungspunktkosten für die Automatisierungsforschung jeder Abteilung."
+      }
     },
     "EnableAssignmentLearning": {
       "control": "toggle",
-      "label": "Assignment Learning",
-      "description": "Learn class-based assignment rules from manual vehicle and employee assignments."
+      "label": {
+        "en": "Assignment Learning",
+        "de": "Zuweisungen lernen"
+      },
+      "description": {
+        "en": "Learn class-based assignment rules from manual vehicle and employee assignments.",
+        "de": "Lernt klassenbasierte Zuweisungsregeln aus manuellen Fahrzeug- und Mitarbeiterzuweisungen."
+      }
     },
     "AssignmentLearningConfirmSeconds": {
       "control": "number",
-      "label": "Learning Confirm Delay",
-      "description": "Seconds to wait before confirming a manual assignment for learning."
+      "label": {
+        "en": "Learning Confirm Delay",
+        "de": "Bestätigungsverzögerung fürs Lernen"
+      },
+      "description": {
+        "en": "Seconds to wait before confirming a manual assignment for learning.",
+        "de": "Sekunden, die vor der Bestätigung einer manuellen Zuweisung fürs Lernen gewartet werden."
+      }
     },
     "LearnedAssignmentRules": {
-      "label": "Learned Assignment Rules",
-      "description": "Internal class-based assignment rules learned from manual assignments."
+      "label": {
+        "en": "Learned Assignment Rules",
+        "de": "Gelernte Zuweisungsregeln"
+      },
+      "description": {
+        "en": "Internal class-based assignment rules learned from manual assignments.",
+        "de": "Interne klassenbasierte Zuweisungsregeln, die aus manuellen Zuweisungen gelernt wurden."
+      }
     },
     "AssignmentSweepIntervalSeconds": {
       "control": "number",
-      "label": "Fallback Assignment Check Interval",
-      "description": "Fallback interval for periodic assignment checks. Higher values reduce overhead."
+      "label": {
+        "en": "Fallback Assignment Check Interval",
+        "de": "Fallback-Intervall für Zuweisungsprüfungen"
+      },
+      "description": {
+        "en": "Fallback interval for periodic assignment checks. Higher values reduce overhead.",
+        "de": "Fallback-Intervall für regelmäßige Zuweisungsprüfungen. Höhere Werte verringern den Aufwand."
+      }
     },
     "AssignmentBackoffSeconds": {
       "control": "number",
-      "label": "Blocked Assignment Backoff",
-      "description": "Seconds before retrying the same blocked task/vehicle assignment."
+      "label": {
+        "en": "Blocked Assignment Backoff",
+        "de": "Wartezeit bei blockierter Zuweisung"
+      },
+      "description": {
+        "en": "Seconds before retrying the same blocked task/vehicle assignment.",
+        "de": "Sekunden, bevor dieselbe blockierte Aufgaben- oder Fahrzeugzuweisung erneut versucht wird."
+      }
     },
     "FollowupAssignmentDelaySeconds": {
       "control": "number",
-      "label": "Follow-Up Assignment Delay",
-      "description": "Delay before assigning follow-up tasks after vehicles are already at a mission."
+      "label": {
+        "en": "Follow-Up Assignment Delay",
+        "de": "Verzögerung für Folgezuweisungen"
+      },
+      "description": {
+        "en": "Delay before assigning follow-up tasks after vehicles are already at a mission.",
+        "de": "Verzögerung, bevor Folgeaufgaben zugewiesen werden, wenn Fahrzeuge bereits an einer Mission sind."
+      }
     },
     "FollowupAssignmentJitterSeconds": {
       "control": "number",
-      "label": "Follow-Up Delay Jitter",
-      "description": "Small stable delay variation to avoid many assignments firing in the same frame."
+      "label": {
+        "en": "Follow-Up Delay Jitter",
+        "de": "Streuung der Folgeverzögerung"
+      },
+      "description": {
+        "en": "Small stable delay variation to avoid many assignments firing in the same frame.",
+        "de": "Kleine feste Verzögerungsstreuung, damit nicht viele Zuweisungen im selben Frame ausgelöst werden."
+      }
     },
     "ArrivalAssignmentDelaySeconds": {
       "control": "number",
-      "label": "Arrival Assignment Delay",
-      "description": "Delay before assigning tasks after the first vehicle arrives."
+      "label": {
+        "en": "Arrival Assignment Delay",
+        "de": "Verzögerung nach Ankunft"
+      },
+      "description": {
+        "en": "Delay before assigning tasks after the first vehicle arrives.",
+        "de": "Verzögerung, bevor Aufgaben zugewiesen werden, nachdem das erste Fahrzeug angekommen ist."
+      }
     },
     "TaskSwitchAssignmentDelaySeconds": {
       "control": "number",
-      "label": "Next Task Assignment Delay",
-      "description": "Delay before assigning the next task after a mission task completes."
+      "label": {
+        "en": "Next Task Assignment Delay",
+        "de": "Verzögerung für nächste Aufgabe"
+      },
+      "description": {
+        "en": "Delay before assigning the next task after a mission task completes.",
+        "de": "Verzögerung, bevor die nächste Aufgabe nach Abschluss einer Missionsaufgabe zugewiesen wird."
+      }
     },
     "MissionReassignCooldownSeconds": {
       "control": "number",
-      "label": "Mission Reassign Cooldown",
-      "description": "Minimum seconds between assignment bursts for the same mission."
+      "label": {
+        "en": "Mission Reassign Cooldown",
+        "de": "Cooldown für erneute Missionszuweisung"
+      },
+      "description": {
+        "en": "Minimum seconds between assignment bursts for the same mission.",
+        "de": "Mindestanzahl an Sekunden zwischen Zuweisungsschüben für dieselbe Mission."
+      }
     },
     "AutoAssignmentConfirmSeconds": {
       "control": "number",
-      "label": "Auto Assignment Confirm Delay",
-      "description": "Seconds to wait before confirming whether an automatic assignment was accepted."
+      "label": {
+        "en": "Auto Assignment Confirm Delay",
+        "de": "Bestätigungsverzögerung für Auto-Zuweisungen"
+      },
+      "description": {
+        "en": "Seconds to wait before confirming whether an automatic assignment was accepted.",
+        "de": "Sekunden, die gewartet werden, bevor geprüft wird, ob eine automatische Zuweisung angenommen wurde."
+      }
     },
     "MaxVehiclesPerMissionAssignPass": {
       "control": "number",
-      "label": "Max Vehicles per Assignment Pass",
-      "description": "Maximum vehicles scanned during one mission assignment pass. Lower values can reduce lag."
+      "label": {
+        "en": "Max Vehicles per Assignment Pass",
+        "de": "Max. Fahrzeuge pro Zuweisungsdurchlauf"
+      },
+      "description": {
+        "en": "Maximum vehicles scanned during one mission assignment pass. Lower values can reduce lag.",
+        "de": "Maximale Anzahl an Fahrzeugen, die in einem Missionszuweisungsdurchlauf geprüft werden. Niedrigere Werte können Lags verringern."
+      }
     },
     "MaxMissionTasksPerSweep": {
       "control": "number",
-      "label": "Max Tasks per Sweep",
-      "description": "Maximum open mission tasks processed during each fallback sweep."
+      "label": {
+        "en": "Max Tasks per Sweep",
+        "de": "Max. Aufgaben pro Durchlauf"
+      },
+      "description": {
+        "en": "Maximum open mission tasks processed during each fallback sweep.",
+        "de": "Maximale Anzahl offener Missionsaufgaben, die pro Fallback-Durchlauf verarbeitet werden."
+      }
     },
     "EnableVerboseLogging": {
       "control": "toggle",
-      "label": "Verbose Logging",
-      "description": "Write detailed debug traces to BepInEx/LogOutput.log."
+      "label": {
+        "en": "Verbose Logging",
+        "de": "Ausführliches Logging"
+      },
+      "description": {
+        "en": "Write detailed debug traces to BepInEx/LogOutput.log.",
+        "de": "Schreibt detaillierte Debug-Ausgaben in BepInEx/LogOutput.log."
+      }
     },
     "ShowDebugOverlay": {
       "control": "toggle",
-      "label": "Debug Overlay",
-      "description": "Show recent LessMicro debug messages in-game."
+      "label": {
+        "en": "Debug Overlay",
+        "de": "Debug-Overlay"
+      },
+      "description": {
+        "en": "Show recent LessMicro debug messages in-game.",
+        "de": "Zeigt aktuelle LessMicro-Debugmeldungen im Spiel an."
+      }
     },
     "EnableVehicleStateDiagnostics": {
       "control": "toggle",
-      "label": "Vehicle State Diagnostics",
-      "description": "Write vehicle state snapshots for assignment debugging. Keep disabled for normal play."
+      "label": {
+        "en": "Vehicle State Diagnostics",
+        "de": "Fahrzeugstatus-Diagnose"
+      },
+      "description": {
+        "en": "Write vehicle state snapshots for assignment debugging. Keep disabled for normal play.",
+        "de": "Schreibt Fahrzeugstatus-Snapshots für die Zuweisungsanalyse. Für normales Spielen deaktiviert lassen."
+      }
     },
     "EnableAssignmentDiagnostics": {
       "control": "toggle",
-      "label": "Assignment Diagnostics",
-      "description": "Write throttled assignment decision diagnostics. Disable after investigating issues."
+      "label": {
+        "en": "Assignment Diagnostics",
+        "de": "Zuweisungs-Diagnose"
+      },
+      "description": {
+        "en": "Write throttled assignment decision diagnostics. Disable after investigating issues.",
+        "de": "Schreibt gedrosselte Diagnoseausgaben zu Zuweisungsentscheidungen. Nach der Fehlersuche wieder deaktivieren."
+      }
     }
   }
 }

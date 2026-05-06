@@ -1,42 +1,57 @@
 {
   "displayName": "More Tiles",
-  "devMessage": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
+  "devMessage": {
+    "en": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
+    "de": "Danke, dass du meine Mod benutzt!\nIn diesem Devlog findest du die neuesten Infos, Updates und ein paar Einblicke hinter die Kulissen der Entwicklung.\nWenn du Feedback, Vorschläge oder einen Bug gefunden hast, hinterlasse gern einen Kommentar auf der Mod-Seite (Steam Guides oder Nexus Mods)."
+  },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Debug", "label": "Debug", "order": 1000 }
   ],
-  "actions": [
-    {
-      "id": "resetGeneral",
-      "section": "General",
-      "label": "Reset Test",
-      "type": "resetToDefault",
-      "targets": [
-        "MaxTotalTiles",
-        "ResearchPointStepCost"
-      ]
-    }
-  ],
   "settings": {
     "Enabled": {
       "control": "toggle",
-      "label": "Enable More Tiles",
-      "description": "Enable more unlockable map tiles."
+      "label": {
+        "en": "Enable More Tiles",
+        "de": "More Tiles aktivieren"
+      },
+      "description": {
+        "en": "Enable more unlockable map tiles.",
+        "de": "Schaltet zusätzliche freischaltbare Kartenfelder frei."
+      }
     },
     "MaxTotalTiles": {
       "control": "number",
-      "label": "Max Map Tiles",
-      "description": "Maximum map tiles in total. Requires reloading the savegame."
+      "label": {
+        "en": "Max Map Tiles",
+        "de": "Max. Kartenfelder"
+      },
+      "description": {
+        "en": "Maximum map tiles in total. Requires reloading the savegame.",
+        "de": "Maximale Gesamtanzahl an Kartenfeldern. Erfordert ein Neuladen des Spielstands."
+      }
     },
     "ResearchPointStepCost": {
       "control": "number",
-      "label": "Research Cost Step",
-      "description": "Research point cost added per map tile step. Already bought tiles count into the next price. Example with step 10: tile 1 = 10, tile 2 = 20, tile 3 = 30."
+      "label": {
+        "en": "Research Cost Step",
+        "de": "Schrittweite der Forschungskosten"
+      },
+      "description": {
+        "en": "Research point cost added per map tile step. Already bought tiles count into the next price. Example with step 10: tile 1 = 10, tile 2 = 20, tile 3 = 30.",
+        "de": "Forschungspunktkosten, die pro Kartenfeld-Schritt dazukommen. Bereits gekaufte Felder zählen in den nächsten Preis hinein. Beispiel bei Schrittweite 10: Feld 1 = 10, Feld 2 = 20, Feld 3 = 30."
+      }
     },
     "VerboseLogging": {
       "control": "toggle",
-      "label": "Verbose Logging",
-      "description": "Extra logs for troubleshooting."
+      "label": {
+        "en": "Verbose Logging",
+        "de": "Ausführliches Logging"
+      },
+      "description": {
+        "en": "Extra logs for troubleshooting.",
+        "de": "Zusätzliche Logs für die Fehlersuche."
+      }
     }
   }
 }
