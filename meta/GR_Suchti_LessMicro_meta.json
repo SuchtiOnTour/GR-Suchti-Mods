@@ -4,7 +4,7 @@
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
     { "id": "Learning", "label": "Learning", "order": 20 },
-    { "id": "Debug TEST", "label": "Debug", "order": 1000 }
+    { "id": "Debug", "label": "Debug TEST", "order": 1000 }
   ],
   "groups": [
     {
