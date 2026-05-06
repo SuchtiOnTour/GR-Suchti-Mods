@@ -188,6 +188,10 @@
       "en": "Mod default",
       "de": "Mod-Standard"
     },
+    "manager.default_value": {
+      "en": "Default value",
+      "de": "Standardwert"
+    },
     "manager.entry_meta": {
       "en": "Type: {0}   {1}: {2}",
       "de": "Typ: {0}   {1}: {2}"
