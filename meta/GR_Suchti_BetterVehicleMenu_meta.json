@@ -1,6 +1,6 @@
 {
   "displayName": "Better Vehicle Menu",
-  "devMessage": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have any suggestions or want to report a bug, please do so on the mod page (Steam Guides or Nexus Mods).",
+  "devMessage": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
