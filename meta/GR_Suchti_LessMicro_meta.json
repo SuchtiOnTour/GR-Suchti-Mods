@@ -49,6 +49,46 @@
       "label": "Learned Assignment Rules",
       "description": "Internal class-based assignment rules learned from manual assignments."
     },
+    "AssignmentSweepIntervalSeconds": {
+      "label": "Fallback Assignment Check Interval",
+      "description": "Fallback interval for periodic assignment checks. Higher values reduce overhead."
+    },
+    "AssignmentBackoffSeconds": {
+      "label": "Blocked Assignment Backoff",
+      "description": "Seconds before retrying the same blocked task/vehicle assignment."
+    },
+    "FollowupAssignmentDelaySeconds": {
+      "label": "Follow-Up Assignment Delay",
+      "description": "Delay before assigning follow-up tasks after vehicles are already at a mission."
+    },
+    "FollowupAssignmentJitterSeconds": {
+      "label": "Follow-Up Delay Jitter",
+      "description": "Small stable delay variation to avoid many assignments firing in the same frame."
+    },
+    "ArrivalAssignmentDelaySeconds": {
+      "label": "Arrival Assignment Delay",
+      "description": "Delay before assigning tasks after the first vehicle arrives."
+    },
+    "TaskSwitchAssignmentDelaySeconds": {
+      "label": "Next Task Assignment Delay",
+      "description": "Delay before assigning the next task after a mission task completes."
+    },
+    "MissionReassignCooldownSeconds": {
+      "label": "Mission Reassign Cooldown",
+      "description": "Minimum seconds between assignment bursts for the same mission."
+    },
+    "AutoAssignmentConfirmSeconds": {
+      "label": "Auto Assignment Confirm Delay",
+      "description": "Seconds to wait before confirming whether an automatic assignment was accepted."
+    },
+    "MaxVehiclesPerMissionAssignPass": {
+      "label": "Max Vehicles per Assignment Pass",
+      "description": "Maximum vehicles scanned during one mission assignment pass. Lower values can reduce lag."
+    },
+    "MaxMissionTasksPerSweep": {
+      "label": "Max Tasks per Sweep",
+      "description": "Maximum open mission tasks processed during each fallback sweep."
+    },
     "EnableVerboseLogging": {
       "label": "Verbose Logging",
       "description": "Write detailed debug traces to BepInEx/LogOutput.log."
@@ -56,6 +96,14 @@
     "ShowDebugOverlay": {
       "label": "Debug Overlay",
       "description": "Show recent LessMicro debug messages in-game."
+    },
+    "EnableVehicleStateDiagnostics": {
+      "label": "Vehicle State Diagnostics",
+      "description": "Write vehicle state snapshots for assignment debugging. Keep disabled for normal play."
+    },
+    "EnableAssignmentDiagnostics": {
+      "label": "Assignment Diagnostics",
+      "description": "Write throttled assignment decision diagnostics. Disable after investigating issues."
     }
   }
 }
