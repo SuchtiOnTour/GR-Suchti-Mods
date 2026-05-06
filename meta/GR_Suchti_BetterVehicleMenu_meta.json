@@ -41,6 +41,14 @@
       "label": "Detect Vehicle/Base Changes",
       "description": "Detect when vehicles or bases changed, then refresh once after things settle."
     },
+    "ChangeCheckIntervalSeconds": {
+      "label": "Change Detection Interval",
+      "description": "Seconds between lightweight vehicle/base change checks."
+    },
+    "ChangeRefreshDebounceSeconds": {
+      "label": "Wait Before Refreshing Changes",
+      "description": "After a change is detected, wait this many seconds before doing the full refresh."
+    },
     "ShortcutAnchor": {
       "label": "Screen Corner",
       "description": "Choose which screen corner the vehicle menu buttons are attached to."
@@ -60,6 +68,26 @@
     "ShortcutAspectRatio": {
       "label": "Button Width",
       "description": "Changes button width. Higher values make the vehicle image cards wider."
+    },
+    "UseResolutionScaling": {
+      "label": "Auto Scale by Resolution",
+      "description": "Keeps the vehicle menu buttons visually similar across different screen resolutions."
+    },
+    "ShowDebugOverlay": {
+      "label": "Debug Overlay",
+      "description": "Show diagnostic scan information in the upper right corner."
+    },
+    "ReloadConfigHotkey": {
+      "label": "Reload Hotkey",
+      "description": "Optional hotkey to reload config, icons, and the base cache while in-game. Leave empty to disable."
+    },
+    "EnableMenuResearchLogging": {
+      "label": "Menu Research Logging",
+      "description": "Log original vehicle menu discovery details. Only useful for mod development."
+    },
+    "TraceVehicleOverviewMethods": {
+      "label": "Vehicle Menu Method Trace",
+      "description": "Log original VehicleOverview methods. Only useful for mod development."
     }
   }
 }

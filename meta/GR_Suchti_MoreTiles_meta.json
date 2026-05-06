@@ -3,19 +3,19 @@
   "settings": {
     "Enabled": {
       "label": "Enable More Tiles",
-      "description": "Enable or disable More Tiles."
+      "description": "Enable more unlockable map tiles."
     },
     "MaxTotalTiles": {
       "label": "Max Map Tiles",
-      "description": "Maximum total map tiles that can be unlocked."
+      "description": "Maximum map tiles in total. Requires reloading the savegame."
     },
     "ResearchPointStepCost": {
       "label": "Research Cost Step",
-      "description": "Research point cost increase per tile unlock step."
+      "description": "Research point cost added per map tile step. Already bought tiles count into the next price. Example with step 10: tile 1 = 10, tile 2 = 20, tile 3 = 30."
     },
     "VerboseLogging": {
       "label": "Verbose Logging",
-      "description": "Write extra debug information to the log."
+      "description": "Extra logs for troubleshooting."
     }
   }
 }
