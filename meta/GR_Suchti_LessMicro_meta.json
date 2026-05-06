@@ -1,5 +1,21 @@
 {
   "displayName": "Less Micro",
+  "groups": [
+    {
+      "id": "timers",
+      "section": "General",
+      "before": "ExtendMissionTimers",
+      "title": "Timers",
+      "description": "Change mission and task time limits. Original game value is 1x; mod default is 2x."
+    },
+    {
+      "id": "researchCost",
+      "section": "General",
+      "before": "AutomationMoneyCost",
+      "title": "Research Cost",
+      "description": "Change the money and research point cost for unlocking LessMicro automation."
+    }
+  ],
   "settings": {
     "EnableAutoComplete": {
       "label": "Enable LessMicro Automation",
