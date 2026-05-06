@@ -1,6 +1,9 @@
 {
   "displayName": "Better Vehicle Menu",
-  "devMessage": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
+  "devMessage": {
+    "en": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
+    "de": "Danke, dass du meine Mod benutzt!\nIn diesem Devlog findest du die neuesten Infos, Updates und ein paar Einblicke hinter die Kulissen der Entwicklung.\nWenn du Feedback, Vorschläge oder einen Bug gefunden hast, hinterlasse gern einen Kommentar auf der Mod-Seite (Steam Guides oder Nexus Mods)."
+  },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
@@ -13,21 +16,30 @@
       "section": "General",
       "before": "EnableVehicleSorting",
       "title": "Sorting",
-      "description": "Control how vehicles are ordered inside the original vehicle menu."
+      "description": {
+        "en": "Control how vehicles are ordered inside the original vehicle menu.",
+        "de": "Steuert, wie Fahrzeuge im originalen Fahrzeugmenü sortiert werden."
+      }
     },
     {
       "id": "experimental",
       "section": "Performance",
       "before": "EnablePassiveRefresh",
       "title": "Experimental",
-      "description": "Advanced options. Leave disabled unless you need them."
+      "description": {
+        "en": "Advanced options. Leave disabled unless you need them.",
+        "de": "Erweiterte Optionen. Lass sie deaktiviert, wenn du sie nicht brauchst."
+      }
     }
   ],
   "actions": [
     {
       "id": "resetPosition",
       "section": "UI",
-      "label": "Reset Position",
+      "label": {
+        "en": "Reset Position",
+        "de": "Position zurücksetzen"
+      },
       "type": "resetToDefault",
       "targets": [
         "ShortcutButtonSize",
@@ -42,53 +54,131 @@
   "settings": {
     "Enabled": {
       "control": "toggle",
-      "label": "Enable Mod",
-      "description": "Enable or disable Better Vehicle Menu completely."
+      "label": {
+        "en": "Enable Mod",
+        "de": "Mod aktivieren"
+      },
+      "description": {
+        "en": "Enable or disable Better Vehicle Menu completely.",
+        "de": "Aktiviert oder deaktiviert Better Vehicle Menu komplett."
+      }
     },
     "ShowOverlay": {
       "control": "toggle",
-      "label": "Show Vehicle Buttons",
-      "description": "Show the department vehicle buttons on screen."
+      "label": {
+        "en": "Show Vehicle Buttons",
+        "de": "Fahrzeug-Buttons anzeigen"
+      },
+      "description": {
+        "en": "Show the department vehicle buttons on screen.",
+        "de": "Zeigt die Fahrzeug-Buttons auf dem Bildschirm an."
+      }
     },
     "EnableVehicleSorting": {
       "control": "toggle",
-      "label": "Sort Vehicle List",
-      "description": "Sort vehicles in the original vehicle menu by name."
+      "label": {
+        "en": "Sort Vehicle List",
+        "de": "Fahrzeugliste sortieren"
+      },
+      "description": {
+        "en": "Sort vehicles in the original vehicle menu by name.",
+        "de": "Sortiert Fahrzeuge im originalen Fahrzeugmenü nach Namen."
+      }
     },
     "EnablePassiveRefresh": {
       "control": "toggle",
-      "label": "Refresh Vehicle Menu on Timer",
-      "description": "Automatically refresh the vehicle menu cache on a timer."
+      "label": {
+        "en": "Refresh Vehicle Menu on Timer",
+        "de": "Fahrzeugmenü per Timer aktualisieren"
+      },
+      "description": {
+        "en": "Automatically refresh the vehicle menu cache on a timer.",
+        "de": "Aktualisiert den Fahrzeugmenü-Cache automatisch in festen Abständen."
+      }
     },
     "RefreshIntervalSeconds": {
       "control": "number",
-      "label": "Timer Refresh Interval",
-      "description": "Seconds between automatic timed refreshes."
+      "label": {
+        "en": "Timer Refresh Interval",
+        "de": "Timer-Aktualisierungsintervall"
+      },
+      "description": {
+        "en": "Seconds between automatic timed refreshes.",
+        "de": "Sekunden zwischen automatischen Aktualisierungen per Timer."
+      }
     },
     "EnableChangeWatcher": {
       "control": "toggle",
-      "label": "Detect Vehicle/Base Changes",
-      "description": "Detect when vehicles or bases changed, then refresh once after things settle."
+      "label": {
+        "en": "Detect Vehicle/Base Changes",
+        "de": "Fahrzeug-/Basis-Änderungen erkennen"
+      },
+      "description": {
+        "en": "Detect when vehicles or bases changed, then refresh once after things settle.",
+        "de": "Erkennt Änderungen an Fahrzeugen oder Basen und aktualisiert einmal, sobald sich alles beruhigt hat."
+      }
     },
     "ChangeCheckIntervalSeconds": {
       "control": "number",
-      "label": "Change Detection Interval",
-      "description": "Seconds between lightweight vehicle/base change checks."
+      "label": {
+        "en": "Change Detection Interval",
+        "de": "Intervall für Änderungserkennung"
+      },
+      "description": {
+        "en": "Seconds between lightweight vehicle/base change checks.",
+        "de": "Sekunden zwischen kurzen Prüfungen auf Änderungen an Fahrzeugen oder Basen."
+      }
     },
     "ChangeRefreshDebounceSeconds": {
       "control": "number",
-      "label": "Wait Before Refreshing Changes",
-      "description": "After a change is detected, wait this many seconds before doing the full refresh."
+      "label": {
+        "en": "Wait Before Refreshing Changes",
+        "de": "Wartezeit vor Aktualisierung"
+      },
+      "description": {
+        "en": "After a change is detected, wait this many seconds before doing the full refresh.",
+        "de": "Wenn eine Änderung erkannt wurde, wartet die Mod so viele Sekunden vor der vollständigen Aktualisierung."
+      }
     },
     "ShortcutAnchor": {
       "control": "choice",
-      "label": "Screen Corner",
-      "description": "Choose which screen corner the vehicle menu buttons are attached to.",
+      "label": {
+        "en": "Screen Corner",
+        "de": "Bildschirmecke"
+      },
+      "description": {
+        "en": "Choose which screen corner the vehicle menu buttons are attached to.",
+        "de": "Legt fest, an welcher Bildschirmecke die Fahrzeugmenü-Buttons angezeigt werden."
+      },
       "options": [
-        { "value": "TopLeft", "label": "Up Left" },
-        { "value": "TopRight", "label": "Up Right" },
-        { "value": "BottomLeft", "label": "Down Left" },
-        { "value": "BottomRight", "label": "Down Right" }
+        {
+          "value": "TopLeft",
+          "label": {
+            "en": "Up Left",
+            "de": "Oben links"
+          }
+        },
+        {
+          "value": "TopRight",
+          "label": {
+            "en": "Up Right",
+            "de": "Oben rechts"
+          }
+        },
+        {
+          "value": "BottomLeft",
+          "label": {
+            "en": "Down Left",
+            "de": "Unten links"
+          }
+        },
+        {
+          "value": "BottomRight",
+          "label": {
+            "en": "Down Right",
+            "de": "Unten rechts"
+          }
+        }
       ]
     },
     "ShortcutButtonSize": {
@@ -97,8 +187,14 @@
       "max": 300,
       "step": 1,
       "showValueField": true,
-      "label": "Button Size",
-      "description": "Changes the height of each vehicle menu button."
+      "label": {
+        "en": "Button Size",
+        "de": "Button-Größe"
+      },
+      "description": {
+        "en": "Changes the height of each vehicle menu button.",
+        "de": "Ändert die Höhe der Fahrzeugmenü-Buttons."
+      }
     },
     "ShortcutRightOffset": {
       "control": "slider",
@@ -106,8 +202,14 @@
       "max": 800,
       "step": 1,
       "showValueField": true,
-      "label": "Horizontal Offset",
-      "description": "Moves the vehicle menu buttons horizontally away from the selected corner."
+      "label": {
+        "en": "Horizontal Offset",
+        "de": "Horizontaler Abstand"
+      },
+      "description": {
+        "en": "Moves the vehicle menu buttons horizontally away from the selected corner.",
+        "de": "Verschiebt die Fahrzeugmenü-Buttons horizontal von der gewählten Ecke weg."
+      }
     },
     "ShortcutBottomOffset": {
       "control": "slider",
@@ -115,8 +217,14 @@
       "max": 800,
       "step": 1,
       "showValueField": true,
-      "label": "Vertical Offset",
-      "description": "Moves the vehicle menu buttons vertically away from the selected corner."
+      "label": {
+        "en": "Vertical Offset",
+        "de": "Vertikaler Abstand"
+      },
+      "description": {
+        "en": "Moves the vehicle menu buttons vertically away from the selected corner.",
+        "de": "Verschiebt die Fahrzeugmenü-Buttons vertikal von der gewählten Ecke weg."
+      }
     },
     "ShortcutAspectRatio": {
       "control": "slider",
@@ -124,33 +232,69 @@
       "max": 2.4,
       "step": 0.05,
       "showValueField": true,
-      "label": "Button Width",
-      "description": "Changes button width. Higher values make the vehicle image cards wider."
+      "label": {
+        "en": "Button Width",
+        "de": "Button-Breite"
+      },
+      "description": {
+        "en": "Changes button width. Higher values make the vehicle image cards wider.",
+        "de": "Ändert die Breite der Buttons. Höhere Werte machen die Fahrzeugkarten breiter."
+      }
     },
     "UseResolutionScaling": {
       "control": "toggle",
-      "label": "Auto Scale by Resolution",
-      "description": "Keeps the vehicle menu buttons visually similar across different screen resolutions."
+      "label": {
+        "en": "Auto Scale by Resolution",
+        "de": "Automatisch nach Auflösung skalieren"
+      },
+      "description": {
+        "en": "Keeps the vehicle menu buttons visually similar across different screen resolutions.",
+        "de": "Sorgt dafür, dass die Fahrzeugmenü-Buttons bei verschiedenen Bildschirmauflösungen ähnlich aussehen."
+      }
     },
     "ShowDebugOverlay": {
       "control": "toggle",
-      "label": "Debug Overlay",
-      "description": "Show diagnostic scan information in the upper right corner."
+      "label": {
+        "en": "Debug Overlay",
+        "de": "Debug-Overlay"
+      },
+      "description": {
+        "en": "Show diagnostic scan information in the upper right corner.",
+        "de": "Zeigt Diagnose- und Scan-Informationen in der oberen rechten Ecke an."
+      }
     },
     "ReloadConfigHotkey": {
       "control": "hotkey",
-      "label": "Reload Hotkey",
-      "description": "Optional hotkey to reload config, icons, and the base cache while in-game. Leave empty to disable."
+      "label": {
+        "en": "Reload Hotkey",
+        "de": "Reload-Hotkey"
+      },
+      "description": {
+        "en": "Optional hotkey to reload config, icons, and the base cache while in-game. Leave empty to disable.",
+        "de": "Optionaler Hotkey, um Config, Icons und den Basis-Cache während des Spiels neu zu laden. Leer lassen zum Deaktivieren."
+      }
     },
     "EnableMenuResearchLogging": {
       "control": "toggle",
-      "label": "Menu Research Logging",
-      "description": "Log original vehicle menu discovery details. Only useful for mod development."
+      "label": {
+        "en": "Menu Research Logging",
+        "de": "Menüsuche protokollieren"
+      },
+      "description": {
+        "en": "Log original vehicle menu discovery details. Only useful for mod development.",
+        "de": "Protokolliert Details zur Analyse des originalen Fahrzeugmenüs. Nur für die Mod-Entwicklung sinnvoll."
+      }
     },
     "TraceVehicleOverviewMethods": {
       "control": "toggle",
-      "label": "Vehicle Menu Method Trace",
-      "description": "Log original VehicleOverview methods. Only useful for mod development."
+      "label": {
+        "en": "Vehicle Menu Method Trace",
+        "de": "Methodenaufrufe im Fahrzeugmenü"
+      },
+      "description": {
+        "en": "Log original VehicleOverview methods. Only useful for mod development.",
+        "de": "Protokolliert die originalen VehicleOverview-Methoden. Nur für die Mod-Entwicklung sinnvoll."
+      }
     }
   }
 }
