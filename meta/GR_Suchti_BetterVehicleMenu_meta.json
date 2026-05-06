@@ -1,8 +1,8 @@
 {
-  "displayName": "Better Vehicle Menu TEST",
+  "displayName": "Better Vehicle Menu",
   "settings": {
     "Enabled": {
-      "label": "ABC TEST _Enable Mod",
+      "label": "Enable Mod",
       "description": "Enable or disable Better Vehicle Menu completely."
     },
     "ShowOverlay": {
