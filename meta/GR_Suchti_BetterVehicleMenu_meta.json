@@ -1,0 +1,49 @@
+{
+  "displayName": "Better Vehicle Menu",
+  "settings": {
+    "Enabled": {
+      "label": "Enable Mod",
+      "description": "Enable or disable Better Vehicle Menu completely."
+    },
+    "ShowOverlay": {
+      "label": "Show Vehicle Buttons",
+      "description": "Show the department vehicle buttons on screen."
+    },
+    "EnableVehicleSorting": {
+      "label": "Sort Vehicle List",
+      "description": "Sort vehicles in the original vehicle menu by name."
+    },
+    "EnablePassiveRefresh": {
+      "label": "Refresh Vehicle Menu on Timer",
+      "description": "Automatically refresh the vehicle menu cache on a timer."
+    },
+    "RefreshIntervalSeconds": {
+      "label": "Timer Refresh Interval",
+      "description": "Seconds between automatic timed refreshes."
+    },
+    "EnableChangeWatcher": {
+      "label": "Detect Vehicle/Base Changes",
+      "description": "Detect when vehicles or bases changed, then refresh once after things settle."
+    },
+    "ShortcutAnchor": {
+      "label": "Screen Corner",
+      "description": "Choose which screen corner the vehicle menu buttons are attached to."
+    },
+    "ShortcutButtonSize": {
+      "label": "Button Size",
+      "description": "Changes the height of each vehicle menu button."
+    },
+    "ShortcutRightOffset": {
+      "label": "Horizontal Offset",
+      "description": "Moves the vehicle menu buttons horizontally away from the selected corner."
+    },
+    "ShortcutBottomOffset": {
+      "label": "Vertical Offset",
+      "description": "Moves the vehicle menu buttons vertically away from the selected corner."
+    },
+    "ShortcutAspectRatio": {
+      "label": "Button Width",
+      "description": "Changes button width. Higher values make the vehicle image cards wider."
+    }
+  }
+}
