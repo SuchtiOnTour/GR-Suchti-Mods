@@ -1,5 +1,7 @@
 {
   "displayName": "More Tiles",
+  "devMessage": "Thanks for usiing my mod!, if you have any suggestions or want to report a bug, report it on the mod page (Steam Guides or Nexus Mods).",
+
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Debug", "label": "Debug", "order": 1000 }
