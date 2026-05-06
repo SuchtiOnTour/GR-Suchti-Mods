@@ -1,9 +1,9 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
-    "de": "Danke, dass du meine Mod benutzt!\nIn diesem Devlog findest du die neuesten Infos, Updates und ein paar Einblicke hinter die Kulissen der Entwicklung.\nWenn du Feedback, Vorschläge oder einen Bug gefunden hast, hinterlasse gern einen Kommentar auf der Mod-Seite (Steam Guides oder Nexus Mods)."
-  },
+    "en": "Dev Note:\nKnown Issue in v1.1: The game may stutter or have short FPS drops every few seconds. I'm already working on a fix.\nThanks to BABAKPF for reporting this bug.",
+    "de": "Dev Note:\nBekanntes Problem in v1.1: Das Spiel kann alle paar Sekunden kurz ruckeln oder kleine FPS-Drops haben. Ich arbeite bereits an einem Fix.\nDanke an BABAKPF fürs Melden dieses Bugs."
+    },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
