@@ -1,6 +1,6 @@
 {
   "displayName": "Better Vehicle Menu",
-  "devMessage": "v1.1 test build\n- Zeile 2 tester\n- Check Test \n- Patchnotes Dev Message Field",
+  "devMessage": "v1.1 test build\n- Zeile 2 tester\n- Check Test\n- Patchnotes Dev Message Field",
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
