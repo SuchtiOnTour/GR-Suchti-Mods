@@ -88,12 +88,12 @@
     "EnablePassiveRefresh": {
       "control": "toggle",
       "label": {
-        "en": "Refresh Vehicle Menu on Timer",
-        "de": "Fahrzeugmenü per Timer aktualisieren"
+        "en": "Refresh Vehicle Menu on Timer (Can Cause Lag)",
+        "de": "Fahrzeugmenü per Timer aktualisieren (Kann Lags verursachen)"
       },
       "description": {
-        "en": "Automatically refresh the vehicle menu cache on a timer.",
-        "de": "Aktualisiert den Fahrzeugmenü-Cache automatisch in festen Abständen."
+        "en": "Automatically refresh the vehicle menu cache on a timer. Can cause lag.",
+        "de": "Aktualisiert den Fahrzeugmenü-Cache automatisch in festen Abständen. Kann Lags verursachen."
       }
     },
     "RefreshIntervalSeconds": {
