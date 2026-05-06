@@ -4,24 +4,24 @@
       "code": "en",
       "label": {
         "en": "English",
-        "de": "Englisch",
-        "fr": "Anglais"
+        "de": "English",
+        "fr": "English"
       }
     },
     {
       "code": "de",
       "label": {
         "en": "German",
-        "de": "Deutsch",
-        "fr": "Allemand"
+        "de": "German",
+        "fr": "German"
       }
     },
     {
       "code": "fr",
       "label": {
         "en": "French",
-        "de": "Französisch",
-        "fr": "Français"
+        "de": "French",
+        "fr": "French"
       }
     }
   ],
