@@ -4,14 +4,24 @@
       "code": "en",
       "label": {
         "en": "English",
-        "de": "Englisch"
+        "de": "Englisch",
+        "fr": "French"
       }
     },
     {
       "code": "de",
       "label": {
         "en": "German",
-        "de": "Deutsch"
+        "de": "Deutsch",
+        "fr": "Französisch"
+      }
+    },
+    {
+      "code": "fr",
+      "label": {
+        "en": "German",
+        "de": "Deutsch",
+        "fr": "French"
       }
     }
   ],
@@ -34,7 +44,8 @@
     },
     "button.confirm": {
       "en": "Confirm",
-      "de": "Bestätigen"
+      "de": "Bestätigen",
+      "fr": "bestätigo"
     },
     "button.save": {
       "en": "Save",
