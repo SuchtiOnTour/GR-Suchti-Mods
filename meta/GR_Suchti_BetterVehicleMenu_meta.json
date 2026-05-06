@@ -114,8 +114,8 @@
         "de": "Fahrzeug-/Basis-Änderungen erkennen (Kann Lags verursachen)"
       },
       "description": {
-        "en": "Detect when vehicles or bases changed, then refresh once after things settle.\n- Lag workaround: Disable this option if your game stutters.\n- After that, refresh bases manually after buying new vehicles or when base data changed.",
-        "de": "Erkennt Änderungen an Fahrzeugen oder Basen und aktualisiert einmal, sobald sich alles beruhigt hat.\n- Lag-Workaround: Deaktiviere diese Option, wenn dein Spiel ruckelt.\n- Danach aktualisiere die Basen manuell, wenn du neue Fahrzeuge kaufst oder sich Basisdaten geändert haben."
+        "en": "Detects vehicle/base changes and refreshes the menu automatically. Can cause lag. Read the Dev Message for workaround info.",
+        "de": "Erkennt Fahrzeug-/Basis-Änderungen und aktualisiert das Menü automatisch. Kann Lags verursachen. Lies die Dev Message für den Workaround."
       }
     },
     "ChangeCheckIntervalSeconds": {
