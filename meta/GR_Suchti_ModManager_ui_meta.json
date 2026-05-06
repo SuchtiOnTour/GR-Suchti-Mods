@@ -227,9 +227,9 @@
       "fr": "Ouvre le Mod Manager ({0}) pour plus d'infos"
     },
     "manager.startup_overlay_update_available": {
-      "en": "Update available",
-      "de": "Update verfügbar",
-      "fr": "Mise à jour dispo"
+      "en": "New update available",
+      "de": "Neues Update verfügbar",
+      "fr": "Nouvelle mise à jour dispo"
     },
     "manager.version": {
       "en": "Version: {0}",
