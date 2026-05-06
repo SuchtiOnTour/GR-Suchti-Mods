@@ -134,7 +134,7 @@
     },
     "manager.language_help": {
       "en": "Choose the UI language. Auto uses the system language when available.",
-      "de": "Wähle die Sprache der Oberfläche. Auto verwendet die Systemsprache, wenn sie verfügbar ist."
+      "de": "Wähle die Sprache der Oberfläche. Auto verwendet die Systemsprache, wenn sie verfügbar ist. Übersetzungen wurden mit KI erstellt."
     },
     "manager.are_you_sure": {
       "en": "Are you sure?",
