@@ -28,6 +28,10 @@
       "en": "Default",
       "de": "Standard"
     },
+    "button.default_short": {
+      "en": "Default",
+      "de": "Std."
+    },
     "button.confirm": {
       "en": "Confirm",
       "de": "Bestätigen"
@@ -55,6 +59,10 @@
     "button.apply": {
       "en": "Apply",
       "de": "Anwenden"
+    },
+    "button.apply_short": {
+      "en": "Apply",
+      "de": "Anwend."
     },
     "button.clear": {
       "en": "Clear",
