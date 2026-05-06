@@ -116,7 +116,7 @@
       "description": "Keeps the vehicle menu buttons visually similar across different screen resolutions."
     },
     "ShowDebugOverlay": {
-      "control": "toggle",
+      "control": "number",
       "label": "Debug Overlay",
       "description": "Show diagnostic scan information in the upper right corner."
     },
