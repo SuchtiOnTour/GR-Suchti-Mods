@@ -30,7 +30,7 @@
     },
     "button.default": {
       "en": "Default",
-      "de": "Standard"
+      "de": "Reset"
     },
     "button.confirm": {
       "en": "Confirm",
@@ -54,7 +54,7 @@
     },
     "button.reset_all_settings": {
       "en": "Reset All Settings",
-      "de": "Alle Einstellungen zurücksetzen"
+      "de": "Einstellungen zurücksetzen"
     },
     "button.yes": {
       "en": "Yes",
@@ -110,7 +110,7 @@
     },
     "manager.hotkey_label": {
       "en": "Open Mod Manager Hotkey",
-      "de": "Hotkey zum Öffnen des Mod Managers"
+      "de": "Hotkey zum Öffnen des Mod-Managers"
     },
     "manager.hotkey_help": {
       "en": "Click the button, then press the key you want to use.",
@@ -126,7 +126,7 @@
     },
     "manager.overlay_size_help": {
       "en": "Preset 2 is the current default size. Higher values make the ModManager larger.",
-      "de": "Preset 2 ist aktuell die Standardgröße. Höhere Werte machen den Mod Manager größer."
+      "de": "Preset 2 ist aktuell die Standardgröße. Höhere Werte machen den Mod-Manager größer."
     },
     "manager.language_label": {
       "en": "Language",
@@ -150,7 +150,7 @@
     },
     "manager.no_update_available": {
       "en": "No Update Available!",
-      "de": "Kein Update verfügbar!"
+      "de": "Kein Update verfügbar"
     },
     "manager.update_available": {
       "en": "Update Available: {0}",
@@ -250,7 +250,7 @@
     },
     "status.reset_all_confirm": {
       "en": "Reset all settings for {0}?",
-      "de": "Alle Einstellungen für {0} zurücksetzen?"
+      "de": "Einstellungen für {0} zurücksetzen?"
     },
     "status.reset_cancelled": {
       "en": "Reset cancelled.",

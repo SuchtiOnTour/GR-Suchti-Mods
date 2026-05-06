@@ -38,7 +38,7 @@
       "section": "UI",
       "label": {
         "en": "Reset Position",
-        "de": "Position zurücksetzen"
+        "de": "Reset Position"
       },
       "type": "resetToDefault",
       "targets": [
