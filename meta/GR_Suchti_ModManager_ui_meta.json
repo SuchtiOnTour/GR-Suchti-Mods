@@ -20,6 +20,10 @@
       "en": "Auto",
       "de": "Auto"
     },
+    "language.auto_system": {
+      "en": "Auto (System)",
+      "de": "Auto (System)"
+    },
     "button.open_github": {
       "en": "Open Github",
       "de": "Github öffnen"
