@@ -221,6 +221,16 @@
       "de": "Neue Version verfügbar: {0}",
       "fr": "Nouvelle version dispo : {0}"
     },
+    "manager.startup_overlay_hint": {
+      "en": "Open Mod Manager ({0}) for more information",
+      "de": "Öffne den Mod Manager ({0}) für mehr Infos",
+      "fr": "Ouvre le Mod Manager ({0}) pour plus d'infos"
+    },
+    "manager.startup_overlay_update_available": {
+      "en": "Update available",
+      "de": "Update verfügbar",
+      "fr": "Mise à jour dispo"
+    },
     "manager.version": {
       "en": "Version: {0}",
       "de": "Version: {0}",
