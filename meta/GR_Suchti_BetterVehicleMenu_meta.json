@@ -1,8 +1,8 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "Dev Note:\n- Known Issue in v1.1: Enabling \"Detect Vehicle/Base Changes\" can cause short stutters or FPS drops every few seconds.\n- Workaround: Disable \"Detect Vehicle/Base Changes\" in the mod settings.\n- After that, you must use the small refresh icon on the right side next to the ambulance/rescue button whenever vehicles or bases changed.\n- Fix: I'm already working on an improvement.\n- Thanks to BABAKPF for reporting this bug.",
-    "de": "Dev Note:\n- Bekanntes Problem in v1.1: Wenn \"Fahrzeug-/Basis-Änderungen erkennen\" aktiviert ist, kann es alle paar Sekunden zu kurzem Ruckeln oder FPS-Drops kommen.\n- Workaround: Deaktiviere \"Fahrzeug-/Basis-Änderungen erkennen\" in den Mod-Einstellungen.\n- Danach musst du das kleine Refresh-Symbol rechts neben dem Krankenwagen-/Rettungs-Button immer dann benutzen, wenn sich Fahrzeuge oder Basen geändert haben.\n- Fix: Ich arbeite bereits an einer Verbesserung.\n- Danke an BABAKPF fürs Melden dieses Bugs."
+    "en": "v1.2 Performance Update:\n- Vehicle/base change detection now uses game events instead of repeated world checks.\n- This should reduce stutters and make the vehicle menu smoother.\n- If you have not updated yet, please update the mod.\n- Thanks to BABAKPF for reporting the stutter issue.",
+    "de": "v1.2 Performance Update:\n- Die Fahrzeug-/Basis-Änderungserkennung nutzt jetzt Spiel-Events statt wiederholter Welt-Checks.\n- Das sollte Ruckler reduzieren und das Fahrzeugmenü flüssiger machen.\n- Wenn du noch nicht aktualisiert hast, update bitte die Mod.\n- Danke an BABAKPF fürs Melden des Ruckel-Problems."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
@@ -110,23 +110,12 @@
     "EnableChangeWatcher": {
       "control": "toggle",
       "label": {
-        "en": "Detect Vehicle/Base Changes (Can Cause Lag)",
-        "de": "Fahrzeug-/Basis-Änderungen erkennen (Kann Lags verursachen)"
+        "en": "Detect Vehicle/Base Changes",
+        "de": "Fahrzeug-/Basis-Änderungen erkennen"
       },
       "description": {
-        "en": "Detects vehicle/base changes and refreshes the menu automatically. Can cause lag. Read the Dev Message for workaround info.",
-        "de": "Erkennt Fahrzeug-/Basis-Änderungen und aktualisiert das Menü automatisch. Kann Lags verursachen. Lies die Dev Message für den Workaround."
-      }
-    },
-    "ChangeCheckIntervalSeconds": {
-      "control": "number",
-      "label": {
-        "en": "Change Detection Interval",
-        "de": "Intervall für Änderungserkennung"
-      },
-      "description": {
-        "en": "Seconds between lightweight vehicle/base change checks.",
-        "de": "Sekunden zwischen kurzen Prüfungen auf Änderungen an Fahrzeugen oder Basen."
+        "en": "Refreshes the menu automatically after vehicle/base changes. In v1.1 this used a repeated check and may cause stutters. Newer versions use game events.",
+        "de": "Aktualisiert das Menü automatisch nach Fahrzeug-/Basis-Änderungen. In v1.1 nutzte dies eine wiederholte Prüfung und konnte Ruckler verursachen. Neuere Versionen nutzen Spiel-Events."
       }
     },
     "ChangeRefreshDebounceSeconds": {
@@ -138,6 +127,17 @@
       "description": {
         "en": "After a change is detected, wait this many seconds before doing the full refresh.",
         "de": "Wenn eine Änderung erkannt wurde, wartet die Mod so viele Sekunden bis zur vollständigen Aktualisierung."
+      }
+    },
+    "ChangeCheckIntervalSeconds": {
+      "control": "number",
+      "label": {
+        "en": "Change Detection Interval (v1.1 only)",
+        "de": "Intervall für Änderungserkennung (nur v1.1)"
+      },
+      "description": {
+        "en": "Old v1.1 setting for the repeated vehicle/base check. Newer versions remove this setting automatically.",
+        "de": "Alte v1.1-Einstellung für die wiederholte Fahrzeug-/Basis-Prüfung. Neuere Versionen entfernen diese Einstellung automatisch."
       }
     },
     "ShortcutAnchor": {
