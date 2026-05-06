@@ -1,0 +1,45 @@
+{
+  "displayName": "Less Micro",
+  "settings": {
+    "EnableAutoComplete": {
+      "label": "Enable LessMicro Automation",
+      "description": "Automatically handle supported low-interaction mission tasks after the required automation research is unlocked."
+    },
+    "ExtendMissionTimers": {
+      "label": "Extend Mission Timers",
+      "description": "Increase mission and task timers once when they become active."
+    },
+    "MissionTimerMultiplier": {
+      "label": "Timer Multiplier",
+      "description": "Multiplies active mission/task timers. Original game value is 1x; mod default is 2x."
+    },
+    "AutomationMoneyCost": {
+      "label": "Automation Money Cost",
+      "description": "Money cost for each department automation research."
+    },
+    "AutomationResearchPointCost": {
+      "label": "Automation Research Point Cost",
+      "description": "Research point cost for each department automation research."
+    },
+    "EnableAssignmentLearning": {
+      "label": "Assignment Learning",
+      "description": "Learn class-based assignment rules from manual vehicle and employee assignments."
+    },
+    "AssignmentLearningConfirmSeconds": {
+      "label": "Learning Confirm Delay",
+      "description": "Seconds to wait before confirming a manual assignment for learning."
+    },
+    "LearnedAssignmentRules": {
+      "label": "Learned Assignment Rules",
+      "description": "Internal class-based assignment rules learned from manual assignments."
+    },
+    "EnableVerboseLogging": {
+      "label": "Verbose Logging",
+      "description": "Write detailed debug traces to BepInEx/LogOutput.log."
+    },
+    "ShowDebugOverlay": {
+      "label": "Debug Overlay",
+      "description": "Show recent LessMicro debug messages in-game."
+    }
+  }
+}
