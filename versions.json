@@ -2,19 +2,22 @@
   "mods": {
     "GR_Suchti_ModManager": {
       "version": "1.1",
-      "url": "https://github.com/SuchtiOnTour/GR_Suchti_ModManager/releases"
+      "url": "https://github.com/SuchtiOnTour/GR-Suchti-Mods"
     },
     "GR_Suchti_BetterVehicleMenu": {
       "version": "1.1",
-      "url": "https://github.com/SuchtiOnTour/GR_Suchti_MoreTiles/releases"
+      "url": "https://github.com/SuchtiOnTour/GR-Suchti-Mods",
+      "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_BetterVehicleMenu_meta.json"
     },
     "GR_Suchti_LessMicro": {
       "version": "1.1",
-      "url": "https://github.com/SuchtiOnTour/GR_Suchti_LessMicro/releases"
+      "url": "https://github.com/SuchtiOnTour/GR-Suchti-Mods",
+      "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_LessMicro_meta.json"
     },
     "GR_Suchti_MoreTiles": {
       "version": "1.0",
-      "url": "https://github.com/SuchtiOnTour/GR_Suchti_BetterVehicleMenu/releases"
+      "url": "https://github.com/SuchtiOnTour/GR-Suchti-Mods",
+      "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_MoreTiles_meta.json"
     }
   }
 }
