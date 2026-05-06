@@ -40,6 +40,14 @@
       "en": "Reload File",
       "de": "Datei neu laden"
     },
+    "button.reload": {
+      "en": "Reload",
+      "de": "Neu laden"
+    },
+    "button.close": {
+      "en": "Close",
+      "de": "Schließen"
+    },
     "button.reset_all_settings": {
       "en": "Reset All Settings",
       "de": "Alle Einstellungen zurücksetzen"
@@ -67,6 +75,14 @@
     "button.check_updates": {
       "en": "Check Updates",
       "de": "Updates prüfen"
+    },
+    "toggle.on": {
+      "en": "ON",
+      "de": "AN"
+    },
+    "toggle.off": {
+      "en": "OFF",
+      "de": "AUS"
     },
     "manager.mods": {
       "en": "Mods",
