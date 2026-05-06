@@ -25,10 +25,23 @@
       "id": "researchCost",
       "section": "General",
       "before": "AutomationMoneyCost",
-      "title": "Research Cost",
+      "title": {
+        "en": "Research Cost",
+        "de": "Forschungskosten"
+      },
       "description": {
         "en": "Change the money and research point cost for unlocking LessMicro automation.",
         "de": "Ändert die Geld- und Forschungspunkt-Kosten zum Freischalten der LessMicro-Automatisierung."
+      }
+    },
+    {
+      "id": "experimental",
+      "section": "Learning",
+      "before": "EnableAssignmentLearning",
+      "title": "Experimental",
+      "description": {
+        "en": "Advanced options. Leave disabled unless you need them.",
+        "de": "Erweiterte Optionen. Lass sie deaktiviert, wenn du sie nicht brauchst."
       }
     }
   ],
@@ -41,7 +54,7 @@
       },
       "description": {
         "en": "Automatically handle supported low-interaction mission tasks after the required automation research is unlocked.",
-        "de": "Übernimmt unterstützte Missionaufgaben mit wenig Mikroverwaltung automatisch, sobald die passende Automatisierungsforschung freigeschaltet ist."
+        "de": "Übernimmt unterstützte Missionsaufgaben mit wenig Mikroaufwand automatisch, sobald die passende Automatisierungsforschung freigeschaltet ist."
       }
     },
     "ExtendMissionTimers": {
@@ -81,11 +94,11 @@
       "control": "number",
       "label": {
         "en": "Automation Research Point Cost",
-        "de": "Forschungspunktkosten für Automatisierung"
+        "de": "Forschungskosten für Automatisierung"
       },
       "description": {
         "en": "Research point cost for each department automation research.",
-        "de": "Forschungspunktkosten für die Automatisierungsforschung jeder Abteilung."
+        "de": "Forschungskosten für die Automatisierungsforschung jeder Abteilung."
       }
     },
     "EnableAssignmentLearning": {
@@ -103,7 +116,7 @@
       "control": "number",
       "label": {
         "en": "Learning Confirm Delay",
-        "de": "Bestätigungsverzögerung fürs Lernen"
+        "de": "Verzögerung fürs Lernen"
       },
       "description": {
         "en": "Seconds to wait before confirming a manual assignment for learning.",
@@ -124,7 +137,7 @@
       "control": "number",
       "label": {
         "en": "Fallback Assignment Check Interval",
-        "de": "Fallback-Intervall für Zuweisungsprüfungen"
+        "de": "Fallback-Intervall für Zuweisungen"
       },
       "description": {
         "en": "Fallback interval for periodic assignment checks. Higher values reduce overhead.",
@@ -190,7 +203,7 @@
       "control": "number",
       "label": {
         "en": "Mission Reassign Cooldown",
-        "de": "Cooldown für erneute Missionszuweisung"
+        "de": "Cooldown für neue Missionszuweisungen"
       },
       "description": {
         "en": "Minimum seconds between assignment bursts for the same mission.",
@@ -201,7 +214,7 @@
       "control": "number",
       "label": {
         "en": "Auto Assignment Confirm Delay",
-        "de": "Bestätigungsverzögerung für Auto-Zuweisungen"
+        "de": "Verzögerung für Auto-Zuweisungen"
       },
       "description": {
         "en": "Seconds to wait before confirming whether an automatic assignment was accepted.",
@@ -260,7 +273,7 @@
       },
       "description": {
         "en": "Write vehicle state snapshots for assignment debugging. Keep disabled for normal play.",
-        "de": "Schreibt Fahrzeugstatus-Snapshots für die Zuweisungsanalyse. Für normales Spielen deaktiviert lassen."
+        "de": "Schreibt Fahrzeugstatus-Snapshots für die Fehlersuche bei Zuweisungen. Für normales Spielen deaktiviert lassen."
       }
     },
     "EnableAssignmentDiagnostics": {
@@ -271,7 +284,7 @@
       },
       "description": {
         "en": "Write throttled assignment decision diagnostics. Disable after investigating issues.",
-        "de": "Schreibt gedrosselte Diagnoseausgaben zu Zuweisungsentscheidungen. Nach der Fehlersuche wieder deaktivieren."
+        "de": "Schreibt gedrosselte Diagnoseausgaben zu Zuweisungsentscheidungen. Nach der Fehlersuche wieder ausschalten."
       }
     }
   }

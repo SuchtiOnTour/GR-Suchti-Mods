@@ -18,7 +18,7 @@
       "title": "Sorting",
       "description": {
         "en": "Control how vehicles are ordered inside the original vehicle menu.",
-        "de": "Steuert, wie Fahrzeuge im originalen Fahrzeugmenü sortiert werden."
+        "de": "Legt fest, wie Fahrzeuge im originalen Fahrzeugmenü sortiert werden."
       }
     },
     {
@@ -28,7 +28,7 @@
       "title": "Experimental",
       "description": {
         "en": "Advanced options. Leave disabled unless you need them.",
-        "de": "Erweiterte Optionen. Lass sie deaktiviert, wenn du sie nicht brauchst."
+        "de": "Erweiterte Optionen. Lass sie aus, wenn du sie nicht brauchst."
       }
     }
   ],
@@ -137,7 +137,7 @@
       },
       "description": {
         "en": "After a change is detected, wait this many seconds before doing the full refresh.",
-        "de": "Wenn eine Änderung erkannt wurde, wartet die Mod so viele Sekunden vor der vollständigen Aktualisierung."
+        "de": "Wenn eine Änderung erkannt wurde, wartet die Mod so viele Sekunden bis zur vollständigen Aktualisierung."
       }
     },
     "ShortcutAnchor": {
@@ -148,7 +148,7 @@
       },
       "description": {
         "en": "Choose which screen corner the vehicle menu buttons are attached to.",
-        "de": "Legt fest, an welcher Bildschirmecke die Fahrzeugmenü-Buttons angezeigt werden."
+        "de": "Legt fest, an welcher Bildschirmecke die Fahrzeugmenü-Buttons hängen."
       },
       "options": [
         {
@@ -260,7 +260,7 @@
       },
       "description": {
         "en": "Show diagnostic scan information in the upper right corner.",
-        "de": "Zeigt Diagnose- und Scan-Informationen in der oberen rechten Ecke an."
+        "de": "Zeigt Diagnose- und Scan-Infos oben rechts an."
       }
     },
     "ReloadConfigHotkey": {
@@ -271,7 +271,7 @@
       },
       "description": {
         "en": "Optional hotkey to reload config, icons, and the base cache while in-game. Leave empty to disable.",
-        "de": "Optionaler Hotkey, um Config, Icons und den Basis-Cache während des Spiels neu zu laden. Leer lassen zum Deaktivieren."
+        "de": "Optionaler Hotkey, um Config, Icons und den Basis-Cache im Spiel neu zu laden. Leer lassen zum Deaktivieren."
       }
     },
     "EnableMenuResearchLogging": {
