@@ -1,11 +1,17 @@
 {
   "displayName": "Less Micro",
+  "sections": [
+    { "id": "General", "label": "General", "order": 0 },
+    { "id": "Performance", "label": "Performance", "order": 10 },
+    { "id": "Learning", "label": "Learning", "order": 20 },
+    { "id": "Debug", "label": "Debug", "order": 1000 }
+  ],
   "groups": [
     {
       "id": "timers",
       "section": "General",
       "before": "ExtendMissionTimers",
-      "title": "TEST LOL",
+      "title": "Timers",
       "description": "Change mission and task time limits. Original game value is 1x; mod default is 2x."
     },
     {

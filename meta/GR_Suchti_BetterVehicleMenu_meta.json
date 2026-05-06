@@ -1,5 +1,11 @@
 {
   "displayName": "Better Vehicle Menu",
+  "sections": [
+    { "id": "General", "label": "General", "order": 0 },
+    { "id": "Performance", "label": "Performance", "order": 10 },
+    { "id": "UI", "label": "UI", "order": 20 },
+    { "id": "Debug", "label": "Debug", "order": 1000 }
+  ],
   "groups": [
     {
       "id": "sorting",

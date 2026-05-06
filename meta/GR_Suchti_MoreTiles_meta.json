@@ -1,5 +1,9 @@
 {
   "displayName": "More Tiles",
+  "sections": [
+    { "id": "General", "label": "General", "order": 0 },
+    { "id": "Debug", "label": "Debug", "order": 1000 }
+  ],
   "settings": {
     "Enabled": {
       "label": "Enable More Tiles",
