@@ -1,0 +1,272 @@
+{
+  "languages": [
+    {
+      "code": "en",
+      "label": {
+        "en": "English",
+        "de": "Englisch"
+      }
+    },
+    {
+      "code": "de",
+      "label": {
+        "en": "German",
+        "de": "Deutsch"
+      }
+    }
+  ],
+  "strings": {
+    "language.auto": {
+      "en": "Auto",
+      "de": "Auto"
+    },
+    "button.open_github": {
+      "en": "Open Github",
+      "de": "Github öffnen"
+    },
+    "button.default": {
+      "en": "Default",
+      "de": "Standard"
+    },
+    "button.confirm": {
+      "en": "Confirm",
+      "de": "Bestätigen"
+    },
+    "button.save": {
+      "en": "Save",
+      "de": "Speichern"
+    },
+    "button.reload_file": {
+      "en": "Reload File",
+      "de": "Datei neu laden"
+    },
+    "button.reset_all_settings": {
+      "en": "Reset All Settings",
+      "de": "Alle Einstellungen zurücksetzen"
+    },
+    "button.yes": {
+      "en": "Yes",
+      "de": "Ja"
+    },
+    "button.no": {
+      "en": "No",
+      "de": "Nein"
+    },
+    "button.apply": {
+      "en": "Apply",
+      "de": "Anwenden"
+    },
+    "button.clear": {
+      "en": "Clear",
+      "de": "Leeren"
+    },
+    "button.delete_learning": {
+      "en": "Delete Learning",
+      "de": "Lernen löschen"
+    },
+    "button.check_updates": {
+      "en": "Check Updates",
+      "de": "Updates prüfen"
+    },
+    "manager.mods": {
+      "en": "Mods",
+      "de": "Mods"
+    },
+    "manager.no_configs_found": {
+      "en": "No GR config files found.",
+      "de": "Keine GR-Konfigurationsdateien gefunden."
+    },
+    "manager.select_mod": {
+      "en": "Select a mod.",
+      "de": "Wähle eine Mod aus."
+    },
+    "manager.dev_message": {
+      "en": "Dev Message:",
+      "de": "Dev-Nachricht:"
+    },
+    "manager.settings_title": {
+      "en": "Mod Manager Settings",
+      "de": "Mod-Manager-Einstellungen"
+    },
+    "manager.hotkey_label": {
+      "en": "Open Mod Manager Hotkey",
+      "de": "Hotkey zum Öffnen des Mod Managers"
+    },
+    "manager.hotkey_help": {
+      "en": "Click the button, then press the key you want to use.",
+      "de": "Klicke auf den Button und drücke dann die Taste, die du verwenden möchtest."
+    },
+    "manager.press_any_key": {
+      "en": "Press any key...",
+      "de": "Beliebige Taste drücken..."
+    },
+    "manager.overlay_size_label": {
+      "en": "Overlay Size",
+      "de": "Overlay-Größe"
+    },
+    "manager.overlay_size_help": {
+      "en": "Preset 2 is the current default size. Higher values make the ModManager larger.",
+      "de": "Preset 2 ist aktuell die Standardgröße. Höhere Werte machen den Mod Manager größer."
+    },
+    "manager.language_label": {
+      "en": "Language",
+      "de": "Sprache"
+    },
+    "manager.language_help": {
+      "en": "Choose the UI language. Auto uses the system language when available.",
+      "de": "Wähle die Sprache der Oberfläche. Auto verwendet die Systemsprache, wenn sie verfügbar ist."
+    },
+    "manager.are_you_sure": {
+      "en": "Are you sure?",
+      "de": "Bist du sicher?"
+    },
+    "manager.current_version": {
+      "en": "Current Version: {0}",
+      "de": "Aktuelle Version: {0}"
+    },
+    "manager.checking": {
+      "en": "Checking...",
+      "de": "Prüfe..."
+    },
+    "manager.no_update_available": {
+      "en": "No Update Available!",
+      "de": "Kein Update verfügbar!"
+    },
+    "manager.update_available": {
+      "en": "Update Available: {0}",
+      "de": "Update verfügbar: {0}"
+    },
+    "manager.latest_version": {
+      "en": "You have the latest version",
+      "de": "Du hast die neueste Version"
+    },
+    "manager.update_latest_short": {
+      "en": "Update: Latest",
+      "de": "Update: Aktuell"
+    },
+    "manager.no_connection_to_update_server": {
+      "en": "No connection to update server",
+      "de": "Keine Verbindung zum Update-Server"
+    },
+    "manager.new_version_available": {
+      "en": "New Version Available: {0}",
+      "de": "Neue Version verfügbar: {0}"
+    },
+    "manager.version": {
+      "en": "Version: {0}",
+      "de": "Version: {0}"
+    },
+    "manager.version_unknown": {
+      "en": "Version: unknown",
+      "de": "Version: unbekannt"
+    },
+    "manager.not_set": {
+      "en": "Not Set",
+      "de": "Nicht gesetzt"
+    },
+    "manager.mod_default": {
+      "en": "Mod default",
+      "de": "Mod-Standard"
+    },
+    "manager.entry_meta": {
+      "en": "Type: {0}   {1}: {2}",
+      "de": "Typ: {0}   {1}: {2}"
+    },
+    "manager.unknown": {
+      "en": "unknown",
+      "de": "unbekannt"
+    },
+    "manager.none": {
+      "en": "<none>",
+      "de": "<leer>"
+    },
+    "manager.delete_learning_help": {
+      "en": "If automation assigns the wrong vehicles/employees or behaves strangely, delete learning to start fresh.",
+      "de": "Wenn die Automatisierung falsche Fahrzeuge/Mitarbeiter zuweist oder sich seltsam verhält, lösche das Lernen für einen sauberen Neustart."
+    },
+    "status.opened_refreshed_layout": {
+      "en": "Opened and refreshed layout.",
+      "de": "Geöffnet und Layout aktualisiert."
+    },
+    "status.update_url_empty": {
+      "en": "Update check URL is empty.",
+      "de": "Die Update-URL ist leer."
+    },
+    "status.checking_for_updates": {
+      "en": "Checking for mod updates...",
+      "de": "Prüfe auf Mod-Updates..."
+    },
+    "status.update_check_completed": {
+      "en": "Update check completed.",
+      "de": "Update-Prüfung abgeschlossen."
+    },
+    "status.update_check_failed": {
+      "en": "Update check failed: {0}: {1}",
+      "de": "Update-Prüfung fehlgeschlagen: {0}: {1}"
+    },
+    "status.press_manager_hotkey": {
+      "en": "Press a key for the ModManager hotkey. Esc cancels.",
+      "de": "Drücke eine Taste für den Mod-Manager-Hotkey. Esc bricht ab."
+    },
+    "status.manager_hotkey_reset": {
+      "en": "ModManager hotkey reset to F10.",
+      "de": "Mod-Manager-Hotkey auf F10 zurückgesetzt."
+    },
+    "status.overlay_size_set": {
+      "en": "ModManager overlay size set to {0}.",
+      "de": "Mod-Manager-Overlaygröße auf {0} gesetzt."
+    },
+    "status.language_changed": {
+      "en": "Language set to {0}.",
+      "de": "Sprache auf {0} gesetzt."
+    },
+    "status.hotkey_capture_cancelled": {
+      "en": "Hotkey capture cancelled.",
+      "de": "Hotkey-Erfassung abgebrochen."
+    },
+    "status.manager_hotkey_set": {
+      "en": "ModManager hotkey set to {0}.",
+      "de": "Mod-Manager-Hotkey auf {0} gesetzt."
+    },
+    "status.reset_all_confirm": {
+      "en": "Reset all settings for {0}?",
+      "de": "Alle Einstellungen für {0} zurücksetzen?"
+    },
+    "status.reset_cancelled": {
+      "en": "Reset cancelled.",
+      "de": "Zurücksetzen abgebrochen."
+    },
+    "status.press_setting_hotkey": {
+      "en": "Press a key for {0}. Esc cancels, Backspace clears.",
+      "de": "Drücke eine Taste für {0}. Esc bricht ab, Backspace leert."
+    },
+    "status.delete_learning_confirm": {
+      "en": "Delete all LessMicro learned assignment rules?",
+      "de": "Alle gelernten LessMicro-Zuweisungsregeln löschen?"
+    },
+    "status.delete_learning_cancelled": {
+      "en": "Delete learning cancelled.",
+      "de": "Lernen löschen abgebrochen."
+    },
+    "status.no_default_found": {
+      "en": "No default found for {0}.",
+      "de": "Kein Standardwert für {0} gefunden."
+    },
+    "status.saved_config": {
+      "en": "Saved {0}.",
+      "de": "{0} gespeichert."
+    },
+    "status.reset_live_save": {
+      "en": "Reset {0} setting(s) for {1} live. Press Save to keep it.",
+      "de": "{0} Einstellung(en) für {1} live zurückgesetzt. Drücke Speichern, um es zu behalten."
+    },
+    "status.deleted_lessmicro_learning": {
+      "en": "Deleted all LessMicro learned assignment rules.",
+      "de": "Alle gelernten LessMicro-Zuweisungsregeln gelöscht."
+    },
+    "status.deleted_learning_restart_needed": {
+      "en": "Deleted learning config value. Restart may be needed to clear already loaded runtime rules.",
+      "de": "Gelernter Konfigurationswert gelöscht. Ein Neustart kann nötig sein, um bereits geladene Laufzeitregeln zu entfernen."
+    }
+  }
+}
