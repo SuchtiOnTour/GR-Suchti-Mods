@@ -5,7 +5,7 @@
       "label": {
         "en": "English",
         "de": "Englisch",
-        "fr": "French"
+        "fr": "Anglais"
       }
     },
     {
@@ -13,295 +13,363 @@
       "label": {
         "en": "German",
         "de": "Deutsch",
-        "fr": "Französisch"
+        "fr": "Allemand"
       }
     },
     {
       "code": "fr",
       "label": {
-        "en": "German",
-        "de": "Deutsch",
-        "fr": "French"
+        "en": "French",
+        "de": "Französisch",
+        "fr": "Français"
       }
     }
   ],
   "strings": {
     "language.auto": {
       "en": "Auto",
-      "de": "Auto"
+      "de": "Auto",
+      "fr": "Auto"
     },
     "language.auto_system": {
       "en": "Auto (System)",
-      "de": "Auto (System)"
+      "de": "Auto (System)",
+      "fr": "Auto (Système)"
     },
     "button.open_github": {
       "en": "Open Github",
-      "de": "Github öffnen"
+      "de": "Github öffnen",
+      "fr": "Ouvrir Github"
     },
     "button.default": {
       "en": "Default",
-      "de": "Reset"
+      "de": "Reset",
+      "fr": "Reset"
     },
     "button.confirm": {
       "en": "Confirm",
       "de": "Bestätigen",
-      "fr": "bestätigo"
+      "fr": "Confirmer"
     },
     "button.save": {
       "en": "Save",
-      "de": "Speichern"
+      "de": "Speichern",
+      "fr": "Enregistrer"
     },
     "button.reload_file": {
       "en": "Reload File",
-      "de": "Datei neu laden"
+      "de": "Datei neu laden",
+      "fr": "Recharger le fichier"
     },
     "button.reload": {
       "en": "Reload",
-      "de": "Neu laden"
+      "de": "Neu laden",
+      "fr": "Recharger"
     },
     "button.close": {
       "en": "Close",
-      "de": "Schließen"
+      "de": "Schließen",
+      "fr": "Fermer"
     },
     "button.reset_all_settings": {
       "en": "Reset All Settings",
-      "de": "Einstellungen zurücksetzen"
+      "de": "Einstellungen zurücksetzen",
+      "fr": "Réinitialiser les réglages"
     },
     "button.yes": {
       "en": "Yes",
-      "de": "Ja"
+      "de": "Ja",
+      "fr": "Oui"
     },
     "button.no": {
       "en": "No",
-      "de": "Nein"
+      "de": "Nein",
+      "fr": "Non"
     },
     "button.apply": {
       "en": "Apply",
-      "de": "Anwenden"
+      "de": "Anwenden",
+      "fr": "Appliquer"
     },
     "button.clear": {
       "en": "Clear",
-      "de": "Leeren"
+      "de": "Leeren",
+      "fr": "Vider"
     },
     "button.delete_learning": {
       "en": "Delete Learning",
-      "de": "Lernen löschen"
+      "de": "Lernen löschen",
+      "fr": "Supprimer l'apprentissage"
     },
     "button.check_updates": {
       "en": "Check Updates",
-      "de": "Updates prüfen"
+      "de": "Updates prüfen",
+      "fr": "Vérifier les mises à jour"
     },
     "toggle.on": {
       "en": "ON",
-      "de": "AN"
+      "de": "AN",
+      "fr": "ON"
     },
     "toggle.off": {
       "en": "OFF",
-      "de": "AUS"
+      "de": "AUS",
+      "fr": "OFF"
     },
     "manager.mods": {
       "en": "Mods",
-      "de": "Mods"
+      "de": "Mods",
+      "fr": "Mods"
     },
     "manager.no_configs_found": {
       "en": "No GR config files found.",
-      "de": "Keine GR-Konfigurationsdateien gefunden."
+      "de": "Keine GR-Konfigurationsdateien gefunden.",
+      "fr": "Aucun fichier de config GR trouvé."
     },
     "manager.select_mod": {
       "en": "Select a mod.",
-      "de": "Wähle eine Mod aus."
+      "de": "Wähle eine Mod aus.",
+      "fr": "Choisis un mod."
     },
     "manager.dev_message": {
       "en": "Dev Message:",
-      "de": "Dev-Nachricht:"
+      "de": "Dev-Nachricht:",
+      "fr": "Message dev :"
     },
     "manager.settings_title": {
       "en": "Mod Manager Settings",
-      "de": "Mod-Manager-Einstellungen"
+      "de": "Mod-Manager-Einstellungen",
+      "fr": "Réglages du Mod Manager"
     },
     "manager.hotkey_label": {
       "en": "Open Mod Manager Hotkey",
-      "de": "Hotkey zum Öffnen des Mod-Managers"
+      "de": "Hotkey zum Öffnen des Mod-Managers",
+      "fr": "Hotkey pour ouvrir le Mod Manager"
     },
     "manager.hotkey_help": {
       "en": "Click the button, then press the key you want to use.",
-      "de": "Klicke auf den Button und drücke dann die Taste, die du verwenden möchtest."
+      "de": "Klicke auf den Button und drücke dann die Taste, die du verwenden möchtest.",
+      "fr": "Clique sur le bouton, puis appuie sur la touche à utiliser."
     },
     "manager.press_any_key": {
       "en": "Press any key...",
-      "de": "Beliebige Taste drücken..."
+      "de": "Beliebige Taste drücken...",
+      "fr": "Appuie sur une touche..."
     },
     "manager.overlay_size_label": {
       "en": "Overlay Size",
-      "de": "Overlay-Größe"
+      "de": "Overlay-Größe",
+      "fr": "Taille de l'overlay"
     },
     "manager.overlay_size_help": {
       "en": "Preset 2 is the current default size. Higher values make the ModManager larger.",
-      "de": "Preset 2 ist aktuell die Standardgröße. Höhere Werte machen den Mod-Manager größer."
+      "de": "Preset 2 ist aktuell die Standardgröße. Höhere Werte machen den Mod-Manager größer.",
+      "fr": "Le preset 2 est la taille par défaut. Des valeurs plus élevées agrandissent le Mod Manager."
     },
     "manager.language_label": {
       "en": "Language",
-      "de": "Sprache"
+      "de": "Sprache",
+      "fr": "Langue"
     },
     "manager.language_help": {
       "en": "Choose the UI language. Auto uses the system language when available.",
-      "de": "Wähle die Sprache der Oberfläche. Auto verwendet die Systemsprache, wenn sie verfügbar ist. Übersetzungen wurden mit KI erstellt."
+      "de": "Wähle die Sprache der Oberfläche. Auto verwendet die Systemsprache, wenn sie verfügbar ist. Übersetzungen wurden mit KI erstellt.",
+      "fr": "Choisis la langue de l'interface. Auto utilise la langue du système si elle est disponible. Les traductions ont été faites avec l'IA."
     },
     "manager.are_you_sure": {
       "en": "Are you sure?",
-      "de": "Bist du sicher?"
+      "de": "Bist du sicher?",
+      "fr": "Tu es sûr ?"
     },
     "manager.current_version": {
       "en": "Current Version: {0}",
-      "de": "Aktuelle Version: {0}"
+      "de": "Aktuelle Version: {0}",
+      "fr": "Version actuelle : {0}"
     },
     "manager.checking": {
       "en": "Checking...",
-      "de": "Prüfe..."
+      "de": "Prüfe...",
+      "fr": "Vérification..."
     },
     "manager.no_update_available": {
       "en": "No Update Available!",
-      "de": "Kein Update verfügbar"
+      "de": "Kein Update verfügbar",
+      "fr": "Aucune mise à jour"
     },
     "manager.update_available": {
       "en": "Update Available: {0}",
-      "de": "Update verfügbar: {0}"
+      "de": "Update verfügbar: {0}",
+      "fr": "Mise à jour dispo : {0}"
     },
     "manager.latest_version": {
       "en": "You have the latest version",
-      "de": "Du hast die neueste Version"
+      "de": "Du hast die neueste Version",
+      "fr": "Tu as la dernière version"
     },
     "manager.update_latest_short": {
       "en": "Update: Latest",
-      "de": "Update: Aktuell"
+      "de": "Update: Aktuell",
+      "fr": "Update : OK"
     },
     "manager.no_connection_to_update_server": {
       "en": "No connection to update server",
-      "de": "Keine Verbindung zum Update-Server"
+      "de": "Keine Verbindung zum Update-Server",
+      "fr": "Pas de connexion au serveur d'update"
     },
     "manager.new_version_available": {
       "en": "New Version Available: {0}",
-      "de": "Neue Version verfügbar: {0}"
+      "de": "Neue Version verfügbar: {0}",
+      "fr": "Nouvelle version dispo : {0}"
     },
     "manager.version": {
       "en": "Version: {0}",
-      "de": "Version: {0}"
+      "de": "Version: {0}",
+      "fr": "Version : {0}"
     },
     "manager.version_unknown": {
       "en": "Version: unknown",
-      "de": "Version: unbekannt"
+      "de": "Version: unbekannt",
+      "fr": "Version : inconnue"
     },
     "manager.not_set": {
       "en": "Not Set",
-      "de": "Nicht gesetzt"
+      "de": "Nicht gesetzt",
+      "fr": "Non défini"
     },
     "manager.mod_default": {
       "en": "Mod default",
-      "de": "Mod-Standard"
+      "de": "Mod-Standard",
+      "fr": "Valeur du mod"
     },
     "manager.default_value": {
       "en": "Default value",
-      "de": "Standardwert"
+      "de": "Standardwert",
+      "fr": "Valeur par défaut"
     },
     "manager.entry_meta": {
       "en": "Type: {0}   {1}: {2}",
-      "de": "Typ: {0}   {1}: {2}"
+      "de": "Typ: {0}   {1}: {2}",
+      "fr": "Type : {0}   {1} : {2}"
     },
     "manager.unknown": {
       "en": "unknown",
-      "de": "unbekannt"
+      "de": "unbekannt",
+      "fr": "inconnu"
     },
     "manager.none": {
       "en": "<none>",
-      "de": "<leer>"
+      "de": "<leer>",
+      "fr": "<vide>"
     },
     "manager.delete_learning_help": {
       "en": "If automation assigns the wrong vehicles/employees or behaves strangely, delete learning to start fresh.",
-      "de": "Wenn die Automatisierung falsche Fahrzeuge/Mitarbeiter zuweist oder sich seltsam verhält, lösche das Lernen für einen sauberen Neustart."
+      "de": "Wenn die Automatisierung falsche Fahrzeuge/Mitarbeiter zuweist oder sich seltsam verhält, lösche das Lernen für einen sauberen Neustart.",
+      "fr": "Si l'automatisation assigne les mauvais véhicules/employés ou se comporte bizarrement, supprime l'apprentissage pour repartir proprement."
     },
     "status.opened_refreshed_layout": {
       "en": "Opened and refreshed layout.",
-      "de": "Geöffnet und Layout aktualisiert."
+      "de": "Geöffnet und Layout aktualisiert.",
+      "fr": "Ouvert et layout actualisé."
     },
     "status.update_url_empty": {
       "en": "Update check URL is empty.",
-      "de": "Die Update-URL ist leer."
+      "de": "Die Update-URL ist leer.",
+      "fr": "L'URL d'update est vide."
     },
     "status.checking_for_updates": {
       "en": "Checking for mod updates...",
-      "de": "Prüfe auf Mod-Updates..."
+      "de": "Prüfe auf Mod-Updates...",
+      "fr": "Vérification des updates des mods..."
     },
     "status.update_check_completed": {
       "en": "Update check completed.",
-      "de": "Update-Prüfung abgeschlossen."
+      "de": "Update-Prüfung abgeschlossen.",
+      "fr": "Vérification des updates terminée."
     },
     "status.update_check_failed": {
       "en": "Update check failed: {0}: {1}",
-      "de": "Update-Prüfung fehlgeschlagen: {0}: {1}"
+      "de": "Update-Prüfung fehlgeschlagen: {0}: {1}",
+      "fr": "Échec de la vérification : {0} : {1}"
     },
     "status.press_manager_hotkey": {
       "en": "Press a key for the ModManager hotkey. Esc cancels.",
-      "de": "Drücke eine Taste für den Mod-Manager-Hotkey. Esc bricht ab."
+      "de": "Drücke eine Taste für den Mod-Manager-Hotkey. Esc bricht ab.",
+      "fr": "Appuie sur une touche pour le hotkey du Mod Manager. Esc annule."
     },
     "status.manager_hotkey_reset": {
       "en": "ModManager hotkey reset to F10.",
-      "de": "Mod-Manager-Hotkey auf F10 zurückgesetzt."
+      "de": "Mod-Manager-Hotkey auf F10 zurückgesetzt.",
+      "fr": "Hotkey du Mod Manager remis sur F10."
     },
     "status.overlay_size_set": {
       "en": "ModManager overlay size set to {0}.",
-      "de": "Mod-Manager-Overlaygröße auf {0} gesetzt."
+      "de": "Mod-Manager-Overlaygröße auf {0} gesetzt.",
+      "fr": "Taille de l'overlay du Mod Manager réglée sur {0}."
     },
     "status.language_changed": {
       "en": "Language set to {0}.",
-      "de": "Sprache auf {0} gesetzt."
+      "de": "Sprache auf {0} gesetzt.",
+      "fr": "Langue réglée sur {0}."
     },
     "status.hotkey_capture_cancelled": {
       "en": "Hotkey capture cancelled.",
-      "de": "Hotkey-Erfassung abgebrochen."
+      "de": "Hotkey-Erfassung abgebrochen.",
+      "fr": "Saisie du hotkey annulée."
     },
     "status.manager_hotkey_set": {
       "en": "ModManager hotkey set to {0}.",
-      "de": "Mod-Manager-Hotkey auf {0} gesetzt."
+      "de": "Mod-Manager-Hotkey auf {0} gesetzt.",
+      "fr": "Hotkey du Mod Manager réglé sur {0}."
     },
     "status.reset_all_confirm": {
       "en": "Reset all settings for {0}?",
-      "de": "Einstellungen für {0} zurücksetzen?"
+      "de": "Einstellungen für {0} zurücksetzen?",
+      "fr": "Réinitialiser les réglages pour {0} ?"
     },
     "status.reset_cancelled": {
       "en": "Reset cancelled.",
-      "de": "Zurücksetzen abgebrochen."
+      "de": "Zurücksetzen abgebrochen.",
+      "fr": "Reset annulé."
     },
     "status.press_setting_hotkey": {
       "en": "Press a key for {0}. Esc cancels, Backspace clears.",
-      "de": "Drücke eine Taste für {0}. Esc bricht ab, Backspace leert."
+      "de": "Drücke eine Taste für {0}. Esc bricht ab, Backspace leert.",
+      "fr": "Appuie sur une touche pour {0}. Esc annule, Retour arrière efface."
     },
     "status.delete_learning_confirm": {
       "en": "Delete all LessMicro learned assignment rules?",
-      "de": "Alle gelernten LessMicro-Zuweisungsregeln löschen?"
+      "de": "Alle gelernten LessMicro-Zuweisungsregeln löschen?",
+      "fr": "Supprimer toutes les règles apprises de LessMicro ?"
     },
     "status.delete_learning_cancelled": {
       "en": "Delete learning cancelled.",
-      "de": "Lernen löschen abgebrochen."
+      "de": "Lernen löschen abgebrochen.",
+      "fr": "Suppression de l'apprentissage annulée."
     },
     "status.no_default_found": {
       "en": "No default found for {0}.",
-      "de": "Kein Standardwert für {0} gefunden."
+      "de": "Kein Standardwert für {0} gefunden.",
+      "fr": "Aucune valeur par défaut trouvée pour {0}."
     },
     "status.saved_config": {
       "en": "Saved {0}.",
-      "de": "{0} gespeichert."
+      "de": "{0} gespeichert.",
+      "fr": "{0} enregistré."
     },
     "status.reset_live_save": {
       "en": "Reset {0} setting(s) for {1} live. Press Save to keep it.",
-      "de": "{0} Einstellung(en) für {1} live zurückgesetzt. Drücke Speichern, um es zu behalten."
+      "de": "{0} Einstellung(en) für {1} live zurückgesetzt. Drücke Speichern, um es zu behalten.",
+      "fr": "{0} réglage(s) pour {1} ont été reset en direct. Appuie sur Enregistrer pour les garder."
     },
     "status.deleted_lessmicro_learning": {
       "en": "Deleted all LessMicro learned assignment rules.",
-      "de": "Alle gelernten LessMicro-Zuweisungsregeln gelöscht."
+      "de": "Alle gelernten LessMicro-Zuweisungsregeln gelöscht.",
+      "fr": "Toutes les règles apprises de LessMicro ont été supprimées."
     },
     "status.deleted_learning_restart_needed": {
       "en": "Deleted learning config value. Restart may be needed to clear already loaded runtime rules.",
-      "de": "Gelernter Konfigurationswert gelöscht. Ein Neustart kann nötig sein, um bereits geladene Laufzeitregeln zu entfernen."
+      "de": "Gelernter Konfigurationswert gelöscht. Ein Neustart kann nötig sein, um bereits geladene Laufzeitregeln zu entfernen.",
+      "fr": "Valeur d'apprentissage supprimée. Un redémarrage peut être nécessaire pour retirer les règles déjà chargées."
     }
   }
 }
