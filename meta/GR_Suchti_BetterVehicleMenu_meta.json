@@ -1,5 +1,21 @@
 {
   "displayName": "Better Vehicle Menu",
+  "groups": [
+    {
+      "id": "sorting",
+      "section": "General",
+      "before": "EnableVehicleSorting",
+      "title": "Sorting",
+      "description": "Control how vehicles are ordered inside the original vehicle menu."
+    },
+    {
+      "id": "experimental",
+      "section": "Performance",
+      "before": "EnablePassiveRefresh",
+      "title": "Experimental",
+      "description": "Advanced options. Leave disabled unless you need them."
+    }
+  ],
   "settings": {
     "Enabled": {
       "label": "Enable Mod",
