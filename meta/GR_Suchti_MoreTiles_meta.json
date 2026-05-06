@@ -1,7 +1,6 @@
 {
   "displayName": "More Tiles",
-  "devMessage": "Thanks for usiing my mod!, if you have any suggestions or want to report a bug, report it on the mod page (Steam Guides or Nexus Mods).",
-
+  "devMessage": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have any suggestions or want to report a bug, please do so on the mod page (Steam Guides or Nexus Mods).",
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Debug", "label": "Debug", "order": 1000 }
