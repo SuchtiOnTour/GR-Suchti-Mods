@@ -19,9 +19,9 @@
     {
       "code": "fr",
       "label": {
-        "en": "French (50%)",
-        "de": "French (50%)",
-        "fr": "French (50%)"
+        "en": "French",
+        "de": "French",
+        "fr": "French"
       }
     }
   ],
@@ -225,6 +225,11 @@
       "en": "Open Mod Manager ({0}) for more information",
       "de": "Öffne den Mod Manager ({0}) für mehr Infos",
       "fr": "Ouvre le Mod Manager ({0}) pour plus d'infos"
+    },
+    "manager.startup_overlay_loaded": {
+      "en": "Mod Manager loaded: Press {0} to open menu",
+      "de": "Mod Manager geladen: Drücke {0}, um das Menü zu öffnen",
+      "fr": "Mod Manager chargé : appuie sur {0} pour ouvrir le menu"
     },
     "manager.startup_overlay_update_available": {
       "en": "New update available",
