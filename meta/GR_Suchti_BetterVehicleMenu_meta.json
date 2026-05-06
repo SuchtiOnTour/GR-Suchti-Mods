@@ -22,6 +22,22 @@
       "description": "Advanced options. Leave disabled unless you need them."
     }
   ],
+  "actions": [
+    {
+      "id": "resetPosition",
+      "section": "UI",
+      "label": "Reset Position",
+      "type": "resetToDefault",
+      "targets": [
+        "ShortcutButtonSize",
+        "ShortcutAspectRatio",
+        "ShortcutBottomOffset",
+        "ShortcutRightOffset",
+        "ShortcutAnchor",
+        "UseResolutionScaling"
+      ]
+    }
+  ],
   "settings": {
     "Enabled": {
       "control": "toggle",

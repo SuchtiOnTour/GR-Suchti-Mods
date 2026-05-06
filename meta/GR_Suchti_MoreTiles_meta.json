@@ -4,6 +4,18 @@
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Debug", "label": "Debug", "order": 1000 }
   ],
+  "actions": [
+    {
+      "id": "resetGeneral",
+      "section": "General",
+      "label": "Reset Test",
+      "type": "resetToDefault",
+      "targets": [
+        "MaxTotalTiles",
+        "ResearchPointStepCost"
+      ]
+    }
+  ],
   "settings": {
     "Enabled": {
       "control": "toggle",
