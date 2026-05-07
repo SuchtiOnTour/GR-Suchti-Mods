@@ -2,7 +2,7 @@
   "displayName": "Better Vehicle Menu",
   "devMessage": {
     "en": "Patch v1.2.1 restored Better Vehicle Menu compatibility with the latest game update.\nPlease update if the vehicle menu no longer opens correctly after Patch 3.",
-    "de": "Patch v1.2.1 stellt die Better Vehicle Menu Kompatibilitaet mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Fahrzeugmenue nach Patch 3 nicht mehr korrekt oeffnet."
+    "de": "Patch v1.2.1 stellt die Better Vehicle Menu Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Fahrzeugmenü nach Patch 3 nicht mehr korrekt öffnet."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },

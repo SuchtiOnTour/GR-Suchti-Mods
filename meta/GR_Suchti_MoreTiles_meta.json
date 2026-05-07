@@ -2,7 +2,7 @@
   "displayName": "More Tiles",
   "devMessage": {
     "en": "Patch v1.0.1 restored More Tiles compatibility with the latest game update.\nPlease update if the map expansion tile limit no longer applies correctly.",
-    "de": "Patch v1.0.1 stellt die More Tiles Kompatibilitaet mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Kartenfeld-Limit nicht mehr korrekt angewendet wird."
+    "de": "Patch v1.0.1 stellt die More Tiles Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Kartenfeld-Limit nicht mehr korrekt angewendet wird."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
