@@ -1,7 +1,7 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "v1.2 Performance Update:\n- Vehicle/base change detection now uses game events instead of repeated world checks.\n- This should reduce stutters and make the vehicle menu smoother.\n- If you have not updated yet, please update the mod.\n- Thanks to BABAKPF for reporting the stutter issue.",
+    "en": "Known Issue: Mod is currently broken due to the UI update. Working on a hotfix.\nv1.2 Performance Update:\n- Vehicle/base change detection now uses game events instead of repeated world checks.\n- This should reduce stutters and make the vehicle menu smoother.\n- If you have not updated yet, please update the mod.\n- Thanks to BABAKPF for reporting the stutter issue.",
     "de": "v1.2 Performance Update:\n- Die Fahrzeug-/Basis-Änderungserkennung nutzt jetzt Spiel-Events statt wiederholter Welt-Checks.\n- Das sollte Ruckler reduzieren und das Fahrzeugmenü flüssiger machen.\n- Wenn du noch nicht aktualisiert hast, update bitte die Mod.\n- Danke an BABAKPF fürs Melden des Ruckel-Problems."
   },
   "sections": [
