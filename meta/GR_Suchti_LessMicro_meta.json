@@ -1,8 +1,8 @@
 {
   "displayName": "Less Micro",
   "devMessage": {
-    "en": "Thanks for using my mod!\nIn this devlog you can find the latest news, updates, and some behind-the-scenes information about the development process.\nIf you have feedback, suggestions, or found a bug, feel free to leave a comment on the mod page (Steam Guides or Nexus Mods).",
-    "de": "Danke, dass du meine Mod benutzt!\nIn diesem Devlog findest du die neuesten Infos, Updates und ein paar Einblicke hinter die Kulissen der Entwicklung.\nWenn du Feedback, Vorschläge oder einen Bug gefunden hast, hinterlasse gern einen Kommentar auf der Mod-Seite (Steam Guides oder Nexus Mods)."
+  "en": "DevLog 08.05.26:\n\nNEWS about v1.2!\nI've been working really hard on the new update for the last 2 days and it's looking really good so far.\nVehicle mission recognition is now working much better and most UI bugs are gone.\n\nIf everything goes well I hope I can release the update tomorrow!",
+  "de": "DevLog 08.05.26:\n\nNEWS zu v1.2!\nIch arbeite seit 2 Tagen intensiv am neuen Update und bisher sieht alles wirklich gut aus.\nDie Fahrzeug-Missionserkennung funktioniert jetzt deutlich besser und die meisten UI-Bugs sind verschwunden.\n\nWenn alles gut läuft hoffe ich das Update morgen veröffentlichen zu können!"
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
