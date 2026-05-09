@@ -1,13 +1,13 @@
 {
   "displayName": "Less Micro",
   "devMessage": {
-  "en": "Patch Notes v1.2:\n\n- Added partial assignment fallback for missions with missing unit counts\n- Improved vehicle and staff auto-assignment reliability\n- Improved follow-up task and choice/decision handling\n- Fixed Performance config values not applying correctly\n- Reduced log noise and improved debug overlay messages\n\nDev Message:\nThis update is the result of two days of intensive testing and should make the automation much more stable in most missions. Please report any remaining edge cases or missions that still need manual interaction.",
-  "de": "Patch Notes v1.2:\n\n- Neuer Partial-Assignment-Fallback bei Missionen mit fehlender Fahrzeuganzahl\n- Zuverlässigere automatische Fahrzeug- und Personalzuweisung\n- Besseres Handling von Folgeaufgaben und Choice/Decision-Aufgaben\n- Performance-Config-Werte funktionieren jetzt korrekt\n- Weniger Log-Rauschen und verständlichere Debug-Overlay-Meldungen\n\nDev Message:\nDieses Update ist das Ergebnis von zwei Tagen intensivem Testen und sollte die Automatisierung in den meisten Missionen deutlich stabiler machen. Bitte meldet weiterhin Edge Cases oder Missionen, die noch manuelle Eingriffe brauchen."
+  "en": "Patch Notes v1.2:\n\n- Added partial assignment fallback for missions with missing unit counts\n- Improved vehicle and staff auto-assignment reliability\n- Improved follow-up task and choice/decision handling\n- Fixed Performance config values not applying correctly\n- Reduced log noise and improved debug overlay messages\n- Removed the old experimental learning system, because it is no longer needed\n\nDev Message:\nThis update is the result of two days of intensive testing and should make the automation much more stable in most missions. Please report any remaining edge cases or missions that still need manual interaction.",
+  "de": "Patch Notes v1.2:\n\n- Neuer Partial-Assignment-Fallback bei Missionen mit fehlender Fahrzeuganzahl\n- Zuverlässigere automatische Fahrzeug- und Personalzuweisung\n- Besseres Handling von Folgeaufgaben und Choice/Decision-Aufgaben\n- Performance-Config-Werte funktionieren jetzt korrekt\n- Weniger Log-Rauschen und verständlichere Debug-Overlay-Meldungen\n- Das alte experimentelle Learning-System wurde entfernt, da es nicht mehr benötigt wird\n\nDev Message:\nDieses Update ist das Ergebnis von zwei Tagen intensivem Testen und sollte die Automatisierung in den meisten Missionen deutlich stabiler machen. Bitte meldet weiterhin Edge Cases oder Missionen, die noch manuelle Eingriffe brauchen."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Performance", "label": "Performance", "order": 10 },
-    { "id": "Learning", "label": "Learning", "order": 20 },
+    { "id": "Learning", "label": "Legacy Learning", "order": 20 },
     { "id": "Debug", "label": "Debug", "order": 1000 }
   ],
   "groups": [
@@ -38,10 +38,13 @@
       "id": "experimental",
       "section": "Learning",
       "before": "EnableAssignmentLearning",
-      "title": "Experimental",
+      "title": {
+        "en": "Legacy Learning",
+        "de": "Altes Learning"
+      },
       "description": {
-        "en": "Advanced options. Leave disabled unless you need them.",
-        "de": "Diese Funktionen sind noch in der Testphase und können sich noch ändern."
+        "en": "Old v1.1 settings kept for compatibility. The learning system is no longer used in v1.2.",
+        "de": "Alte v1.1-Einstellungen, die aus Kompatibilitätsgründen erhalten bleiben. Das Learning-System wird in v1.2 nicht mehr verwendet."
       }
     }
   ],
@@ -108,8 +111,8 @@
         "de": "Zuweisungen lernen"
       },
       "description": {
-        "en": "Learn class-based assignment rules from manual vehicle and employee assignments.",
-        "de": "Lernt klassenbasierte Zuweisungsregeln aus manuellen Fahrzeug- und Mitarbeiterzuweisungen."
+        "en": "Legacy v1.1 option. The learning system is no longer used in v1.2.",
+        "de": "Alte v1.1-Option. Das Learning-System wird in v1.2 nicht mehr verwendet."
       }
     },
     "AssignmentLearningConfirmSeconds": {
@@ -119,8 +122,8 @@
         "de": "Verzögerung fürs Lernen"
       },
       "description": {
-        "en": "Seconds to wait before confirming a manual assignment for learning.",
-        "de": "Sekunden, die vor der Bestätigung einer manuellen Zuweisung fürs Lernen gewartet werden."
+        "en": "Legacy v1.1 option. The learning system is no longer used in v1.2.",
+        "de": "Alte v1.1-Option. Das Learning-System wird in v1.2 nicht mehr verwendet."
       }
     },
     "LearnedAssignmentRules": {
@@ -129,19 +132,19 @@
         "de": "Gelernte Zuweisungsregeln"
       },
       "description": {
-        "en": "Internal class-based assignment rules learned from manual assignments.",
-        "de": "Interne klassenbasierte Zuweisungsregeln, die aus manuellen Zuweisungen gelernt wurden."
+        "en": "Legacy v1.1 data. Not used by v1.2.",
+        "de": "Alte v1.1-Daten. Werden von v1.2 nicht mehr verwendet."
       }
     },
     "AssignmentSweepIntervalSeconds": {
       "control": "number",
       "label": {
-        "en": "Fallback Assignment Check Interval",
-        "de": "Fallback-Intervall für Zuweisungen"
+        "en": "Fallback Check Interval (mostly unused)",
+        "de": "Fallback-Prüfintervall (meist ungenutzt)"
       },
       "description": {
-        "en": "Fallback interval for periodic assignment checks. Higher values reduce overhead.",
-        "de": "Fallback-Intervall für regelmäßige Zuweisungsprüfungen. Höhere Werte verringern den Aufwand."
+        "en": "Backup interval for the rare case that event-based assignment misses something. Most assignments happen immediately through game events, so this setting usually has little effect.",
+        "de": "Backup-Intervall für den seltenen Fall, dass die eventbasierte Zuweisung etwas verpasst. Die meisten Zuweisungen passieren direkt über Spiel-Events, daher hat diese Einstellung meistens wenig Einfluss."
       }
     },
     "AssignmentBackoffSeconds": {
@@ -158,12 +161,12 @@
     "FollowupAssignmentDelaySeconds": {
       "control": "number",
       "label": {
-        "en": "Follow-Up Assignment Delay",
-        "de": "Verzögerung für Folgezuweisungen"
+        "en": "Staff Assignment Delay",
+        "de": "Verzögerung für Mitarbeiter-Zuweisung"
       },
       "description": {
-        "en": "Delay before assigning follow-up tasks after vehicles are already at a mission.",
-        "de": "Verzögerung, bevor Folgeaufgaben zugewiesen werden, wenn Fahrzeuge bereits an einer Mission sind."
+        "en": "Delay before assigning staff to a task when the vehicle is already at the mission. Helps the game/UI state settle before employees start working.",
+        "de": "Verzögerung, bevor Mitarbeiter einem Task zugewiesen werden, wenn das Fahrzeug bereits an der Mission ist. Hilft, damit sich Spiel/UI vorher aktualisieren können."
       }
     },
     "FollowupAssignmentJitterSeconds": {
@@ -180,8 +183,8 @@
     "ArrivalAssignmentDelaySeconds": {
       "control": "number",
       "label": {
-        "en": "Arrival Assignment Delay",
-        "de": "Verzögerung nach Ankunft"
+        "en": "Assignment Delay After Arrival",
+        "de": "Zuweisungsverzögerung nach Ankunft"
       },
       "description": {
         "en": "Delay before assigning tasks after the first vehicle arrives.",
@@ -192,7 +195,7 @@
       "control": "number",
       "label": {
         "en": "Next Task Assignment Delay",
-        "de": "Verzögerung für nächste Aufgabe"
+        "de": "Zuweisungsverzögerung für nächste Aufgabe"
       },
       "description": {
         "en": "Delay before assigning the next task after a mission task completes.",
