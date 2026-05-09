@@ -2,7 +2,9 @@
   "displayName": "Better Vehicle Menu",
   "devMessage": {
     "en": "Patch v1.2.1 restored Better Vehicle Menu compatibility with the latest game update.\nPlease update if the vehicle menu no longer opens correctly after Patch 3.",
-    "de": "Patch v1.2.1 stellt die Better Vehicle Menu Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Fahrzeugmenü nach Patch 3 nicht mehr korrekt öffnet."
+    "de": "Patch v1.2.1 stellt die Better Vehicle Menu Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Fahrzeugmenü nach Patch 3 nicht mehr korrekt öffnet.",
+    "fr": "Le patch v1.2.1 a restauré la compatibilité de Better Vehicle Menu avec la dernière mise à jour du jeu.\nMets à jour si le menu des véhicules ne s'ouvre plus correctement après le Patch 3.",
+    "pl": "Patch v1.2.1 przywrócił zgodność Better Vehicle Menu z najnowszą aktualizacją gry.\nZaktualizuj, jeśli menu pojazdów nie otwiera się poprawnie po Patchu 3."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
@@ -18,7 +20,9 @@
       "title": "Sorting",
       "description": {
         "en": "Control how vehicles are ordered inside the original vehicle menu.",
-        "de": "Legt fest, wie Fahrzeuge im originalen Fahrzeugmenü sortiert werden."
+        "de": "Legt fest, wie Fahrzeuge im originalen Fahrzeugmenü sortiert werden.",
+        "fr": "Contrôle l'ordre des véhicules dans le menu de véhicules original.",
+        "pl": "Określa kolejność pojazdów w oryginalnym menu pojazdów."
       }
     },
     {
@@ -28,7 +32,9 @@
       "title": "Experimental",
       "description": {
         "en": "Advanced options. Leave disabled unless you need them.",
-        "de": "Erweiterte Optionen. Lass sie aus, wenn du sie nicht brauchst."
+        "de": "Erweiterte Optionen. Lass sie aus, wenn du sie nicht brauchst.",
+        "fr": "Options avancées. Laisse-les désactivées sauf si tu en as besoin.",
+        "pl": "Zaawansowane opcje. Zostaw wyłączone, jeśli nie potrzebujesz."
       }
     }
   ],
@@ -38,7 +44,9 @@
       "section": "UI",
       "label": {
         "en": "Reset Position",
-        "de": "Reset Position"
+        "de": "Reset Position",
+        "fr": "Réinitialiser",
+        "pl": "Resetuj"
       },
       "type": "resetToDefault",
       "targets": [
@@ -56,127 +64,171 @@
       "control": "toggle",
       "label": {
         "en": "Enable Mod",
-        "de": "Mod aktivieren"
+        "de": "Mod aktivieren",
+        "fr": "Activer le mod",
+        "pl": "Włącz moda"
       },
       "description": {
         "en": "Enable or disable Better Vehicle Menu completely.",
-        "de": "Aktiviert oder deaktiviert Better Vehicle Menu komplett."
+        "de": "Aktiviert oder deaktiviert Better Vehicle Menu komplett.",
+        "fr": "Active ou désactive complètement Better Vehicle Menu.",
+        "pl": "Całkowicie włącza lub wyłącza Better Vehicle Menu."
       }
     },
     "ShowOverlay": {
       "control": "toggle",
       "label": {
         "en": "Show Vehicle Buttons",
-        "de": "Fahrzeug-Buttons anzeigen"
+        "de": "Fahrzeug-Buttons anzeigen",
+        "fr": "Afficher les boutons de véhicules",
+        "pl": "Pokaż przyciski pojazdów"
       },
       "description": {
         "en": "Show the department vehicle buttons on screen.",
-        "de": "Zeigt die Fahrzeug-Buttons auf dem Bildschirm an."
+        "de": "Zeigt die Fahrzeug-Buttons auf dem Bildschirm an.",
+        "fr": "Affiche les boutons de véhicules du département à l'écran.",
+        "pl": "Wyświetla przyciski pojazdów działu na ekranie."
       }
     },
     "EnableVehicleSorting": {
       "control": "toggle",
       "label": {
         "en": "Sort Vehicle List",
-        "de": "Fahrzeugliste sortieren"
+        "de": "Fahrzeugliste sortieren",
+        "fr": "Trier la liste des véhicules",
+        "pl": "Sortuj listę pojazdów"
       },
       "description": {
         "en": "Sort vehicles in the original vehicle menu by name.",
-        "de": "Sortiert Fahrzeuge im originalen Fahrzeugmenü nach Namen."
+        "de": "Sortiert Fahrzeuge im originalen Fahrzeugmenü nach Namen.",
+        "fr": "Trie les véhicules dans le menu original par nom.",
+        "pl": "Sortuje pojazdy w oryginalnym menu według nazwy."
       }
     },
     "EnablePassiveRefresh": {
       "control": "toggle",
       "label": {
         "en": "Refresh Vehicle Menu on Timer (Can Cause Lag)",
-        "de": "Fahrzeugmenü per Timer aktualisieren (Kann Lags verursachen)"
+        "de": "Fahrzeugmenü per Timer aktualisieren (Kann Lags verursachen)",
+        "fr": "Actualiser le menu sur minuterie (peut causer des lags)",
+        "pl": "Odświeżaj menu na timerze (może powodować lagi)"
       },
       "description": {
         "en": "Automatically refresh the vehicle menu cache on a timer. Can cause lag.",
-        "de": "Aktualisiert den Fahrzeugmenü-Cache automatisch in festen Abständen. Kann Lags verursachen."
+        "de": "Aktualisiert den Fahrzeugmenü-Cache automatisch in festen Abständen. Kann Lags verursachen.",
+        "fr": "Actualise automatiquement le cache du menu des véhicules sur minuterie. Peut causer des lags.",
+        "pl": "Automatycznie odświeża cache menu pojazdów według timera. Może powodować lagi."
       }
     },
     "RefreshIntervalSeconds": {
       "control": "number",
       "label": {
         "en": "Timer Refresh Interval",
-        "de": "Timer-Aktualisierungsintervall"
+        "de": "Timer-Aktualisierungsintervall",
+        "fr": "Intervalle d'actualisation",
+        "pl": "Interwał odświeżania"
       },
       "description": {
         "en": "Seconds between automatic timed refreshes.",
-        "de": "Sekunden zwischen automatischen Aktualisierungen per Timer."
+        "de": "Sekunden zwischen automatischen Aktualisierungen per Timer.",
+        "fr": "Secondes entre chaque actualisation automatique.",
+        "pl": "Sekundy między automatycznymi odświeżeniami."
       }
     },
     "EnableChangeWatcher": {
       "control": "toggle",
       "label": {
         "en": "Detect Vehicle/Base Changes",
-        "de": "Fahrzeug-/Basis-Änderungen erkennen"
+        "de": "Fahrzeug-/Basis-Änderungen erkennen",
+        "fr": "Détecter les changements de véhicules/bases",
+        "pl": "Wykrywaj zmiany pojazdów/baz"
       },
       "description": {
         "en": "Refreshes the menu automatically after vehicle/base changes. In v1.1 this used a repeated check and may cause stutters. Newer versions use game events.",
-        "de": "Aktualisiert das Menü automatisch nach Fahrzeug-/Basis-Änderungen. In v1.1 nutzte dies eine wiederholte Prüfung und konnte Ruckler verursachen. Neuere Versionen nutzen Spiel-Events."
+        "de": "Aktualisiert das Menü automatisch nach Fahrzeug-/Basis-Änderungen. In v1.1 nutzte dies eine wiederholte Prüfung und konnte Ruckler verursachen. Neuere Versionen nutzen Spiel-Events.",
+        "fr": "Actualise le menu automatiquement après des changements de véhicules/bases. En v1.1, cela utilisait une vérification répétée et pouvait causer des saccades. Les versions récentes utilisent les événements du jeu.",
+        "pl": "Automatycznie odświeża menu po zmianach pojazdów/baz. W v1.1 używało powtarzanych sprawdzeń i mogło powodować zacięcia. Nowsze wersje korzystają z wydarzeń gry."
       }
     },
     "ChangeRefreshDebounceSeconds": {
       "control": "number",
       "label": {
         "en": "Wait Before Refreshing Changes",
-        "de": "Wartezeit vor Aktualisierung"
+        "de": "Wartezeit vor Aktualisierung",
+        "fr": "Attente avant actualisation",
+        "pl": "Opóźnienie przed odświeżeniem"
       },
       "description": {
         "en": "After a change is detected, wait this many seconds before doing the full refresh.",
-        "de": "Wenn eine Änderung erkannt wurde, wartet die Mod so viele Sekunden bis zur vollständigen Aktualisierung."
+        "de": "Wenn eine Änderung erkannt wurde, wartet die Mod so viele Sekunden bis zur vollständigen Aktualisierung.",
+        "fr": "Après la détection d'un changement, attend ce nombre de secondes avant de faire l'actualisation complète.",
+        "pl": "Po wykryciu zmiany czeka tyle sekund przed pełnym odświeżeniem."
       }
     },
     "ChangeCheckIntervalSeconds": {
       "control": "number",
       "label": {
         "en": "Change Detection Interval (v1.1 only)",
-        "de": "Intervall für Änderungserkennung (nur v1.1)"
+        "de": "Intervall für Änderungserkennung (nur v1.1)",
+        "fr": "Intervalle de détection (v1.1 uniquement)",
+        "pl": "Interwał wykrywania (tylko v1.1)"
       },
       "description": {
         "en": "Old v1.1 setting for the repeated vehicle/base check. Newer versions remove this setting automatically.",
-        "de": "Alte v1.1-Einstellung für die wiederholte Fahrzeug-/Basis-Prüfung. Neuere Versionen entfernen diese Einstellung automatisch."
+        "de": "Alte v1.1-Einstellung für die wiederholte Fahrzeug-/Basis-Prüfung. Neuere Versionen entfernen diese Einstellung automatisch.",
+        "fr": "Ancienne option v1.1 pour la vérification répétée des véhicules/bases. Les versions récentes suppriment ce réglage automatiquement.",
+        "pl": "Stara opcja v1.1 do cyklicznego sprawdzania pojazdów/baz. Nowsze wersje usuwają to ustawienie automatycznie."
       }
     },
     "ShortcutAnchor": {
       "control": "choice",
       "label": {
         "en": "Screen Corner",
-        "de": "Bildschirmecke"
+        "de": "Bildschirmecke",
+        "fr": "Coin de l'écran",
+        "pl": "Róg ekranu"
       },
       "description": {
         "en": "Choose which screen corner the vehicle menu buttons are attached to.",
-        "de": "Legt fest, an welcher Bildschirmecke die Fahrzeugmenü-Buttons hängen."
+        "de": "Legt fest, an welcher Bildschirmecke die Fahrzeugmenü-Buttons hängen.",
+        "fr": "Choisit le coin de l'écran auquel les boutons du menu sont attachés.",
+        "pl": "Wybiera róg ekranu, do którego przyczepiają się przyciski menu."
       },
       "options": [
         {
           "value": "TopLeft",
           "label": {
             "en": "Up Left",
-            "de": "Oben links"
+            "de": "Oben links",
+            "fr": "Haut gauche",
+            "pl": "Góra lewo"
           }
         },
         {
           "value": "TopRight",
           "label": {
             "en": "Up Right",
-            "de": "Oben rechts"
+            "de": "Oben rechts",
+            "fr": "Haut droite",
+            "pl": "Góra prawo"
           }
         },
         {
           "value": "BottomLeft",
           "label": {
             "en": "Down Left",
-            "de": "Unten links"
+            "de": "Unten links",
+            "fr": "Bas gauche",
+            "pl": "Dół lewo"
           }
         },
         {
           "value": "BottomRight",
           "label": {
             "en": "Down Right",
-            "de": "Unten rechts"
+            "de": "Unten rechts",
+            "fr": "Bas droite",
+            "pl": "Dół prawo"
           }
         }
       ]
@@ -189,11 +241,15 @@
       "showValueField": true,
       "label": {
         "en": "Button Size",
-        "de": "Button-Größe"
+        "de": "Button-Größe",
+        "fr": "Taille des boutons",
+        "pl": "Rozmiar przycisków"
       },
       "description": {
         "en": "Changes the height of each vehicle menu button.",
-        "de": "Ändert die Höhe der Fahrzeugmenü-Buttons."
+        "de": "Ändert die Höhe der Fahrzeugmenü-Buttons.",
+        "fr": "Modifie la hauteur de chaque bouton du menu.",
+        "pl": "Zmienia wysokość każdego przycisku menu pojazdów."
       }
     },
     "ShortcutRightOffset": {
@@ -204,11 +260,15 @@
       "showValueField": true,
       "label": {
         "en": "Horizontal Offset",
-        "de": "Horizontaler Abstand"
+        "de": "Horizontaler Abstand",
+        "fr": "Décalage horizontal",
+        "pl": "Przesunięcie poziome"
       },
       "description": {
         "en": "Moves the vehicle menu buttons horizontally away from the selected corner.",
-        "de": "Verschiebt die Fahrzeugmenü-Buttons horizontal von der gewählten Ecke weg."
+        "de": "Verschiebt die Fahrzeugmenü-Buttons horizontal von der gewählten Ecke weg.",
+        "fr": "Déplace les boutons horizontalement depuis le coin sélectionné.",
+        "pl": "Przesuwa przyciski poziomo od wybranego rogu."
       }
     },
     "ShortcutBottomOffset": {
@@ -219,11 +279,15 @@
       "showValueField": true,
       "label": {
         "en": "Vertical Offset",
-        "de": "Vertikaler Abstand"
+        "de": "Vertikaler Abstand",
+        "fr": "Décalage vertical",
+        "pl": "Przesunięcie pionowe"
       },
       "description": {
         "en": "Moves the vehicle menu buttons vertically away from the selected corner.",
-        "de": "Verschiebt die Fahrzeugmenü-Buttons vertikal von der gewählten Ecke weg."
+        "de": "Verschiebt die Fahrzeugmenü-Buttons vertikal von der gewählten Ecke weg.",
+        "fr": "Déplace les boutons verticalement depuis le coin sélectionné.",
+        "pl": "Przesuwa przyciski pionowo od wybranego rogu."
       }
     },
     "ShortcutAspectRatio": {
@@ -234,66 +298,90 @@
       "showValueField": true,
       "label": {
         "en": "Button Width",
-        "de": "Button-Breite"
+        "de": "Button-Breite",
+        "fr": "Largeur des boutons",
+        "pl": "Szerokość przycisków"
       },
       "description": {
         "en": "Changes button width. Higher values make the vehicle image cards wider.",
-        "de": "Ändert die Breite der Buttons. Höhere Werte machen die Fahrzeugkarten breiter."
+        "de": "Ändert die Breite der Buttons. Höhere Werte machen die Fahrzeugkarten breiter.",
+        "fr": "Modifie la largeur des boutons. Des valeurs plus élevées rendent les cartes véhicules plus larges.",
+        "pl": "Zmienia szerokość przycisków. Wyższe wartości poszerzają karty pojazdów."
       }
     },
     "UseResolutionScaling": {
       "control": "toggle",
       "label": {
         "en": "Auto Scale by Resolution",
-        "de": "Automatisch nach Auflösung skalieren"
+        "de": "Automatisch nach Auflösung skalieren",
+        "fr": "Mise à l'échelle auto",
+        "pl": "Auto skalowanie"
       },
       "description": {
         "en": "Keeps the vehicle menu buttons visually similar across different screen resolutions.",
-        "de": "Sorgt dafür, dass die Fahrzeugmenü-Buttons bei verschiedenen Bildschirmauflösungen ähnlich aussehen."
+        "de": "Sorgt dafür, dass die Fahrzeugmenü-Buttons bei verschiedenen Bildschirmauflösungen ähnlich aussehen.",
+        "fr": "Garde les boutons du menu visuellement similaires sur différentes résolutions.",
+        "pl": "Utrzymuje podobny wygląd przycisków na różnych rozdzielczościach ekranu."
       }
     },
     "ShowDebugOverlay": {
       "control": "toggle",
       "label": {
         "en": "Debug Overlay",
-        "de": "Debug-Overlay"
+        "de": "Debug-Overlay",
+        "fr": "Overlay de débogage",
+        "pl": "Overlay diagnostyczny"
       },
       "description": {
         "en": "Show diagnostic scan information in the upper right corner.",
-        "de": "Zeigt Diagnose- und Scan-Infos oben rechts an."
+        "de": "Zeigt Diagnose- und Scan-Infos oben rechts an.",
+        "fr": "Affiche les informations de diagnostic en haut à droite.",
+        "pl": "Pokazuje informacje diagnostyczne w prawym górnym rogu."
       }
     },
     "ReloadConfigHotkey": {
       "control": "hotkey",
       "label": {
         "en": "Reload Hotkey",
-        "de": "Reload-Hotkey"
+        "de": "Reload-Hotkey",
+        "fr": "Hotkey rechargement",
+        "pl": "Skrót przeładowania"
       },
       "description": {
         "en": "Optional hotkey to reload config, icons, and the base cache while in-game. Leave empty to disable.",
-        "de": "Optionaler Hotkey, um Config, Icons und den Basis-Cache im Spiel neu zu laden. Leer lassen zum Deaktivieren."
+        "de": "Optionaler Hotkey, um Config, Icons und den Basis-Cache im Spiel neu zu laden. Leer lassen zum Deaktivieren.",
+        "fr": "Hotkey optionnel pour recharger la config, les icônes et le cache en jeu. Laisse vide pour désactiver.",
+        "pl": "Opcjonalny skrót do przeładowania konfiguracji, ikon i cache w grze. Zostaw puste, żeby wyłączyć."
       }
     },
     "EnableMenuResearchLogging": {
       "control": "toggle",
       "label": {
         "en": "Menu Research Logging",
-        "de": "Menüsuche protokollieren"
+        "de": "Menüsuche protokollieren",
+        "fr": "Log recherche menu",
+        "pl": "Log analizy menu"
       },
       "description": {
         "en": "Log original vehicle menu discovery details. Only useful for mod development.",
-        "de": "Protokolliert Details zur Analyse des originalen Fahrzeugmenüs. Nur für die Mod-Entwicklung sinnvoll."
+        "de": "Protokolliert Details zur Analyse des originalen Fahrzeugmenüs. Nur für die Mod-Entwicklung sinnvoll.",
+        "fr": "Log les détails de découverte du menu original. Utile uniquement pour le développement de mods.",
+        "pl": "Loguje szczegóły analizy oryginalnego menu. Przydatne tylko przy tworzeniu modów."
       }
     },
     "TraceVehicleOverviewMethods": {
       "control": "toggle",
       "label": {
         "en": "Vehicle Menu Method Trace",
-        "de": "Methodenaufrufe im Fahrzeugmenü"
+        "de": "Methodenaufrufe im Fahrzeugmenü",
+        "fr": "Trace méthodes menu",
+        "pl": "Śledzenie metod menu"
       },
       "description": {
         "en": "Log original VehicleOverview methods. Only useful for mod development.",
-        "de": "Protokolliert die originalen VehicleOverview-Methoden. Nur für die Mod-Entwicklung sinnvoll."
+        "de": "Protokolliert die originalen VehicleOverview-Methoden. Nur für die Mod-Entwicklung sinnvoll.",
+        "fr": "Log les méthodes VehicleOverview originales. Utile uniquement pour le développement de mods.",
+        "pl": "Loguje oryginalne metody VehicleOverview. Przydatne tylko przy tworzeniu modów."
       }
     }
   }

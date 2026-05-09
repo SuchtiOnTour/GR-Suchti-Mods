@@ -2,7 +2,9 @@
   "displayName": "More Tiles",
   "devMessage": {
     "en": "Patch v1.0.1 restored More Tiles compatibility with the latest game update.\nPlease update if the map expansion tile limit no longer applies correctly.",
-    "de": "Patch v1.0.1 stellt die More Tiles Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Kartenfeld-Limit nicht mehr korrekt angewendet wird."
+    "de": "Patch v1.0.1 stellt die More Tiles Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Kartenfeld-Limit nicht mehr korrekt angewendet wird.",
+    "fr": "Le patch v1.0.1 a restauré la compatibilité de More Tiles avec la dernière mise à jour du jeu.\nMets à jour si la limite de cases de la carte ne s'applique plus correctement.",
+    "pl": "Patch v1.0.1 przywrócił zgodność More Tiles z najnowszą aktualizacją gry.\nZaktualizuj, jeśli limit pól mapy nie działa już poprawnie."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
@@ -13,44 +15,60 @@
       "control": "toggle",
       "label": {
         "en": "Enable More Tiles",
-        "de": "More Tiles aktivieren"
+        "de": "More Tiles aktivieren",
+        "fr": "Activer More Tiles",
+        "pl": "Włącz More Tiles"
       },
       "description": {
         "en": "Enable more unlockable map tiles.",
-        "de": "Schaltet zusätzliche freischaltbare Kartenfelder frei."
+        "de": "Schaltet zusätzliche freischaltbare Kartenfelder frei.",
+        "fr": "Active des cases de carte supplémentaires à débloquer.",
+        "pl": "Odblokuj dodatkowe pola na mapie."
       }
     },
     "MaxTotalTiles": {
       "control": "number",
       "label": {
         "en": "Max Map Tiles",
-        "de": "Max. Kartenfelder"
+        "de": "Max. Kartenfelder",
+        "fr": "Cases max. sur la carte",
+        "pl": "Maks. pól na mapie"
       },
       "description": {
         "en": "Maximum map tiles in total. Requires reloading the savegame.",
-        "de": "Maximale Gesamtanzahl an Kartenfeldern. Erfordert ein Neuladen des Spielstands."
+        "de": "Maximale Gesamtanzahl an Kartenfeldern. Erfordert ein Neuladen des Spielstands.",
+        "fr": "Nombre maximum de cases sur la carte au total. Nécessite de recharger la sauvegarde.",
+        "pl": "Maksymalna łączna liczba pól mapy. Wymaga ponownego załadowania zapisu."
       }
     },
     "ResearchPointStepCost": {
       "control": "number",
       "label": {
         "en": "Research Cost Step",
-        "de": "Forschungskosten pro Feld"
+        "de": "Forschungskosten pro Feld",
+        "fr": "Coût de recherche par étape",
+        "pl": "Koszt badań na krok"
       },
       "description": {
         "en": "Research point cost added per map tile step. Already bought tiles count into the next price. Example with step 10: tile 1 = 10, tile 2 = 20, tile 3 = 30.",
-        "de": "Forschungskosten, die pro Kartenfeld dazukommen. Bereits gekaufte Felder zählen in den nächsten Preis hinein. Beispiel bei Wert 10: Feld 1 = 10, Feld 2 = 20, Feld 3 = 30."
+        "de": "Forschungskosten, die pro Kartenfeld dazukommen. Bereits gekaufte Felder zählen in den nächsten Preis hinein. Beispiel bei Wert 10: Feld 1 = 10, Feld 2 = 20, Feld 3 = 30.",
+        "fr": "Points de recherche ajoutés par étape de case. Les cases déjà achetées comptent dans le prochain prix. Exemple avec étape 10 : case 1 = 10, case 2 = 20, case 3 = 30.",
+        "pl": "Koszt punktów badań za każde pole. Już kupione pola wliczają się w kolejną cenę. Przykład przy wartości 10: pole 1 = 10, pole 2 = 20, pole 3 = 30."
       }
     },
     "VerboseLogging": {
       "control": "toggle",
       "label": {
         "en": "Verbose Logging",
-        "de": "Ausführliches Logging"
+        "de": "Ausführliches Logging",
+        "fr": "Logs détaillés",
+        "pl": "Szczegółowe logi"
       },
       "description": {
         "en": "Extra logs for troubleshooting.",
-        "de": "Zusätzliche Logs für die Fehlersuche."
+        "de": "Zusätzliche Logs für die Fehlersuche.",
+        "fr": "Logs supplémentaires pour le débogage.",
+        "pl": "Dodatkowe logi do diagnozowania problemów."
       }
     }
   }

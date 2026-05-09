@@ -2,7 +2,9 @@
   "displayName": "Less Micro",
   "devMessage": {
   "en": "Patch Notes v1.2:\n\n- Added partial assignment fallback for missions with missing unit counts\n- Improved vehicle and staff auto-assignment reliability\n- Improved follow-up task and choice/decision handling\n- Fixed Performance config values not applying correctly\n- Reduced log noise and improved debug overlay messages\n- Removed the old experimental learning system, because it is no longer needed\n\nDev Message:\nThis update is the result of two days of intensive testing and should make the automation much more stable in most missions. Please report any remaining edge cases or missions that still need manual interaction.",
-  "de": "Patch Notes v1.2:\n\n- Neuer Partial-Assignment-Fallback bei Missionen mit fehlender Fahrzeuganzahl\n- Zuverlässigere automatische Fahrzeug- und Personalzuweisung\n- Besseres Handling von Folgeaufgaben und Choice/Decision-Aufgaben\n- Performance-Config-Werte funktionieren jetzt korrekt\n- Weniger Log-Rauschen und verständlichere Debug-Overlay-Meldungen\n- Das alte experimentelle Learning-System wurde entfernt, da es nicht mehr benötigt wird\n\nDev Message:\nDieses Update ist das Ergebnis von zwei Tagen intensivem Testen und sollte die Automatisierung in den meisten Missionen deutlich stabiler machen. Bitte meldet weiterhin Edge Cases oder Missionen, die noch manuelle Eingriffe brauchen."
+  "de": "Patch Notes v1.2:\n\n- Neuer Partial-Assignment-Fallback bei Missionen mit fehlender Fahrzeuganzahl\n- Zuverlässigere automatische Fahrzeug- und Personalzuweisung\n- Besseres Handling von Folgeaufgaben und Choice/Decision-Aufgaben\n- Performance-Config-Werte funktionieren jetzt korrekt\n- Weniger Log-Rauschen und verständlichere Debug-Overlay-Meldungen\n- Das alte experimentelle Learning-System wurde entfernt, da es nicht mehr benötigt wird\n\nDev Message:\nDieses Update ist das Ergebnis von zwei Tagen intensivem Testen und sollte die Automatisierung in den meisten Missionen deutlich stabiler machen. Bitte meldet weiterhin Edge Cases oder Missionen, die noch manuelle Eingriffe brauchen.",
+  "fr": "Notes v1.2 :\n\n- Fallback partiel pour les missions sans nombre d'unités défini\n- Meilleure fiabilité de l'attribution automatique des véhicules et du personnel\n- Meilleure gestion des tâches de suivi et des choix/décisions\n- Correction des valeurs de config Performance\n- Moins de bruit dans les logs, messages debug améliorés\n- Ancien système d'apprentissage supprimé, il n'est plus nécessaire\n\nMessage dev :\nCe patch est le résultat de deux jours de tests intensifs. L'automatisation devrait être bien plus stable dans la plupart des missions. Signale tout cas particulier ou mission nécessitant encore une intervention manuelle.",
+  "pl": "Patch Notes v1.2:\n\n- Częściowy fallback dla misji bez określonej liczby jednostek\n- Bardziej niezawodne automatyczne przydzielanie pojazdów i personelu\n- Lepsze obsługiwanie zadań następczych i wyborów/decyzji\n- Poprawione wartości konfiguracji Performance\n- Mniej szumu w logach, czytelniejsze komunikaty debug\n- Usunięto stary eksperymentalny system uczenia — nie jest już potrzebny\n\nWiadomość od twórcy:\nTen patch to wynik dwóch dni intensywnych testów i powinien sprawić, że automatyzacja będzie znacznie stabilniejsza w większości misji. Zgłaszaj wszelkie wyjątkowe przypadki lub misje wymagające jeszcze ręcznej interwencji."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
@@ -18,7 +20,9 @@
       "title": "Timers",
       "description": {
         "en": "Change mission and task time limits. Original game value is 1x; mod default is 2x.",
-        "de": "Ändert die Zeitlimits für Missionen und Aufgaben. Der Originalwert ist 1x, der Mod-Standard 2x."
+        "de": "Ändert die Zeitlimits für Missionen und Aufgaben. Der Originalwert ist 1x, der Mod-Standard 2x.",
+        "fr": "Modifie les limites de temps des missions et tâches. Valeur originale : 1x, défaut du mod : 2x.",
+        "pl": "Zmienia limity czasu misji i zadań. Wartość oryginalna: 1x, domyślna moda: 2x."
       }
     },
     {
@@ -27,11 +31,15 @@
       "before": "AutomationMoneyCost",
       "title": {
         "en": "Research Cost",
-        "de": "Forschungskosten"
+        "de": "Forschungskosten",
+        "fr": "Coût de recherche",
+        "pl": "Koszt badań"
       },
       "description": {
         "en": "Change the money and research point cost for unlocking LessMicro automation.",
-        "de": "Ändert die Geld- und Forschungspunkt-Kosten zum Freischalten der LessMicro-Automatisierung."
+        "de": "Ändert die Geld- und Forschungspunkt-Kosten zum Freischalten der LessMicro-Automatisierung.",
+        "fr": "Modifie le coût en argent et en points de recherche pour débloquer l'automatisation LessMicro.",
+        "pl": "Zmienia koszt pieniędzy i punktów badań za odblokowanie automatyzacji LessMicro."
       }
     },
     {
@@ -40,11 +48,15 @@
       "before": "EnableAssignmentLearning",
       "title": {
         "en": "Legacy Learning",
-        "de": "Altes Learning"
+        "de": "Altes Learning",
+        "fr": "Ancien apprentissage",
+        "pl": "Stary system uczenia"
       },
       "description": {
         "en": "Old v1.1 settings kept for compatibility. The learning system is no longer used in v1.2.",
-        "de": "Alte v1.1-Einstellungen, die aus Kompatibilitätsgründen erhalten bleiben. Das Learning-System wird in v1.2 nicht mehr verwendet."
+        "de": "Alte v1.1-Einstellungen, die aus Kompatibilitätsgründen erhalten bleiben. Das Learning-System wird in v1.2 nicht mehr verwendet.",
+        "fr": "Anciens réglages v1.1 conservés pour la compatibilité. Le système d'apprentissage n'est plus utilisé en v1.2.",
+        "pl": "Stare ustawienia v1.1 zachowane dla zgodności. System uczenia nie jest już używany w v1.2."
       }
     }
   ],
@@ -53,241 +65,329 @@
       "control": "toggle",
       "label": {
         "en": "Enable LessMicro Automation",
-        "de": "LessMicro-Automatisierung aktivieren"
+        "de": "LessMicro-Automatisierung aktivieren",
+        "fr": "Activer l'automatisation",
+        "pl": "Włącz automatyzację"
       },
       "description": {
         "en": "Automatically handle supported low-interaction mission tasks after the required automation research is unlocked.",
-        "de": "Übernimmt unterstützte Missionsaufgaben mit wenig Mikroaufwand automatisch, sobald die passende Automatisierungsforschung freigeschaltet ist."
+        "de": "Übernimmt unterstützte Missionsaufgaben mit wenig Mikroaufwand automatisch, sobald die passende Automatisierungsforschung freigeschaltet ist.",
+        "fr": "Gère automatiquement les tâches de mission supportées une fois la recherche d'automatisation débloquée.",
+        "pl": "Automatycznie obsługuje wspierane zadania misji po odblokowaniu wymaganego badania automatyzacji."
       }
     },
     "ExtendMissionTimers": {
       "control": "toggle",
       "label": {
         "en": "Extend Mission Timers",
-        "de": "Missionstimer verlängern"
+        "de": "Missionstimer verlängern",
+        "fr": "Prolonger les timers",
+        "pl": "Wydłuż timery misji"
       },
       "description": {
         "en": "Increase mission and task timers once when they become active.",
-        "de": "Erhöht Missions- und Aufgabentimer einmalig, sobald sie aktiv werden."
+        "de": "Erhöht Missions- und Aufgabentimer einmalig, sobald sie aktiv werden.",
+        "fr": "Augmente les timers de mission et de tâche une fois lors de leur activation.",
+        "pl": "Jednorazowo zwiększa timery misji i zadań przy ich aktywacji."
       }
     },
     "MissionTimerMultiplier": {
       "control": "number",
       "label": {
         "en": "Timer Multiplier",
-        "de": "Timer-Multiplikator"
+        "de": "Timer-Multiplikator",
+        "fr": "Multiplicateur de timer",
+        "pl": "Mnożnik timera"
       },
       "description": {
         "en": "Multiplies active mission/task timers. Original game value is 1x; mod default is 2x.",
-        "de": "Multipliziert aktive Missions- und Aufgabentimer. Der Originalwert ist 1x, der Mod-Standard 2x."
+        "de": "Multipliziert aktive Missions- und Aufgabentimer. Der Originalwert ist 1x, der Mod-Standard 2x.",
+        "fr": "Multiplie les timers de mission/tâche actifs. Valeur originale : 1x, défaut du mod : 2x.",
+        "pl": "Mnoży aktywne timery misji i zadań. Wartość oryginalna: 1x, domyślna moda: 2x."
       }
     },
     "AutomationMoneyCost": {
       "control": "number",
       "label": {
         "en": "Automation Money Cost",
-        "de": "Geldkosten für Automatisierung"
+        "de": "Geldkosten für Automatisierung",
+        "fr": "Coût argent automatisation",
+        "pl": "Koszt pieniędzy za auto."
       },
       "description": {
         "en": "Money cost for each department automation research.",
-        "de": "Geldkosten für die Automatisierungsforschung jeder Abteilung."
+        "de": "Geldkosten für die Automatisierungsforschung jeder Abteilung.",
+        "fr": "Coût en argent pour la recherche d'automatisation de chaque département.",
+        "pl": "Koszt pieniędzy za badanie automatyzacji każdego działu."
       }
     },
     "AutomationResearchPointCost": {
       "control": "number",
       "label": {
         "en": "Automation Research Point Cost",
-        "de": "Forschungskosten für Automatisierung"
+        "de": "Forschungskosten für Automatisierung",
+        "fr": "Points de recherche auto.",
+        "pl": "Punkty badań za auto."
       },
       "description": {
         "en": "Research point cost for each department automation research.",
-        "de": "Forschungskosten für die Automatisierungsforschung jeder Abteilung."
+        "de": "Forschungskosten für die Automatisierungsforschung jeder Abteilung.",
+        "fr": "Coût en points de recherche pour l'automatisation de chaque département.",
+        "pl": "Koszt punktów badań za automatyzację każdego działu."
       }
     },
     "EnableAssignmentLearning": {
       "control": "toggle",
       "label": {
         "en": "Assignment Learning",
-        "de": "Zuweisungen lernen"
+        "de": "Zuweisungen lernen",
+        "fr": "Apprentissage",
+        "pl": "Uczenie przydziałów"
       },
       "description": {
         "en": "Legacy v1.1 option. The learning system is no longer used in v1.2.",
-        "de": "Alte v1.1-Option. Das Learning-System wird in v1.2 nicht mehr verwendet."
+        "de": "Alte v1.1-Option. Das Learning-System wird in v1.2 nicht mehr verwendet.",
+        "fr": "Option ancienne v1.1. Le système d'apprentissage n'est plus utilisé en v1.2.",
+        "pl": "Stara opcja v1.1. System uczenia nie jest już używany w v1.2."
       }
     },
     "AssignmentLearningConfirmSeconds": {
       "control": "number",
       "label": {
         "en": "Learning Confirm Delay",
-        "de": "Verzögerung fürs Lernen"
+        "de": "Verzögerung fürs Lernen",
+        "fr": "Délai confirmation",
+        "pl": "Opóźnienie potwierdzenia"
       },
       "description": {
         "en": "Legacy v1.1 option. The learning system is no longer used in v1.2.",
-        "de": "Alte v1.1-Option. Das Learning-System wird in v1.2 nicht mehr verwendet."
+        "de": "Alte v1.1-Option. Das Learning-System wird in v1.2 nicht mehr verwendet.",
+        "fr": "Option ancienne v1.1. Le système d'apprentissage n'est plus utilisé en v1.2.",
+        "pl": "Stara opcja v1.1. System uczenia nie jest już używany w v1.2."
       }
     },
     "LearnedAssignmentRules": {
       "label": {
         "en": "Learned Assignment Rules",
-        "de": "Gelernte Zuweisungsregeln"
+        "de": "Gelernte Zuweisungsregeln",
+        "fr": "Règles apprises",
+        "pl": "Wyuczone reguły"
       },
       "description": {
         "en": "Legacy v1.1 data. Not used by v1.2.",
-        "de": "Alte v1.1-Daten. Werden von v1.2 nicht mehr verwendet."
+        "de": "Alte v1.1-Daten. Werden von v1.2 nicht mehr verwendet.",
+        "fr": "Données anciennes v1.1. Non utilisées en v1.2.",
+        "pl": "Stare dane v1.1. Nieużywane w v1.2."
       }
     },
     "AssignmentSweepIntervalSeconds": {
       "control": "number",
       "label": {
         "en": "Fallback Check Interval (mostly unused)",
-        "de": "Fallback-Prüfintervall (meist ungenutzt)"
+        "de": "Fallback-Prüfintervall (meist ungenutzt)",
+        "fr": "Intervalle fallback (rarement utile)",
+        "pl": "Interwał fallback (rzadko używany)"
       },
       "description": {
-        "en": "Backup check if event-based assignment misses something. Rarely used because game events usually handle it already.",
-        "de": "Backup-Prüfung, falls die Event-Zuweisung etwas verpasst. Kommt selten zum Einsatz, da Game-Events das meist bereits abdecken."
+        "en": "Backup check if event-based assignment misses something. Usually has little effect.",
+        "de": "Backup-Prüfung, falls die Event-Zuweisung etwas verpasst. Hat meist wenig Einfluss.",
+        "fr": "Vérification de secours si l'attribution par événement rate quelque chose. Peu d'effet en général.",
+        "pl": "Awaryjne sprawdzenie na wypadek, gdyby przydział oparty na zdarzeniach coś pominął. Zwykle ma mały wpływ."
       }
     },
     "AssignmentBackoffSeconds": {
       "control": "number",
       "label": {
         "en": "Blocked Assignment Backoff",
-        "de": "Wartezeit bei blockierter Zuweisung"
+        "de": "Wartezeit bei blockierter Zuweisung",
+        "fr": "Attente si blocage",
+        "pl": "Czekaj przy blokowaniu"
       },
       "description": {
         "en": "Seconds before retrying the same blocked task/vehicle assignment.",
-        "de": "Sekunden, bevor dieselbe blockierte Aufgaben- oder Fahrzeugzuweisung erneut versucht wird."
+        "de": "Sekunden, bevor dieselbe blockierte Aufgaben- oder Fahrzeugzuweisung erneut versucht wird.",
+        "fr": "Secondes avant de réessayer la même attribution bloquée.",
+        "pl": "Sekundy przed ponowną próbą zablokowanego przydziału zadania lub pojazdu."
       }
     },
     "FollowupAssignmentDelaySeconds": {
       "control": "number",
       "label": {
         "en": "Staff Assignment Delay",
-        "de": "Verzögerung für Mitarbeiter-Zuweisung"
+        "de": "Verzögerung für Mitarbeiter-Zuweisung",
+        "fr": "Délai attribution personnel",
+        "pl": "Opóźnienie przydziału personelu"
       },
       "description": {
         "en": "Delay before assigning staff to a task when the vehicle is already at the mission. Helps the game/UI state settle before employees start working.",
-        "de": "Verzögerung, bevor Mitarbeiter einem Task zugewiesen werden, wenn das Fahrzeug bereits an der Mission ist. Hilft, damit sich Spiel/UI vorher aktualisieren können."
+        "de": "Verzögerung, bevor Mitarbeiter einem Task zugewiesen werden, wenn das Fahrzeug bereits an der Mission ist. Hilft, damit sich Spiel/UI vorher aktualisieren können.",
+        "fr": "Délai avant d'attribuer le personnel quand le véhicule est déjà sur place. Laisse le temps au jeu de se stabiliser.",
+        "pl": "Opóźnienie przed przydziałem personelu, gdy pojazd jest już na miejscu. Daje grze czas na ustabilizowanie stanu."
       }
     },
     "FollowupAssignmentJitterSeconds": {
       "control": "number",
       "label": {
         "en": "Follow-Up Delay Jitter",
-        "de": "Streuung der Folgeverzögerung"
+        "de": "Streuung der Folgeverzögerung",
+        "fr": "Variation délai suivi",
+        "pl": "Losowość opóźnienia"
       },
       "description": {
         "en": "Small stable delay variation to avoid many assignments firing in the same frame.",
-        "de": "Kleine feste Verzögerungsstreuung, damit nicht viele Zuweisungen im selben Frame ausgelöst werden."
+        "de": "Kleine feste Verzögerungsstreuung, damit nicht viele Zuweisungen im selben Frame ausgelöst werden.",
+        "fr": "Légère variation du délai pour éviter plusieurs attributions simultanées.",
+        "pl": "Małe stałe odchylenie opóźnienia, żeby wiele przydziałów nie uruchamiało się w tej samej klatce."
       }
     },
     "ArrivalAssignmentDelaySeconds": {
       "control": "number",
       "label": {
         "en": "Assignment Delay After Arrival",
-        "de": "Zuweisungsverzögerung nach Ankunft"
+        "de": "Zuweisungsverzögerung nach Ankunft",
+        "fr": "Délai après arrivée",
+        "pl": "Opóźnienie po przyjeździe"
       },
       "description": {
         "en": "Delay before assigning tasks after the first vehicle arrives.",
-        "de": "Verzögerung, bevor Aufgaben zugewiesen werden, nachdem das erste Fahrzeug angekommen ist."
+        "de": "Verzögerung, bevor Aufgaben zugewiesen werden, nachdem das erste Fahrzeug angekommen ist.",
+        "fr": "Délai avant d'attribuer les tâches après l'arrivée du premier véhicule.",
+        "pl": "Opóźnienie przed przydziałem zadań po przyjeździe pierwszego pojazdu."
       }
     },
     "TaskSwitchAssignmentDelaySeconds": {
       "control": "number",
       "label": {
         "en": "Next Task Assignment Delay",
-        "de": "Zuweisungsverzögerung für nächste Aufgabe"
+        "de": "Zuweisungsverzögerung für nächste Aufgabe",
+        "fr": "Délai tâche suivante",
+        "pl": "Opóźnienie następnego zadania"
       },
       "description": {
         "en": "Delay before assigning the next task after a mission task completes.",
-        "de": "Verzögerung, bevor die nächste Aufgabe nach Abschluss einer Missionsaufgabe zugewiesen wird."
+        "de": "Verzögerung, bevor die nächste Aufgabe nach Abschluss einer Missionsaufgabe zugewiesen wird.",
+        "fr": "Délai avant d'attribuer la tâche suivante après qu'une tâche de mission est terminée.",
+        "pl": "Opóźnienie przed przydziałem kolejnego zadania po zakończeniu poprzedniego."
       }
     },
     "MissionReassignCooldownSeconds": {
       "control": "number",
       "label": {
         "en": "Mission Reassign Cooldown",
-        "de": "Cooldown für neue Missionszuweisungen"
+        "de": "Cooldown für neue Missionszuweisungen",
+        "fr": "Cooldown réattribution",
+        "pl": "Cooldown ponownego przydziału"
       },
       "description": {
         "en": "Minimum seconds between assignment bursts for the same mission.",
-        "de": "Mindestanzahl an Sekunden zwischen Zuweisungsschüben für dieselbe Mission."
+        "de": "Mindestanzahl an Sekunden zwischen Zuweisungsschüben für dieselbe Mission.",
+        "fr": "Secondes minimum entre deux vagues d'attribution pour la même mission.",
+        "pl": "Minimalna liczba sekund między kolejnymi falami przydziałów dla tej samej misji."
       }
     },
     "AutoAssignmentConfirmSeconds": {
       "control": "number",
       "label": {
         "en": "Auto Assignment Confirm Delay",
-        "de": "Verzögerung für Auto-Zuweisungen"
+        "de": "Verzögerung für Auto-Zuweisungen",
+        "fr": "Délai confirmation auto",
+        "pl": "Opóźnienie potwierdzenia auto"
       },
       "description": {
         "en": "Seconds to wait before confirming whether an automatic assignment was accepted.",
-        "de": "Sekunden, die gewartet werden, bevor geprüft wird, ob eine automatische Zuweisung angenommen wurde."
+        "de": "Sekunden, die gewartet werden, bevor geprüft wird, ob eine automatische Zuweisung angenommen wurde.",
+        "fr": "Secondes à attendre avant de vérifier si une attribution automatique a été acceptée.",
+        "pl": "Sekundy oczekiwania przed sprawdzeniem, czy automatyczny przydział został przyjęty."
       }
     },
     "MaxVehiclesPerMissionAssignPass": {
       "control": "number",
       "label": {
         "en": "Max Vehicles per Assignment Pass",
-        "de": "Max. Fahrzeuge pro Zuweisungsdurchlauf"
+        "de": "Max. Fahrzeuge pro Zuweisungsdurchlauf",
+        "fr": "Max véhicules par passe",
+        "pl": "Maks. pojazdów na przebieg"
       },
       "description": {
         "en": "Maximum vehicles scanned during one mission assignment pass. Lower values can reduce lag.",
-        "de": "Maximale Anzahl an Fahrzeugen, die in einem Missionszuweisungsdurchlauf geprüft werden. Niedrigere Werte können Lags verringern."
+        "de": "Maximale Anzahl an Fahrzeugen, die in einem Missionszuweisungsdurchlauf geprüft werden. Niedrigere Werte können Lags verringern.",
+        "fr": "Nombre max de véhicules vérifiés par passe d'attribution. Des valeurs basses réduisent les lags.",
+        "pl": "Maksymalna liczba pojazdów sprawdzanych w jednym przebiegu przydziałów. Niższe wartości mogą zmniejszyć lagi."
       }
     },
     "MaxMissionTasksPerSweep": {
       "control": "number",
       "label": {
         "en": "Max Tasks per Sweep",
-        "de": "Max. Aufgaben pro Durchlauf"
+        "de": "Max. Aufgaben pro Durchlauf",
+        "fr": "Max tâches par balayage",
+        "pl": "Maks. zadań na skan"
       },
       "description": {
         "en": "Maximum open mission tasks processed during each fallback sweep.",
-        "de": "Maximale Anzahl offener Missionsaufgaben, die pro Fallback-Durchlauf verarbeitet werden."
+        "de": "Maximale Anzahl offener Missionsaufgaben, die pro Fallback-Durchlauf verarbeitet werden.",
+        "fr": "Nombre max de tâches ouvertes traitées à chaque balayage fallback.",
+        "pl": "Maksymalna liczba otwartych zadań misji przetwarzanych w każdym przebiegu fallback."
       }
     },
     "EnableVerboseLogging": {
       "control": "toggle",
       "label": {
         "en": "Verbose Logging",
-        "de": "Ausführliches Logging"
+        "de": "Ausführliches Logging",
+        "fr": "Logs détaillés",
+        "pl": "Szczegółowe logi"
       },
       "description": {
         "en": "Write detailed debug traces to BepInEx/LogOutput.log.",
-        "de": "Schreibt detaillierte Debug-Ausgaben in BepInEx/LogOutput.log."
+        "de": "Schreibt detaillierte Debug-Ausgaben in BepInEx/LogOutput.log.",
+        "fr": "Écrit les traces de débogage dans BepInEx/LogOutput.log.",
+        "pl": "Zapisuje szczegółowe ślady debugowania do BepInEx/LogOutput.log."
       }
     },
     "ShowDebugOverlay": {
       "control": "toggle",
       "label": {
         "en": "Debug Overlay",
-        "de": "Debug-Overlay"
+        "de": "Debug-Overlay",
+        "fr": "Overlay de débogage",
+        "pl": "Overlay diagnostyczny"
       },
       "description": {
         "en": "Show recent LessMicro debug messages in-game.",
-        "de": "Zeigt aktuelle LessMicro-Debugmeldungen im Spiel an."
+        "de": "Zeigt aktuelle LessMicro-Debugmeldungen im Spiel an.",
+        "fr": "Affiche les derniers messages de débogage LessMicro en jeu.",
+        "pl": "Pokazuje ostatnie komunikaty debugowania LessMicro w grze."
       }
     },
     "EnableVehicleStateDiagnostics": {
       "control": "toggle",
       "label": {
         "en": "Vehicle State Diagnostics",
-        "de": "Fahrzeugstatus-Diagnose"
+        "de": "Fahrzeugstatus-Diagnose",
+        "fr": "Diagnostics véhicules",
+        "pl": "Diagnostyka pojazdów"
       },
       "description": {
         "en": "Write vehicle state snapshots for assignment debugging. Keep disabled for normal play.",
-        "de": "Schreibt Fahrzeugstatus-Snapshots für die Fehlersuche bei Zuweisungen. Für normales Spielen deaktiviert lassen."
+        "de": "Schreibt Fahrzeugstatus-Snapshots für die Fehlersuche bei Zuweisungen. Für normales Spielen deaktiviert lassen.",
+        "fr": "Enregistre des snapshots d'état des véhicules pour le débogage. Laisse désactivé en jeu normal.",
+        "pl": "Zapisuje snapshoty stanu pojazdów do debugowania przydziałów. Zostaw wyłączone podczas normalnej gry."
       }
     },
     "EnableAssignmentDiagnostics": {
       "control": "toggle",
       "label": {
         "en": "Assignment Diagnostics",
-        "de": "Zuweisungs-Diagnose"
+        "de": "Zuweisungs-Diagnose",
+        "fr": "Diagnostics attribution",
+        "pl": "Diagnostyka przydziałów"
       },
       "description": {
         "en": "Write throttled assignment decision diagnostics. Disable after investigating issues.",
-        "de": "Schreibt gedrosselte Diagnoseausgaben zu Zuweisungsentscheidungen. Nach der Fehlersuche wieder ausschalten."
+        "de": "Schreibt gedrosselte Diagnoseausgaben zu Zuweisungsentscheidungen. Nach der Fehlersuche wieder ausschalten.",
+        "fr": "Enregistre les décisions d'attribution pour le débogage. Désactive après avoir résolu le problème.",
+        "pl": "Zapisuje decyzje przydziałów do debugowania. Wyłącz po zakończeniu diagnozowania."
       }
     }
   }
