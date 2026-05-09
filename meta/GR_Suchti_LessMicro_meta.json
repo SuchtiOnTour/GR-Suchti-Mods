@@ -1,8 +1,8 @@
 {
   "displayName": "Less Micro",
   "devMessage": {
-  "en": "DevLog 08.05.26:\n\nNEWS about v1.2!\nI've been working really hard on the new update for the last 2 days and it's looking really good so far.\nVehicle mission recognition is now working much better and most UI bugs are gone.\n\nIf everything goes well I hope I can release the update tomorrow!",
-  "de": "DevLog 08.05.26:\n\nNEWS zu v1.2!\nIch arbeite seit 2 Tagen intensiv am neuen Update und bisher sieht alles wirklich gut aus.\nDie Fahrzeug-Missionserkennung funktioniert jetzt deutlich besser und die meisten UI-Bugs sind verschwunden.\n\nWenn alles gut läuft hoffe ich das Update morgen veröffentlichen zu können!"
+  "en": "Patch Notes v1.2:\n\n- Added partial assignment fallback for missions with missing unit counts\n- Improved vehicle and staff auto-assignment reliability\n- Improved follow-up task and choice/decision handling\n- Fixed Performance config values not applying correctly\n- Reduced log noise and improved debug overlay messages\n\nDev Message:\nThis update is the result of two days of intensive testing and should make the automation much more stable in most missions. Please report any remaining edge cases or missions that still need manual interaction.",
+  "de": "Patch Notes v1.2:\n\n- Neuer Partial-Assignment-Fallback bei Missionen mit fehlender Fahrzeuganzahl\n- Zuverlässigere automatische Fahrzeug- und Personalzuweisung\n- Besseres Handling von Folgeaufgaben und Choice/Decision-Aufgaben\n- Performance-Config-Werte funktionieren jetzt korrekt\n- Weniger Log-Rauschen und verständlichere Debug-Overlay-Meldungen\n\nDev Message:\nDieses Update ist das Ergebnis von zwei Tagen intensivem Testen und sollte die Automatisierung in den meisten Missionen deutlich stabiler machen. Bitte meldet weiterhin Edge Cases oder Missionen, die noch manuelle Eingriffe brauchen."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
