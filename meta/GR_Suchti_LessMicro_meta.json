@@ -143,8 +143,8 @@
         "de": "Fallback-Prüfintervall (meist ungenutzt)"
       },
       "description": {
-        "en": "Backup interval for the rare case that event-based assignment misses something. Most assignments happen immediately through game events, so this setting usually has little effect.",
-        "de": "Backup-Intervall für den seltenen Fall, dass die eventbasierte Zuweisung etwas verpasst. Die meisten Zuweisungen passieren direkt über Spiel-Events, daher hat diese Einstellung meistens wenig Einfluss."
+        "en": "Backup check if event-based assignment misses something. Rarely used because game events usually handle it already.",
+        "de": "Backup-Prüfung, falls die Event-Zuweisung etwas verpasst. Kommt selten zum Einsatz, da Game-Events das meist bereits abdecken."
       }
     },
     "AssignmentBackoffSeconds": {
