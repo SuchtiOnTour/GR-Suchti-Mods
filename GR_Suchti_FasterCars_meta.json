@@ -1,0 +1,64 @@
+{
+  "displayName": "Faster Cars",
+  "sections": [
+    { "id": "Speed", "label": "Speed", "order": 0 },
+    { "id": "General", "label": "General", "order": 10 },
+    { "id": "Debug", "label": "Debug", "order": 1000 }
+  ],
+  "settings": {
+    "Enabled": {
+      "control": "toggle",
+      "label": {
+        "en": "Enable Mod",
+        "de": "Mod aktivieren"
+      },
+      "description": {
+        "en": "Enable or disable Faster Cars completely.",
+        "de": "Aktiviert oder deaktiviert Faster Cars komplett."
+      }
+    },
+    "MissionSpeedMultiplier": {
+      "control": "choice",
+      "label": {
+        "en": "Speed Multiplier",
+        "de": "Geschwindigkeitsmultiplikator"
+      },
+      "description": {
+        "en": "How much faster all vehicles drive. 3x is recommended.",
+        "de": "Wie viel schneller alle Fahrzeuge fahren. 3x wird empfohlen."
+      },
+      "options": [
+        { "value": "1", "label": { "en": "1x (Off)", "de": "1x (Aus)" } },
+        { "value": "1.5", "label": { "en": "1.5x", "de": "1.5x" } },
+        { "value": "2", "label": { "en": "2x", "de": "2x" } },
+        { "value": "2.5", "label": { "en": "2.5x", "de": "2.5x" } },
+        { "value": "3", "label": { "en": "3x (Recommended)", "de": "3x (Empfohlen)" } },
+        { "value": "3.5", "label": { "en": "3.5x", "de": "3.5x" } },
+        { "value": "4", "label": { "en": "4x", "de": "4x" } },
+        { "value": "5", "label": { "en": "5x", "de": "5x" } }
+      ]
+    },
+    "ShowDebugOverlay": {
+      "control": "toggle",
+      "label": {
+        "en": "Debug Overlay",
+        "de": "Debug-Overlay"
+      },
+      "description": {
+        "en": "Show a small in-game overlay with recent speed events.",
+        "de": "Zeigt ein kleines In-Game-Overlay mit aktuellen Geschwindigkeits-Events."
+      }
+    },
+    "VerboseLogging": {
+      "control": "toggle",
+      "label": {
+        "en": "Verbose Logging",
+        "de": "Ausführliches Logging"
+      },
+      "description": {
+        "en": "Write speed adjustment details to LogOutput.log.",
+        "de": "Schreibt Geschwindigkeitsdetails in die LogOutput.log."
+      }
+    }
+  }
+}
