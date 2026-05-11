@@ -30,8 +30,7 @@
         { "value": "1", "label": { "en": "1x (Off)", "de": "1x (Aus)" } },
         { "value": "2", "label": { "en": "2x", "de": "2x" } },
         { "value": "3", "label": { "en": "3x ★", "de": "3x ★" } },
-        { "value": "4", "label": { "en": "4x", "de": "4x" } },
-        { "value": "5", "label": { "en": "5x", "de": "5x" } }
+        { "value": "4", "label": { "en": "4x", "de": "4x" } }
       ]
     },
     "ShowDebugOverlay": {
