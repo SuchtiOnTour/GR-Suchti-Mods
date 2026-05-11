@@ -1,61 +1,472 @@
 {
-  "displayName": "Faster Cars",
-  "sections": [
-    { "id": "Speed", "label": "Speed", "order": 0 },
-    { "id": "General", "label": "General", "order": 10 },
-    { "id": "Debug", "label": "Debug", "order": 1000 }
+  "languages": [
+    {
+      "code": "en",
+      "label": {
+        "en": "English",
+        "de": "English",
+        "fr": "English"
+      }
+    },
+    {
+      "code": "de",
+      "label": {
+        "en": "German",
+        "de": "German",
+        "fr": "German"
+      }
+    },
+    {
+      "code": "fr",
+      "label": {
+        "en": "French",
+        "de": "French",
+        "fr": "French",
+        "pl": "French"
+      }
+    },
+    {
+      "code": "pl",
+      "label": {
+        "en": "Polish",
+        "de": "Polish",
+        "fr": "Polish",
+        "pl": "Polish"
+      }
+    }
   ],
-  "settings": {
-    "Enabled": {
-      "control": "toggle",
-      "label": {
-        "en": "Enable Mod",
-        "de": "Mod aktivieren"
-      },
-      "description": {
-        "en": "Enable or disable Faster Cars completely.",
-        "de": "Aktiviert oder deaktiviert Faster Cars komplett."
-      }
+  "strings": {
+    "language.auto": {
+      "en": "Auto",
+      "de": "Auto",
+      "fr": "Auto",
+      "pl": "Auto"
     },
-    "MissionSpeedMultiplier": {
-      "control": "choice",
-      "label": {
-        "en": "Speed Multiplier",
-        "de": "Geschwindigkeitsmultiplikator"
-      },
-      "description": {
-        "en": "How much faster all vehicles drive. 3x is recommended.",
-        "de": "Wie viel schneller alle Fahrzeuge fahren. 3x wird empfohlen."
-      },
-      "options": [
-        { "value": "1", "label": { "en": "1x", "de": "1x" } },
-        { "value": "2", "label": { "en": "2x", "de": "2x" } },
-        { "value": "3", "label": { "en": "3x", "de": "3x" } },
-        { "value": "4", "label": { "en": "4x", "de": "4x" } },
-        { "value": "5", "label": { "en": "5x", "de": "5x" } }
-      ]
+    "language.auto_system": {
+      "en": "Auto (System)",
+      "de": "Auto (System)",
+      "fr": "Auto (Système)",
+      "pl": "Auto (System)"
     },
-    "ShowDebugOverlay": {
-      "control": "toggle",
-      "label": {
-        "en": "Debug Overlay",
-        "de": "Debug-Overlay"
-      },
-      "description": {
-        "en": "Show a small in-game overlay with recent speed events.",
-        "de": "Zeigt ein kleines In-Game-Overlay mit aktuellen Geschwindigkeits-Events."
-      }
+    "button.open_github": {
+      "en": "Open Github",
+      "de": "Github öffnen",
+      "fr": "Ouvrir Github",
+      "pl": "Otwórz Github"
     },
-    "VerboseLogging": {
-      "control": "toggle",
-      "label": {
-        "en": "Verbose Logging",
-        "de": "Ausführliches Logging"
-      },
-      "description": {
-        "en": "Write speed adjustment details to LogOutput.log.",
-        "de": "Schreibt Geschwindigkeitsdetails in die LogOutput.log."
-      }
+    "button.default": {
+      "en": "Default",
+      "de": "Reset",
+      "fr": "Reset",
+      "pl": "Reset"
+    },
+    "button.confirm": {
+      "en": "Confirm",
+      "de": "Bestätigen",
+      "fr": "Confirmer",
+      "pl": "Potwierdź"
+    },
+    "button.save": {
+      "en": "Save",
+      "de": "Speichern",
+      "fr": "Enregistrer",
+      "pl": "Zapisz"
+    },
+    "button.reload_file": {
+      "en": "Reload File",
+      "de": "Datei neu laden",
+      "fr": "Recharger le fichier",
+      "pl": "Przeładuj plik"
+    },
+    "button.reload": {
+      "en": "Reload",
+      "de": "Neu laden",
+      "fr": "Recharger",
+      "pl": "Przeładuj"
+    },
+    "button.close": {
+      "en": "Close",
+      "de": "Schließen",
+      "fr": "Fermer",
+      "pl": "Zamknij"
+    },
+    "button.reset_all_settings": {
+      "en": "Reset All Settings",
+      "de": "Einstellungen zurücksetzen",
+      "fr": "Réinitialiser les réglages",
+      "pl": "Resetuj ustawienia"
+    },
+    "button.yes": {
+      "en": "Yes",
+      "de": "Ja",
+      "fr": "Oui",
+      "pl": "Tak"
+    },
+    "button.no": {
+      "en": "No",
+      "de": "Nein",
+      "fr": "Non",
+      "pl": "Nie"
+    },
+    "button.apply": {
+      "en": "Apply",
+      "de": "Anwenden",
+      "fr": "Appliquer",
+      "pl": "Zastosuj"
+    },
+    "button.clear": {
+      "en": "Clear",
+      "de": "Leeren",
+      "fr": "Vider",
+      "pl": "Wyczyść"
+    },
+    "button.delete_learning": {
+      "en": "Delete Learning",
+      "de": "Lernen löschen",
+      "fr": "Supprimer l'apprentissage",
+      "pl": "Usuń dane uczenia"
+    },
+    "button.check_updates": {
+      "en": "Check Updates",
+      "de": "Updates prüfen",
+      "fr": "Vérifier les mises à jour",
+      "pl": "Sprawdź aktualizacje"
+    },
+    "toggle.on": {
+      "en": "ON",
+      "de": "AN",
+      "fr": "ON",
+      "pl": "WŁ"
+    },
+    "toggle.off": {
+      "en": "OFF",
+      "de": "AUS",
+      "fr": "OFF",
+      "pl": "WYŁ"
+    },
+    "manager.mods": {
+      "en": "Mods",
+      "de": "Mods",
+      "fr": "Mods",
+      "pl": "Mody"
+    },
+    "manager.no_configs_found": {
+      "en": "No GR config files found.",
+      "de": "Keine GR-Konfigurationsdateien gefunden.",
+      "fr": "Aucun fichier de config GR trouvé.",
+      "pl": "Nie znaleziono plików konfiguracyjnych GR."
+    },
+    "manager.select_mod": {
+      "en": "Select a mod.",
+      "de": "Wähle eine Mod aus.",
+      "fr": "Choisis un mod.",
+      "pl": "Wybierz moda."
+    },
+    "manager.dev_message": {
+      "en": "Dev Message:",
+      "de": "Dev-Nachricht:",
+      "fr": "Message dev :",
+      "pl": "Wiadomość od twórcy:"
+    },
+    "manager.settings_title": {
+      "en": "Mod Manager Settings",
+      "de": "Mod-Manager-Einstellungen",
+      "fr": "Réglages du Mod Manager",
+      "pl": "Ustawienia Mod Managera"
+    },
+    "manager.hotkey_label": {
+      "en": "Open Mod Manager Hotkey",
+      "de": "Hotkey zum Öffnen des Mod-Managers",
+      "fr": "Hotkey pour ouvrir le Mod Manager",
+      "pl": "Skrót otwierający Mod Manager"
+    },
+    "manager.hotkey_help": {
+      "en": "Click the button, then press the key you want to use.",
+      "de": "Klicke auf den Button und drücke dann die Taste, die du verwenden möchtest.",
+      "fr": "Clique sur le bouton, puis appuie sur la touche à utiliser.",
+      "pl": "Kliknij przycisk, a następnie naciśnij wybrany klawisz."
+    },
+    "manager.press_any_key": {
+      "en": "Press any key...",
+      "de": "Beliebige Taste drücken...",
+      "fr": "Appuie sur une touche...",
+      "pl": "Naciśnij dowolny klawisz..."
+    },
+    "manager.overlay_size_label": {
+      "en": "Overlay Size",
+      "de": "Overlay-Größe",
+      "fr": "Taille de l'overlay",
+      "pl": "Rozmiar overlay'a"
+    },
+    "manager.overlay_size_help": {
+      "en": "Preset 2 is the current default size. Higher values make the ModManager larger.",
+      "de": "Preset 2 ist aktuell die Standardgröße. Höhere Werte machen den Mod-Manager größer.",
+      "fr": "Le preset 2 est la taille par défaut. Des valeurs plus élevées agrandissent le Mod Manager.",
+      "pl": "Preset 2 to domyślny rozmiar. Wyższe wartości powiększają Mod Managera."
+    },
+    "manager.language_label": {
+      "en": "Language",
+      "de": "Sprache",
+      "fr": "Langue",
+      "pl": "Język"
+    },
+    "manager.language_help": {
+      "en": "Choose the UI language. Auto uses the system language when available.",
+      "de": "Wähle die Sprache der Oberfläche. Auto verwendet die Systemsprache, wenn sie verfügbar ist. Übersetzungen wurden mit KI erstellt.",
+      "fr": "Choisis la langue de l'interface. Auto utilise la langue du système si elle est disponible. Les traductions ont été faites avec l'IA.",
+      "pl": "Wybierz język interfejsu. Auto używa języka systemowego, jeśli jest dostępny. Tłumaczenia zostały wykonane przez AI."
+    },
+    "manager.are_you_sure": {
+      "en": "Are you sure?",
+      "de": "Bist du sicher?",
+      "fr": "Tu es sûr ?",
+      "pl": "Na pewno?"
+    },
+    "manager.current_version": {
+      "en": "Current Version: {0}",
+      "de": "Aktuelle Version: {0}",
+      "fr": "Version actuelle : {0}",
+      "pl": "Aktualna wersja: {0}"
+    },
+    "manager.checking": {
+      "en": "Checking...",
+      "de": "Prüfe...",
+      "fr": "Vérification...",
+      "pl": "Sprawdzam..."
+    },
+    "manager.no_update_available": {
+      "en": "No Update Available!",
+      "de": "Kein Update verfügbar",
+      "fr": "Aucune mise à jour",
+      "pl": "Brak aktualizacji"
+    },
+    "manager.update_available": {
+      "en": "Update Available: {0}",
+      "de": "Update verfügbar: {0}",
+      "fr": "Mise à jour dispo : {0}",
+      "pl": "Dostępna aktualizacja: {0}"
+    },
+    "manager.latest_version": {
+      "en": "You have the latest version",
+      "de": "Du hast die neueste Version",
+      "fr": "Tu as la dernière version",
+      "pl": "Masz najnowszą wersję"
+    },
+    "manager.update_latest_short": {
+      "en": "Update: Latest",
+      "de": "Update: Aktuell",
+      "fr": "Update : OK",
+      "pl": "Aktualizacja: OK"
+    },
+    "manager.no_connection_to_update_server": {
+      "en": "No connection to update server",
+      "de": "Keine Verbindung zum Update-Server",
+      "fr": "Pas de connexion au serveur d'update",
+      "pl": "Brak połączenia z serwerem aktualizacji"
+    },
+    "manager.new_version_available": {
+      "en": "New Version Available: {0}",
+      "de": "Neue Version verfügbar: {0}",
+      "fr": "Nouvelle version dispo : {0}",
+      "pl": "Nowa wersja dostępna: {0}"
+    },
+    "manager.startup_overlay_hint": {
+      "en": "Open Mod Manager ({0}) for more information",
+      "de": "Öffne den Mod Manager ({0}) für mehr Infos",
+      "fr": "Ouvre le Mod Manager ({0}) pour plus d'infos",
+      "pl": "Otwórz Mod Manager ({0}), aby uzyskać więcej informacji"
+    },
+    "manager.startup_overlay_loaded": {
+      "en": "Mod Manager loaded: Press {0} to open menu",
+      "de": "Mod Manager geladen: Drücke {0}, um das Menü zu öffnen",
+      "fr": "Mod Manager chargé : appuie sur {0} pour ouvrir le menu",
+      "pl": "Mod Manager załadowany: naciśnij {0}, aby otworzyć menu"
+    },
+    "manager.startup_overlay_update_available": {
+      "en": "New update available",
+      "de": "Neues Update verfügbar",
+      "fr": "Nouvelle mise à jour dispo",
+      "pl": "Dostępna nowa aktualizacja"
+    },
+    "manager.version": {
+      "en": "Version: {0}",
+      "de": "Version: {0}",
+      "fr": "Version : {0}",
+      "pl": "Wersja: {0}"
+    },
+    "manager.version_unknown": {
+      "en": "Version: unknown",
+      "de": "Version: unbekannt",
+      "fr": "Version : inconnue",
+      "pl": "Wersja: nieznana"
+    },
+    "manager.not_set": {
+      "en": "Not Set",
+      "de": "Nicht gesetzt",
+      "fr": "Non défini",
+      "pl": "Nie ustawiono"
+    },
+    "manager.mod_default": {
+      "en": "Mod default",
+      "de": "Mod-Standard",
+      "fr": "Valeur du mod",
+      "pl": "Domyślne moda"
+    },
+    "manager.default_value": {
+      "en": "Default value",
+      "de": "Standardwert",
+      "fr": "Valeur par défaut",
+      "pl": "Wartość domyślna"
+    },
+    "manager.entry_meta": {
+      "en": "Type: {0}   {1}: {2}",
+      "de": "Typ: {0}   {1}: {2}",
+      "fr": "Type : {0}   {1} : {2}",
+      "pl": "Typ: {0}   {1}: {2}"
+    },
+    "manager.unknown": {
+      "en": "unknown",
+      "de": "unbekannt",
+      "fr": "inconnu",
+      "pl": "nieznany"
+    },
+    "manager.none": {
+      "en": "<none>",
+      "de": "<leer>",
+      "fr": "<vide>",
+      "pl": "<brak>"
+    },
+    "manager.delete_learning_help": {
+      "en": "If automation assigns the wrong vehicles/employees or behaves strangely, delete learning to start fresh.",
+      "de": "Wenn die Automatisierung falsche Fahrzeuge/Mitarbeiter zuweist oder sich seltsam verhält, lösche das Lernen für einen sauberen Neustart.",
+      "fr": "Si l'automatisation assigne les mauvais véhicules/employés ou se comporte bizarrement, supprime l'apprentissage pour repartir proprement.",
+      "pl": "Jeśli automatyzacja przypisuje złe pojazdy/pracowników albo działa dziwnie, usuń dane uczenia, żeby zacząć od nowa."
+    },
+    "status.opened_refreshed_layout": {
+      "en": "Opened and refreshed layout.",
+      "de": "Geöffnet und Layout aktualisiert.",
+      "fr": "Ouvert et layout actualisé.",
+      "pl": "Otwarto i odświeżono układ."
+    },
+    "status.update_url_empty": {
+      "en": "Update check URL is empty.",
+      "de": "Die Update-URL ist leer.",
+      "fr": "L'URL d'update est vide.",
+      "pl": "URL sprawdzania aktualizacji jest pusty."
+    },
+    "status.checking_for_updates": {
+      "en": "Checking for mod updates...",
+      "de": "Prüfe auf Mod-Updates...",
+      "fr": "Vérification des updates des mods...",
+      "pl": "Sprawdzam aktualizacje modów..."
+    },
+    "status.update_check_completed": {
+      "en": "Update check completed.",
+      "de": "Update-Prüfung abgeschlossen.",
+      "fr": "Vérification des updates terminée.",
+      "pl": "Sprawdzanie aktualizacji zakończone."
+    },
+    "status.update_check_failed": {
+      "en": "Update check failed: {0}: {1}",
+      "de": "Update-Prüfung fehlgeschlagen: {0}: {1}",
+      "fr": "Échec de la vérification : {0} : {1}",
+      "pl": "Błąd sprawdzania aktualizacji: {0}: {1}"
+    },
+    "status.press_manager_hotkey": {
+      "en": "Press a key for the ModManager hotkey. Esc cancels.",
+      "de": "Drücke eine Taste für den Mod-Manager-Hotkey. Esc bricht ab.",
+      "fr": "Appuie sur une touche pour le hotkey du Mod Manager. Esc annule.",
+      "pl": "Naciśnij klawisz dla skrótu Mod Managera. Esc anuluje."
+    },
+    "status.manager_hotkey_reset": {
+      "en": "ModManager hotkey reset to F10.",
+      "de": "Mod-Manager-Hotkey auf F10 zurückgesetzt.",
+      "fr": "Hotkey du Mod Manager remis sur F10.",
+      "pl": "Skrót Mod Managera zresetowano do F10."
+    },
+    "status.overlay_size_set": {
+      "en": "ModManager overlay size set to {0}.",
+      "de": "Mod-Manager-Overlaygröße auf {0} gesetzt.",
+      "fr": "Taille de l'overlay du Mod Manager réglée sur {0}.",
+      "pl": "Rozmiar overlay'a Mod Managera ustawiono na {0}."
+    },
+    "status.language_changed": {
+      "en": "Language set to {0}.",
+      "de": "Sprache auf {0} gesetzt.",
+      "fr": "Langue réglée sur {0}.",
+      "pl": "Język ustawiono na {0}."
+    },
+    "status.hotkey_capture_cancelled": {
+      "en": "Hotkey capture cancelled.",
+      "de": "Hotkey-Erfassung abgebrochen.",
+      "fr": "Saisie du hotkey annulée.",
+      "pl": "Przechwytywanie skrótu anulowano."
+    },
+    "status.manager_hotkey_set": {
+      "en": "ModManager hotkey set to {0}.",
+      "de": "Mod-Manager-Hotkey auf {0} gesetzt.",
+      "fr": "Hotkey du Mod Manager réglé sur {0}.",
+      "pl": "Skrót Mod Managera ustawiono na {0}."
+    },
+    "status.reset_all_confirm": {
+      "en": "Reset all settings for {0}?",
+      "de": "Einstellungen für {0} zurücksetzen?",
+      "fr": "Réinitialiser les réglages pour {0} ?",
+      "pl": "Zresetować wszystkie ustawienia dla {0}?"
+    },
+    "status.reset_cancelled": {
+      "en": "Reset cancelled.",
+      "de": "Zurücksetzen abgebrochen.",
+      "fr": "Reset annulé.",
+      "pl": "Reset anulowano."
+    },
+    "status.press_setting_hotkey": {
+      "en": "Press a key for {0}. Esc cancels, Backspace clears.",
+      "de": "Drücke eine Taste für {0}. Esc bricht ab, Backspace leert.",
+      "fr": "Appuie sur une touche pour {0}. Esc annule, Retour arrière efface.",
+      "pl": "Naciśnij klawisz dla {0}. Esc anuluje, Backspace czyści."
+    },
+    "status.delete_learning_confirm": {
+      "en": "Delete all LessMicro learned assignment rules?",
+      "de": "Alle gelernten LessMicro-Zuweisungsregeln löschen?",
+      "fr": "Supprimer toutes les règles apprises de LessMicro ?",
+      "pl": "Usunąć wszystkie wyuczone reguły przydziałów LessMicro?"
+    },
+    "status.delete_learning_cancelled": {
+      "en": "Delete learning cancelled.",
+      "de": "Lernen löschen abgebrochen.",
+      "fr": "Suppression de l'apprentissage annulée.",
+      "pl": "Usuwanie danych uczenia anulowano."
+    },
+    "status.no_default_found": {
+      "en": "No default found for {0}.",
+      "de": "Kein Standardwert für {0} gefunden.",
+      "fr": "Aucune valeur par défaut trouvée pour {0}.",
+      "pl": "Nie znaleziono wartości domyślnej dla {0}."
+    },
+    "status.saved_config": {
+      "en": "Saved {0}.",
+      "de": "{0} gespeichert.",
+      "fr": "{0} enregistré.",
+      "pl": "Zapisano {0}."
+    },
+    "status.reset_live_save": {
+      "en": "Reset {0} setting(s) for {1} live. Press Save to keep it.",
+      "de": "{0} Einstellung(en) für {1} live zurückgesetzt. Drücke Speichern, um es zu behalten.",
+      "fr": "{0} réglage(s) pour {1} ont été reset en direct. Appuie sur Enregistrer pour les garder.",
+      "pl": "Zresetowano {0} ustawienie(a) dla {1} na żywo. Naciśnij Zapisz, żeby zachować."
+    },
+    "status.deleted_lessmicro_learning": {
+      "en": "Deleted all LessMicro learned assignment rules.",
+      "de": "Alle gelernten LessMicro-Zuweisungsregeln gelöscht.",
+      "fr": "Toutes les règles apprises de LessMicro ont été supprimées.",
+      "pl": "Usunięto wszystkie wyuczone reguły przydziałów LessMicro."
+    },
+    "status.deleted_learning_restart_needed": {
+      "en": "Deleted learning config value. Restart may be needed to clear already loaded runtime rules.",
+      "de": "Gelernter Konfigurationswert gelöscht. Ein Neustart kann nötig sein, um bereits geladene Laufzeitregeln zu entfernen.",
+      "fr": "Valeur d'apprentissage supprimée. Un redémarrage peut être nécessaire pour retirer les règles déjà chargées.",
+      "pl": "Usunięto wartość konfiguracji uczenia. Może być potrzebny restart, żeby wyczyścić już załadowane reguły."
     }
   }
 }
