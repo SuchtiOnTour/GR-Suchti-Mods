@@ -1,10 +1,10 @@
 {
   "displayName": "Less Micro",
   "devMessage": {
-  "en": "Please update to v1.2.1 if you haven't already!\n\nPatch Notes v1.2.1 HOTFIX\n\n- Fixed: Decision tasks, competing options are no longer assigned after one has been completed\n- Fixed: Support units with an active task are no longer redirected to another task mid-mission\n\nDev Note:\nIf you encounter any remaining issues with decision tasks or unit behavior, please report them in the comments or open an issue — every report helps!",
-  "de": "Bitte auf v1.2.1 updaten, falls noch nicht geschehen!\n\nPatch Notes v1.2.1 HOTFIX\n\n- Behoben: Entscheidungsaufgaben, konkurrierende Optionen werden nach Abschluss einer Option nicht mehr zugewiesen\n- Behoben: Support-Einheiten mit aktivem Task werden nicht mehr auf einen anderen Task umgeleitet\n\nDev Note:\nFalls weiterhin Probleme mit Entscheidungsaufgaben oder Einheitenverhalten auftreten, bitte in den Kommentaren melden oder ein Issue öffnen — jeder Hinweis hilft!",
-  "fr": "Merci de mettre à jour vers v1.2.1 si ce n'est pas encore fait !\n\nPatch Notes v1.2.1 HOTFIX\n\n- Corrigé : les options concurrentes des tâches de décision ne sont plus assignées après qu'une a été complétée\n- Corrigé : les unités de support avec une tâche active ne sont plus redirigées vers une autre tâche\n\nNote dev :\nSi vous rencontrez encore des problèmes avec les tâches de décision ou le comportement des unités, signalez-les en commentaire ou ouvrez un ticket — chaque retour aide !",
-  "pl": "Zaktualizuj do v1.2.1, jeśli jeszcze tego nie zrobiłeś!\n\nPatch Notes v1.2.1 HOTFIX\n\n- Naprawiono: konkurencyjne opcje zadań decyzyjnych nie są już przydzielane po ukończeniu jednej z nich\n- Naprawiono: jednostki wsparcia z aktywnym zadaniem nie są już przekierowywane do innego zadania\n\nUwaga od twórcy:\nJeśli napotkasz dalsze problemy z zadaniami decyzyjnymi lub zachowaniem jednostek, zgłoś je w komentarzach lub otwórz zgłoszenie — każda informacja pomaga!"
+    "en": "Please update to v1.2.2!\n\nPatch Notes v1.2.2\n\n- Added: New option in ModManager - \"Apply automation to...\" - choose whether to automate all missions, main missions only, or additional tasks only. Default: Both (all missions)\n- Fixed: Decision tasks - the non-chosen option is no longer assigned after a decision has been made\n- Changed: Fallback sweep interval default reduced from 15s to 5s for more reliable automation coverage\n\nDev Note:\nThe decision task issue keeps coming back in different forms - hopefully this is the final fix. If you still run into any issues, please report them in the comments!",
+    "de": "Bitte auf v1.2.2 updaten!\n\nPatch Notes v1.2.2\n\n- Neu: Neue Option im ModManager - \"Automatisierung anwenden auf...\" - wähle ob alle Missionen, nur Hauptmissionen oder nur Zusatzaufgaben automatisiert werden. Standard: Beides (alle Missionen)\n- Behoben: Entscheidungsaufgaben - die nicht gewählte Option wird nach einer getroffenen Entscheidung nicht mehr zugewiesen\n- Geändert: Fallback-Sweep-Intervall Standard von 15s auf 5s für zuverlässigere Automatisierung\n\nDev Note:\nDas Entscheidungsaufgaben-Problem taucht immer wieder in neuer Form auf - hoffentlich ist das nun der finale Fix. Bei weiteren Problemen bitte in den Kommentaren melden!",
+    "fr": "Merci de mettre à jour vers v1.2.2 !\n\nPatch Notes v1.2.2\n\n- Ajout : nouvelle option dans ModManager - \"Appliquer l'automatisation a...\" - choisissez d'automatiser toutes les missions, uniquement les principales ou uniquement les taches supplementaires. Defaut : Tout (toutes les missions)\n- Corrige : taches de decision - l'option non choisie n'est plus assignee apres une decision prise\n- Modifie : intervalle fallback par defaut reduit de 15s a 5s pour une couverture plus fiable\n\nNote dev :\nLe probleme des taches de decision revient sans cesse - esperons que c'est le fix final. Signalez tout probleme en commentaire !",
+    "pl": "Zaktualizuj do v1.2.2!\n\nPatch Notes v1.2.2\n\n- Dodano: nowa opcja w ModManager - \"Stosuj automatyzacje dla...\" - wybierz czy automatyzowac wszystkie misje, tylko glowne czy tylko dodatkowe. Domyslnie: Obie (wszystkie misje)\n- Naprawiono: zadania decyzyjne - niewnybrana opcja nie jest juz przydzielana po podjeciu decyzji\n- Zmieniono: domyslny interwal fallback zmniejszony z 15s do 5s dla bardziej niezawodnej automatyzacji\n\nUwaga od tworcy:\nProblem z zadaniami decyzyjnymi wciaz wraca w nowej formie - mamy nadzieje, ze to ostateczna poprawka. Zglaszaj problemy w komentarzach!"
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
@@ -79,16 +79,16 @@
     "MissionAutomationScope": {
       "control": "choice",
       "label": {
-        "en": "Automation Scope",
-        "de": "Automatisierungsbereich",
-        "fr": "Portée de l'automatisation",
-        "pl": "Zakres automatyzacji"
+        "en": "Apply automation to...",
+        "de": "Automatisierung anwenden auf...",
+        "fr": "Appliquer l'automatisation à...",
+        "pl": "Stosuj automatyzację dla..."
       },
       "description": {
-        "en": "Which missions LessMicro automates. 'Both' handles all missions; 'Main Only' skips additional tasks (Zusatzaufgaben); 'Additional Only' automates only additional tasks.",
-        "de": "Welche Missionen LessMicro automatisiert. 'Beides' verwaltet alle; 'Nur Haupt' überspringt Zusatzaufgaben; 'Nur Zusatz' automatisiert ausschließlich Zusatzaufgaben.",
-        "fr": "Quelles missions LessMicro automatise. 'Tout' gère toutes ; 'Principales' ignore les tâches supplémentaires ; 'Supplémentaires' n'automatise que les tâches supplémentaires.",
-        "pl": "Które misje LessMicro automatyzuje. 'Obie' obsługuje wszystkie ; 'Tylko główne' pomija dodatkowe ; 'Tylko dodatkowe' automatyzuje wyłącznie dodatkowe."
+        "en": "Controls whether LessMicro automates all missions, main missions only, or additional tasks (Zusatzaufgaben) only.",
+        "de": "Legt fest, ob LessMicro alle Missionen, nur Hauptmissionen oder nur Zusatzaufgaben automatisiert.",
+        "fr": "Détermine si LessMicro automatise toutes les missions, uniquement les missions principales ou uniquement les tâches supplémentaires.",
+        "pl": "Określa, czy LessMicro automatyzuje wszystkie misje, tylko główne, czy tylko zadania dodatkowe."
       },
       "options": [
         {
