@@ -1,0 +1,58 @@
+{
+  "displayName": "Cheat Panel",
+  "sections": [
+    { "id": "CheatPanel", "label": { "en": "Cheat Panel", "de": "Cheat Panel" }, "order": 0 }
+  ],
+  "settings": {
+    "Hotkey": {
+      "control": "hotkey",
+      "label": { "en": "Open / Close Hotkey", "de": "Öffnen / Schließen Taste" },
+      "description": { "en": "Key to toggle the Cheat Panel overlay in-game.", "de": "Taste um das Cheat-Panel im Spiel zu öffnen oder zu schließen." }
+    },
+    "MoneyAmount1": {
+      "control": "number",
+      "label": { "en": "Money – Button 1", "de": "Geld – Button 1" },
+      "description": { "en": "Amount of money added when clicking the first money button.", "de": "Geldbetrag der beim ersten Geld-Button hinzugefügt wird." }
+    },
+    "MoneyAmount2": {
+      "control": "number",
+      "label": { "en": "Money – Button 2", "de": "Geld – Button 2" },
+      "description": { "en": "Amount of money added when clicking the second money button.", "de": "Geldbetrag der beim zweiten Geld-Button hinzugefügt wird." }
+    },
+    "MoneyAmount3": {
+      "control": "number",
+      "label": { "en": "Money – Button 3", "de": "Geld – Button 3" },
+      "description": { "en": "Amount of money added when clicking the third money button.", "de": "Geldbetrag der beim dritten Geld-Button hinzugefügt wird." }
+    },
+    "ResearchPointsAmount1": {
+      "control": "number",
+      "label": { "en": "Research Points – Button 1", "de": "Forschungspunkte – Button 1" },
+      "description": { "en": "Research points added when clicking the first research button.", "de": "Forschungspunkte die beim ersten Forschungs-Button hinzugefügt werden." }
+    },
+    "ResearchPointsAmount2": {
+      "control": "number",
+      "label": { "en": "Research Points – Button 2", "de": "Forschungspunkte – Button 2" },
+      "description": { "en": "Research points added when clicking the second research button.", "de": "Forschungspunkte die beim zweiten Forschungs-Button hinzugefügt werden." }
+    },
+    "ResearchPointsAmount3": {
+      "control": "number",
+      "label": { "en": "Research Points – Button 3", "de": "Forschungspunkte – Button 3" },
+      "description": { "en": "Research points added when clicking the third research button.", "de": "Forschungspunkte die beim dritten Forschungs-Button hinzugefügt werden." }
+    },
+    "XPAmount1": {
+      "control": "number",
+      "label": { "en": "XP – Button 1", "de": "XP – Button 1" },
+      "description": { "en": "XP added when clicking the first XP button.", "de": "XP die beim ersten XP-Button hinzugefügt werden." }
+    },
+    "XPAmount2": {
+      "control": "number",
+      "label": { "en": "XP – Button 2", "de": "XP – Button 2" },
+      "description": { "en": "XP added when clicking the second XP button.", "de": "XP die beim zweiten XP-Button hinzugefügt werden." }
+    },
+    "XPAmount3": {
+      "control": "number",
+      "label": { "en": "XP – Button 3", "de": "XP – Button 3" },
+      "description": { "en": "XP added when clicking the third XP button.", "de": "XP die beim dritten XP-Button hinzugefügt werden." }
+    }
+  }
+}
