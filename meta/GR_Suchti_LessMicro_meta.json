@@ -76,6 +76,50 @@
         "pl": "Automatycznie obsługuje wspierane zadania misji po odblokowaniu wymaganego badania automatyzacji."
       }
     },
+    "MissionAutomationScope": {
+      "control": "choice",
+      "label": {
+        "en": "Automation Scope",
+        "de": "Automatisierungsbereich",
+        "fr": "Portée de l'automatisation",
+        "pl": "Zakres automatyzacji"
+      },
+      "description": {
+        "en": "Which missions LessMicro automates. 'Both' handles all missions; 'Main Only' skips additional tasks (Zusatzaufgaben); 'Additional Only' automates only additional tasks.",
+        "de": "Welche Missionen LessMicro automatisiert. 'Beides' verwaltet alle; 'Nur Haupt' überspringt Zusatzaufgaben; 'Nur Zusatz' automatisiert ausschließlich Zusatzaufgaben.",
+        "fr": "Quelles missions LessMicro automatise. 'Tout' gère toutes ; 'Principales' ignore les tâches supplémentaires ; 'Supplémentaires' n'automatise que les tâches supplémentaires.",
+        "pl": "Które misje LessMicro automatyzuje. 'Obie' obsługuje wszystkie ; 'Tylko główne' pomija dodatkowe ; 'Tylko dodatkowe' automatyzuje wyłącznie dodatkowe."
+      },
+      "options": [
+        {
+          "value": "Both",
+          "label": {
+            "en": "Both",
+            "de": "Beides",
+            "fr": "Tout",
+            "pl": "Obie"
+          }
+        },
+        {
+          "value": "MainMissionsOnly",
+          "label": {
+            "en": "Main Only",
+            "de": "Nur Haupt",
+            "fr": "Principales",
+            "pl": "Tylko główne"
+          }
+        },
+        {
+          "value": "AdditionalOnly",
+          "label": {
+            "en": "Additional Only",
+            "de": "Nur Zusatz",
+            "fr": "Supplémentaires",
+            "pl": "Tylko dodatkowe"
+          }
+        }
+      ]
+    },
     "ExtendMissionTimers": {
       "control": "toggle",
       "label": {
