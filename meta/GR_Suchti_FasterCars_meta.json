@@ -1,5 +1,11 @@
 {
   "displayName": "Faster Cars",
+  "devMessage": {
+    "en": "Welcome to Faster Cars v0.1.0!\n\nThis is the first release and currently in beta. The mod works well in most situations but there may still be edge cases where the speed is not applied correctly or vehicles behave unexpectedly.\n\nSticking to 2x is recommended for the most stable experience. If you run into any issues please report them in the comments or on Discord!",
+    "de": "Willkommen bei Faster Cars v0.1.0!\n\nDies ist die erste Version und befindet sich derzeit in der Beta. Der Mod funktioniert in den meisten Situationen gut, aber es kann noch Fälle geben wo der Speed nicht korrekt angewendet wird oder Fahrzeuge sich unerwartet verhalten.\n\n2x wird für die stabilste Erfahrung empfohlen. Bei Problemen bitte in den Kommentaren oder auf Discord melden!",
+    "fr": "Bienvenue dans Faster Cars v0.1.0 !\n\nC'est la première version, actuellement en bêta. Le mod fonctionne bien dans la plupart des situations mais il peut encore exister des cas où la vitesse n'est pas appliquée correctement.\n\n2x est recommandé pour une expérience plus stable. Signalez tout problème en commentaires ou sur Discord !",
+    "pl": "Witaj w Faster Cars v0.1.0!\n\nTo pierwsze wydanie, obecnie w wersji beta. Mod działa dobrze w większości sytuacji, ale mogą zdarzać się przypadki gdzie predkosc nie jest poprawnie aplikowana.\n\nZalecamy ustawienie 2x dla najbardziej stabilnego dzialania. Zglaszaj problemy w komentarzach lub na Discordzie!"
+  },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
     { "id": "Debug", "label": "Debug", "order": 1000 }
