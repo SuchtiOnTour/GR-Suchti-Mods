@@ -326,8 +326,8 @@
     },
     "CrewCountFontSize": {
       "control": "slider",
-      "min": 16,
-      "max": 30,
+      "min": 18,
+      "max": 34,
       "step": 1,
       "showValueField": true,
       "label": {
