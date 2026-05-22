@@ -1,10 +1,10 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "Patch v1.2.1 restored Better Vehicle Menu compatibility with the latest game update.\nPlease update if the vehicle menu no longer opens correctly after Patch 3.",
-    "de": "Patch v1.2.1 stellt die Better Vehicle Menu Kompatibilität mit dem neuesten Game-Update wieder her.\nBitte aktualisieren, wenn das Fahrzeugmenü nach Patch 3 nicht mehr korrekt öffnet.",
-    "fr": "Le patch v1.2.1 a restauré la compatibilité de Better Vehicle Menu avec la dernière mise à jour du jeu.\nMets à jour si le menu des véhicules ne s'ouvre plus correctement après le Patch 3.",
-    "pl": "Patch v1.2.1 przywrócił zgodność Better Vehicle Menu z najnowszą aktualizacją gry.\nZaktualizuj, jeśli menu pojazdów nie otwiera się poprawnie po Patchu 3."
+    "en": "Please update to v1.2.4 if the vehicle menu is not working correctly after the latest game update.\n\nNote: This mod will likely break after every game update. A compatibility fix will be provided as soon as possible.\n\nv1.2.4 improves compatibility, stability, and reduces unnecessary menu rebuilds.",
+    "de": "Bitte auf v1.2.4 aktualisieren, wenn das Fahrzeugmenü nach dem letzten Game-Update nicht korrekt funktioniert.\n\nHinweis: Diese Mod wird wahrscheinlich nach jedem Game-Update nicht mehr funktionieren. Ein Kompatibilitäts-Fix wird so schnell wie möglich bereitgestellt.\n\nv1.2.4 verbessert Kompatibilität und Stabilität und reduziert unnötige Menü-Neuaufbauten.",
+    "fr": "Merci de mettre à jour vers v1.2.4 si le menu des véhicules ne fonctionne pas correctement après la dernière mise à jour du jeu.\n\nNote : Ce mod sera probablement cassé après chaque mise à jour du jeu. Un correctif de compatibilité sera fourni dès que possible.\n\nLa v1.2.4 améliore la compatibilité, la stabilité et réduit les reconstructions inutiles du menu.",
+    "pl": "Zaktualizuj do v1.2.4, jeśli menu pojazdów nie działa poprawnie po najnowszej aktualizacji gry.\n\nUwaga: Ten mod prawdopodobnie przestanie działać po każdej aktualizacji gry. Poprawka kompatybilności zostanie udostępniona jak najszybciej.\n\nv1.2.4 poprawia kompatybilność i stabilność oraz ogranicza niepotrzebne przebudowy menu."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
