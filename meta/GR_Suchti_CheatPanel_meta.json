@@ -6,7 +6,7 @@
     "research": { "en": "Research", "de": "Forschung", "fr": "Recherche", "pl": "Badania" },
     "xp": { "en": "XP", "de": "XP", "fr": "XP", "pl": "XP" },
     "staff": { "en": "Staff", "de": "Personal", "fr": "Personnel", "pl": "Personel" },
-    "restore_all": { "en": "Restore", "de": "Auffüllen", "fr": "Restaurer", "pl": "Odnawiaj" }
+    "restore_all": { "en": "Refill", "de": "Auffüllen", "fr": "Remplir", "pl": "Odnów" }
   },
   "sections": [
     { "id": "CheatPanel", "label": { "en": "Cheat Panel", "de": "Cheat Panel" }, "order": 0 }
