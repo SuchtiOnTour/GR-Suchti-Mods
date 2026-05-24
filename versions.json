@@ -26,7 +26,7 @@
       "url": "https://github.com/SuchtiOnTour/GR_Suchti_FasterCars/releases",
       "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_FasterCars_meta.json"
     },
-        "GR_Suchti_BaseExpansion": {
+    "GR_Suchti_BaseExpansion": {
       "version": "0.1.0",
       "url": "PLACEHOLDER_GITHUB_URL",
       "meta": "PLACEHOLDER_META_URL"
@@ -36,7 +36,7 @@
       "url": "https://github.com/SuchtiOnTour/GR_Suchti_CheatPanel/releases",
       "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_CheatPanel_meta.json"
     },
-        "GR_Suchti_BaseMonitor": {
+    "GR_Suchti_BaseMonitor": {
       "version": "0.0.1",
       "url": "PLACEHOLDER_GITHUB_URL",
       "meta": "PLACEHOLDER_META_URL"
