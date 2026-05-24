@@ -1,0 +1,92 @@
+{
+  "displayName": "Base Monitor",
+  "sections": [
+    { "id": "General", "label": { "en": "General", "de": "Allgemein" }, "order": 0 },
+    { "id": "UI", "label": { "en": "UI", "de": "UI" }, "order": 1 },
+    { "id": "Performance", "label": { "en": "Performance", "de": "Performance" }, "order": 2 }
+  ],
+  "settings": {
+    "Enabled": {
+      "control": "toggle",
+      "label": { "en": "Enabled", "de": "Aktiviert" },
+      "description": { "en": "Enable the Base Monitor.", "de": "Aktiviert den Base Monitor." }
+    },
+    "ShowOverlayButton": {
+      "control": "toggle",
+      "label": { "en": "Show Button", "de": "Button anzeigen" },
+      "description": { "en": "Show the small fixed overlay button.", "de": "Zeigt den kleinen festen Overlay-Button." }
+    },
+    "Hotkey": {
+      "control": "hotkey",
+      "label": { "en": "Open / Close Hotkey", "de": "Öffnen / Schließen Taste" },
+      "description": { "en": "Key to toggle the Base Monitor.", "de": "Taste zum Öffnen oder Schließen des Base Monitors." }
+    },
+    "ButtonAnchor": {
+      "control": "choice",
+      "label": { "en": "Button Corner", "de": "Button-Ecke" },
+      "description": { "en": "Screen corner used for the overlay button.", "de": "Bildschirmecke für den Overlay-Button." },
+      "options": [
+        { "value": "TopLeft", "label": { "en": "Top Left", "de": "Oben links" } },
+        { "value": "TopRight", "label": { "en": "Top Right", "de": "Oben rechts" } },
+        { "value": "BottomLeft", "label": { "en": "Bottom Left", "de": "Unten links" } },
+        { "value": "BottomRight", "label": { "en": "Bottom Right", "de": "Unten rechts" } }
+      ]
+    },
+    "ButtonOffsetX": {
+      "control": "number",
+      "label": { "en": "Button Offset X", "de": "Button Abstand X" },
+      "description": { "en": "Horizontal distance from the selected button corner.", "de": "Horizontaler Abstand von der gewählten Button-Ecke." }
+    },
+    "ButtonOffsetY": {
+      "control": "number",
+      "label": { "en": "Button Offset Y", "de": "Button Abstand Y" },
+      "description": { "en": "Vertical distance from the selected button corner.", "de": "Vertikaler Abstand von der gewählten Button-Ecke." }
+    },
+    "ButtonSize": {
+      "control": "number",
+      "label": { "en": "Button Size", "de": "Button-Größe" },
+      "description": { "en": "Overlay button size in pixels.", "de": "Größe des Overlay-Buttons in Pixeln." }
+    },
+    "WindowAnchor": {
+      "control": "choice",
+      "label": { "en": "Window Corner", "de": "Fenster-Ecke" },
+      "description": { "en": "Screen corner used for the initial monitor window position.", "de": "Bildschirmecke für die anfängliche Fensterposition." },
+      "options": [
+        { "value": "TopLeft", "label": { "en": "Top Left", "de": "Oben links" } },
+        { "value": "TopRight", "label": { "en": "Top Right", "de": "Oben rechts" } },
+        { "value": "BottomLeft", "label": { "en": "Bottom Left", "de": "Unten links" } },
+        { "value": "BottomRight", "label": { "en": "Bottom Right", "de": "Unten rechts" } }
+      ]
+    },
+    "WindowOffsetX": {
+      "control": "number",
+      "label": { "en": "Window Offset X", "de": "Fenster Abstand X" },
+      "description": { "en": "Initial horizontal distance from the selected window corner.", "de": "Anfänglicher horizontaler Abstand von der gewählten Fenster-Ecke." }
+    },
+    "WindowOffsetY": {
+      "control": "number",
+      "label": { "en": "Window Offset Y", "de": "Fenster Abstand Y" },
+      "description": { "en": "Initial vertical distance from the selected window corner.", "de": "Anfänglicher vertikaler Abstand von der gewählten Fenster-Ecke." }
+    },
+    "WindowOpacity": {
+      "control": "number",
+      "label": { "en": "Window Opacity", "de": "Fenster-Transparenz" },
+      "description": { "en": "Monitor window opacity between 0.25 and 1.0.", "de": "Fenstertransparenz zwischen 0.25 und 1.0." }
+    },
+    "WindowWidth": {
+      "control": "number",
+      "label": { "en": "Window Width", "de": "Fensterbreite" },
+      "description": { "en": "Monitor window width.", "de": "Breite des Monitor-Fensters." }
+    },
+    "WindowHeight": {
+      "control": "number",
+      "label": { "en": "Window Height", "de": "Fensterhöhe" },
+      "description": { "en": "Monitor window height.", "de": "Höhe des Monitor-Fensters." }
+    },
+    "RefreshIntervalSeconds": {
+      "control": "number",
+      "label": { "en": "Refresh Interval", "de": "Aktualisierung" },
+      "description": { "en": "Seconds between monitor data refreshes while open.", "de": "Sekunden zwischen Aktualisierungen, solange das Fenster offen ist." }
+    }
+  }
+}
