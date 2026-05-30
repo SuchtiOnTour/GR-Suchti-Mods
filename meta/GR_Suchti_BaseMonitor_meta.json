@@ -5,6 +5,25 @@
     { "id": "UI", "label": { "en": "UI", "de": "UI" }, "order": 1 },
     { "id": "Performance", "label": { "en": "Performance", "de": "Performance" }, "order": 2 }
   ],
+  "actions": [
+    {
+      "id": "reset_position",
+      "section": "UI",
+      "label": { "en": "Reset Position", "de": "Position zurücksetzen" },
+      "type": "resetToDefault",
+      "targets": [
+        "ButtonAnchor",
+        "ButtonOffsetX",
+        "ButtonOffsetY",
+        "ButtonSize",
+        "WindowAnchor",
+        "WindowOffsetX",
+        "WindowOffsetY",
+        "WindowWidth",
+        "WindowHeight"
+      ]
+    }
+  ],
   "settings": {
     "Enabled": {
       "control": "toggle",
@@ -37,7 +56,7 @@
       "label": { "en": "Button Offset X", "de": "Button Abstand X" },
       "description": { "en": "Horizontal distance from the selected button corner.", "de": "Horizontaler Abstand von der gewählten Button-Ecke." },
       "min": 0,
-      "max": 500,
+      "max": 1000,
       "step": 1
     },
     "ButtonOffsetY": {
