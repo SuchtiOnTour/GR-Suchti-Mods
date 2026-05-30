@@ -9,7 +9,7 @@
     {
       "id": "reset_position",
       "section": "UI",
-      "label": { "en": "Reset Position", "de": "Position zurücksetzen" },
+      "label": { "en": "Reset Position", "de": "Reset Position" },
       "type": "resetToDefault",
       "targets": [
         "ButtonAnchor",
