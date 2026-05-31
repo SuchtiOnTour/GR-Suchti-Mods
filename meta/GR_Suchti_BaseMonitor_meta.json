@@ -14,7 +14,11 @@
     "Satisf": { "en": "Satisf", "de": "Zufr.", "fr": "Satisf.", "pl": "Zadow." },
     "waiting": { "en": "Waiting for save game", "de": "Warte auf Spielstand", "fr": "En attente de la sauvegarde", "pl": "Oczekiwanie na zapis gry" },
     "no_bases": { "en": "No bases found", "de": "Keine Basen gefunden", "fr": "Aucune base trouvee", "pl": "Nie znaleziono baz" },
-    "unavailable": { "en": "Base data unavailable", "de": "Basisdaten nicht verfügbar", "fr": "Donnees de base indisponibles", "pl": "Dane bazy niedostepne" }
+    "unavailable": { "en": "Base data unavailable", "de": "Basisdaten nicht verfügbar", "fr": "Donnees de base indisponibles", "pl": "Dane bazy niedostepne" },
+    "department_police": { "en": "POL", "de": "POL", "fr": "POL", "pl": "POL" },
+    "department_fire": { "en": "FIRE", "de": "FW", "fr": "POM", "pl": "STR" },
+    "department_rescue": { "en": "EMS", "de": "RD", "fr": "SAMU", "pl": "RM" },
+    "department_swat": { "en": "SWAT", "de": "SEK", "fr": "RAID", "pl": "AT" }
   },
   "sections": [
     { "id": "General", "label": { "en": "General", "de": "Allgemein" }, "order": 0 },
