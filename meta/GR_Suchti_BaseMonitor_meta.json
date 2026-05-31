@@ -1,5 +1,21 @@
 {
   "displayName": "Base Monitor",
+  "uiText": {
+    "title": { "en": "Base Monitor", "de": "Base Monitor", "fr": "Base Monitor", "pl": "Base Monitor" },
+    "base": { "en": "Base", "de": "Basis", "fr": "Base", "pl": "Baza" },
+    "needs": { "en": "Needs", "de": "Bedarf", "fr": "Besoins", "pl": "Potrzeby" },
+    "dept": { "en": "Dept", "de": "Abt.", "fr": "Serv.", "pl": "Dz." },
+    "cars": { "en": "Cars", "de": "Fzg.", "fr": "Veh.", "pl": "Poj." },
+    "employees": { "en": "Employees", "de": "Mitarb.", "fr": "Employes", "pl": "Prac." },
+    "Hunger": { "en": "Hunger", "de": "Hunger", "fr": "Faim", "pl": "Glod" },
+    "Toilet": { "en": "Toilet", "de": "Toilette", "fr": "Toilette", "pl": "Toaleta" },
+    "Shower": { "en": "Shower", "de": "Dusche", "fr": "Douche", "pl": "Prysznic" },
+    "Energy": { "en": "Energy", "de": "Energie", "fr": "Energie", "pl": "Energia" },
+    "Satisf": { "en": "Satisf", "de": "Zufr.", "fr": "Satisf.", "pl": "Zadow." },
+    "waiting": { "en": "Waiting for save game", "de": "Warte auf Spielstand", "fr": "En attente de la sauvegarde", "pl": "Oczekiwanie na zapis gry" },
+    "no_bases": { "en": "No bases found", "de": "Keine Basen gefunden", "fr": "Aucune base trouvee", "pl": "Nie znaleziono baz" },
+    "unavailable": { "en": "Base data unavailable", "de": "Basisdaten nicht verfügbar", "fr": "Donnees de base indisponibles", "pl": "Dane bazy niedostepne" }
+  },
   "sections": [
     { "id": "General", "label": { "en": "General", "de": "Allgemein" }, "order": 0 },
     { "id": "UI", "label": { "en": "UI", "de": "UI" }, "order": 1 },
