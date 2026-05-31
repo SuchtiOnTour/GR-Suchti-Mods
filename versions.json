@@ -37,8 +37,8 @@
       "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_CheatPanel_meta.json"
     },
     "GR_Suchti_BaseMonitor": {
-      "version": "0.0.1",
-      "url": "PLACEHOLDER_GITHUB_URL",
+      "version": "0.1.0",
+      "url": "https://github.com/SuchtiOnTour/GR_Suchti_BaseMonitor/releases",
       "meta": "https://raw.githubusercontent.com/SuchtiOnTour/GR-Suchti-Mods/refs/heads/main/meta/GR_Suchti_BaseMonitor_meta.json"
     }
   }
