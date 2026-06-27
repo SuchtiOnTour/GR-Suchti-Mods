@@ -1,10 +1,10 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "Please update to v1.2.5 if the vehicle menu is not working correctly after the latest game update.\n\nNote: This mod will likely break after every game update. A compatibility fix will be provided as soon as possible.",
-    "de": "Bitte auf v1.2.5 aktualisieren, wenn das Fahrzeugmenü nach dem letzten Game-Update nicht korrekt funktioniert.\n\nHinweis: Diese Mod wird wahrscheinlich nach jedem Game-Update nicht mehr funktionieren. Ein Kompatibilitäts-Fix wird so schnell wie möglich bereitgestellt.",
-    "fr": "Merci de mettre à jour vers v1.2.5 si le menu des véhicules ne fonctionne pas correctement après la dernière mise à jour du jeu.\n\nNote : Ce mod sera probablement cassé après chaque mise à jour du jeu. Un correctif de compatibilité sera fourni dès que possible.",
-    "pl": "Zaktualizuj do v1.2.5, jeśli menu pojazdów nie działa poprawnie po najnowszej aktualizacji gry.\n\nUwaga: Ten mod prawdopodobnie przestanie działać po każdej aktualizacji gry. Poprawka kompatybilności zostanie udostępniona jak najszybciej."
+    "en": "Please update to v1.2.6 if the vehicle menu is not working correctly after the latest game update.\n\nNote: This mod will likely break after every game update. A compatibility fix will be provided as soon as possible.",
+    "de": "Bitte auf v1.2.6 aktualisieren, wenn das Fahrzeugmenü nach dem letzten Game-Update nicht korrekt funktioniert.\n\nHinweis: Diese Mod wird wahrscheinlich nach jedem Game-Update nicht mehr funktionieren. Ein Kompatibilitäts-Fix wird so schnell wie möglich bereitgestellt.",
+    "fr": "Merci de mettre à jour vers v1.2.6 si le menu des véhicules ne fonctionne pas correctement après la dernière mise à jour du jeu.\n\nNote : Ce mod sera probablement cassé après chaque mise à jour du jeu. Un correctif de compatibilité sera fourni dès que possible.",
+    "pl": "Zaktualizuj do v1.2.6, jeśli menu pojazdów nie działa poprawnie po najnowszej aktualizacji gry.\n\nUwaga: Ten mod prawdopodobnie przestanie działać po każdej aktualizacji gry. Poprawka kompatybilności zostanie udostępniona jak najszybciej."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
