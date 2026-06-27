@@ -1,10 +1,10 @@
 {
   "displayName": "Base Monitor",
   "devMessage": {
-    "en": "Please update to v0.1.1 if base data is not showing correctly after the latest game update.\n\nNote: This mod will likely break after every game update. A compatibility fix will be provided as soon as possible.",
-    "de": "Bitte auf v0.1.1 aktualisieren, wenn die Basisdaten nach dem letzten Game-Update nicht korrekt angezeigt werden.\n\nHinweis: Diese Mod wird wahrscheinlich nach jedem Game-Update nicht mehr funktionieren. Ein Kompatibilitäts-Fix wird so schnell wie möglich bereitgestellt.",
-    "fr": "Merci de mettre à jour vers v0.1.1 si les données de base ne s'affichent pas correctement après la dernière mise à jour du jeu.\n\nNote : Ce mod sera probablement cassé après chaque mise à jour du jeu. Un correctif de compatibilité sera fourni dès que possible.",
-    "pl": "Zaktualizuj do v0.1.1, jeśli dane bazy nie wyświetlają się poprawnie po najnowszej aktualizacji gry.\n\nUwaga: Ten mod prawdopodobnie przestanie działać po każdej aktualizacji gry. Poprawka kompatybilności zostanie udostępniona jak najszybciej."
+    "en": "Please update to v0.1.2 if base data is not showing correctly after the latest game update.\n\nNote: This mod will likely break after every game update. A compatibility fix will be provided as soon as possible.",
+    "de": "Bitte auf v0.1.2 aktualisieren, wenn die Basisdaten nach dem letzten Game-Update nicht korrekt angezeigt werden.\n\nHinweis: Diese Mod wird wahrscheinlich nach jedem Game-Update nicht mehr funktionieren. Ein Kompatibilitäts-Fix wird so schnell wie möglich bereitgestellt.",
+    "fr": "Merci de mettre à jour vers v0.1.2 si les données de base ne s'affichent pas correctement après la dernière mise à jour du jeu.\n\nNote : Ce mod sera probablement cassé après chaque mise à jour du jeu. Un correctif de compatibilité sera fourni dès que possible.",
+    "pl": "Zaktualizuj do v0.1.2, jeśli dane bazy nie wyświetlają się poprawnie po najnowszej aktualizacji gry.\n\nUwaga: Ten mod prawdopodobnie przestanie działać po każdej aktualizacji gry. Poprawka kompatybilności zostanie udostępniona jak najszybciej."
   },
   "uiText": {
     "title": { "en": "Base Monitor", "de": "Base Monitor", "fr": "Base Monitor", "pl": "Base Monitor" },
