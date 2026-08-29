@@ -1,10 +1,10 @@
 {
   "displayName": "Base Monitor",
   "devMessage": {
-    "en": "Please update to v0.1.3 for compatibility with Game Version 0.5.9.\n\nNote: This mod may require another compatibility update after future game updates.",
-    "de": "Bitte auf v0.1.3 aktualisieren, damit der Base Monitor mit Spielversion 0.5.9 funktioniert.\n\nHinweis: Nach zukünftigen Game-Updates kann erneut ein Kompatibilitäts-Fix nötig sein.",
-    "fr": "Merci de mettre à jour vers v0.1.3 pour assurer la compatibilité avec la version 0.5.9 du jeu.\n\nNote : Une nouvelle mise à jour de compatibilité pourra être nécessaire après de futures mises à jour du jeu.",
-    "pl": "Zaktualizuj do v0.1.3, aby zapewnić zgodność z wersją gry 0.5.9.\n\nUwaga: Po przyszłych aktualizacjach gry może być potrzebna kolejna poprawka zgodności."
+    "en": "Please update to v0.1.4 for compatibility with Game Version 0.5.12.",
+    "de": "Bitte auf v0.1.4 aktualisieren, damit der Base Monitor mit Spielversion 0.5.12 funktioniert.",
+    "fr": "Merci de mettre à jour vers v0.1.4 pour assurer la compatibilité avec la version 0.5.12 du jeu.",
+    "pl": "Zaktualizuj do v0.1.4, aby zapewnić zgodność z wersją gry 0.5.12."
   },
   "uiText": {
     "title": { "en": "Base Monitor", "de": "Base Monitor", "fr": "Base Monitor", "pl": "Base Monitor" },
