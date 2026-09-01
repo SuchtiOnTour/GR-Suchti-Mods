@@ -1,10 +1,10 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-  "en": "Please update to v1.2.7 for compatibility with Game Version 0.5.9.\n\nNote: This mod may require another compatibility update after future game updates.",
-  "de": "Bitte auf v1.2.7 aktualisieren, damit das Better Vehicle Menu mit Spielversion 0.5.9 funktioniert.\n\nHinweis: Nach zukünftigen Game-Updates kann erneut ein Kompatibilitäts-Fix nötig sein.",
-  "fr": "Merci de mettre à jour vers v1.2.7 pour assurer la compatibilité avec la version 0.5.9 du jeu.\n\nNote : Une nouvelle mise à jour de compatibilité pourra être nécessaire après de futures mises à jour du jeu.",
-  "pl": "Zaktualizuj do v1.2.7, aby zapewnić zgodność z wersją gry 0.5.9.\n\nUwaga: Po przyszłych aktualizacjach gry może być potrzebna kolejna poprawka zgodności."
+    "en": "Please update to v1.2.9 for compatibility with Game Version 0.5.13.",
+    "de": "Bitte auf v1.2.9 aktualisieren, damit das Better Vehicle Menu mit Spielversion 0.5.13 funktioniert.",
+    "fr": "Merci de mettre à jour vers v1.2.9 pour assurer la compatibilité avec la version 0.5.13 du jeu.",
+    "pl": "Zaktualizuj do v1.2.9, aby zapewnić zgodność z wersją gry 0.5.13."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },

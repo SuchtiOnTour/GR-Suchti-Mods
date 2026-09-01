@@ -1,10 +1,10 @@
 {
-  "displayName": "Better Vehicle Menu",
+  "displayName": "Base Monitor",
   "devMessage": {
-    "en": "Please update to v1.2.8 for compatibility with Game Version 0.5.12.",
-    "de": "Bitte auf v1.2.8 aktualisieren, damit das Better Vehicle Menu mit Spielversion 0.5.12 funktioniert.",
-    "fr": "Merci de mettre à jour vers v1.2.8 pour assurer la compatibilité avec la version 0.5.12 du jeu.",
-    "pl": "Zaktualizuj do v1.2.8, aby zapewnić zgodność z wersją gry 0.5.12."
+    "en": "Please update to v0.1.5 for compatibility with Game Version 0.5.13.",
+    "de": "Bitte auf v0.1.5 aktualisieren, damit der Base Monitor mit Spielversion 0.5.13 funktioniert.",
+    "fr": "Merci de mettre à jour vers v0.1.5 pour assurer la compatibilité avec la version 0.5.13 du jeu.",
+    "pl": "Zaktualizuj do v0.1.5, aby zapewnić zgodność z wersją gry 0.5.13."
   },
   "uiText": {
     "title": { "en": "Base Monitor", "de": "Base Monitor", "fr": "Base Monitor", "pl": "Base Monitor" },
