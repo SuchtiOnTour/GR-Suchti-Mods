@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "compatibility": {
+    "0.5.13": {
+      "gameManager": "EOIDJFBOLBI",
+      "baseList": "OAIJNCPGBDC",
+      "vehicleList": "OKIOMCPOALA",
+      "employeeList": "DLGKEMPCKMP",
+      "employeeBaseId": "ELIENBDEIEI",
+      "employeeJobType": "IGEKIDFNGDJ",
+      "hunger": "DCCJFABFGHB",
+      "thirst": "MKIHBDPNCHO",
+      "toilet": "KEDICPEKHDE",
+      "shower": "OGKIFELFAAC",
+      "energy": "CKAGBKKHIIC",
+      "satisfaction": "KHNODCBBLIL"
+    },
+    "0.5.12": {
+      "gameManager": "KHHLOEOGKID",
+      "baseList": "CGICACOJIJI",
+      "vehicleList": "GLDAMCPFGGP",
+      "employeeList": "OBJFJDIGHBK",
+      "employeeBaseId": "DPKLAFDMGME",
+      "employeeJobType": "OBIKIIKAALH",
+      "hunger": "GKBEAGENMCN",
+      "thirst": "MDAGFEJBOLK",
+      "toilet": "DFEKDMIOLPN",
+      "shower": "HMJAHDFFJNB",
+      "energy": "BENCFILAMDK",
+      "satisfaction": "EJCFCKOPGEJ"
+    }
+  }
+}
