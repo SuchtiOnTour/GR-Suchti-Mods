@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "compatibility": {
+    "0.5.13": {
+      "buyMode": "AINNFPHDEDD",
+      "header": "JKIIGCBPEDE",
+      "selectBaseByIndex": "ELNLCKMDINJ",
+      "selectBase": "EJLDEJLHBIA",
+      "policeTab": "BCHAODAAODP",
+      "swatTab": "CDMEOCOEBNO",
+      "fireTab": "IFNKPLMOHKG",
+      "rescueTab": "PABHMDILHAF",
+      "departmentDispatcher": "CMFPALLMONP",
+      "buyTab": "BJAFGBIBCAK",
+      "vehicleScrollView": "JMDKPAPHHMD",
+      "vehicleElementData": "EMALFBJADMC",
+      "baseManager": "KBFFMIIBKMH",
+      "baseList": "OAIJNCPGBDC",
+      "baseListGetter": "get_OAIJNCPGBDC"
+    }
+  }
+}
