@@ -1,6 +1,23 @@
 {
   "schemaVersion": 1,
   "compatibility": {
+    "0.6.3": {
+      "buyMode": "PNNNEBJOMIB",
+      "header": "MMGDJLBJHEE",
+      "selectBaseByIndex": "NPJEGEMFFLI",
+      "selectBase": "PPNHBCHOEHI",
+      "policeTab": "DGDLCMJDFLM",
+      "swatTab": "JFEGOGOEOHD",
+      "fireTab": "HNDLNNIBCGK",
+      "rescueTab": "LJJLGMAAKEK",
+      "departmentDispatcher": "HFFFDLIKAEL",
+      "buyTab": "DCOBLFFHFOD",
+      "vehicleScrollView": "ADJBOFKOOKO",
+      "vehicleElementData": "IIPLKEPIGMH",
+      "baseManager": "HKBMONBGPHJ",
+      "baseList": "KHLFNIEJNPK",
+      "baseListGetter": "get_KHLFNIEJNPK"
+    },
     "0.5.13": {
       "buyMode": "AINNFPHDEDD",
       "header": "JKIIGCBPEDE",
@@ -15,8 +32,7 @@
       "vehicleScrollView": "JMDKPAPHHMD",
       "vehicleElementData": "EMALFBJADMC",
       "baseManager": "KBFFMIIBKMH",
-      "baseList": "OAIJNCPGBDC",
-      "baseListGetter": "get_OAIJNCPGBDC"
+      "baseList": "OAIJNCPGBDC"
     }
   }
 }
