@@ -1,10 +1,10 @@
 {
   "displayName": "Better Vehicle Menu",
   "devMessage": {
-    "en": "Please update to v1.2.9 for compatibility with Game Version 0.5.13.",
-    "de": "Bitte auf v1.2.9 aktualisieren, damit das Better Vehicle Menu mit Spielversion 0.5.13 funktioniert.",
-    "fr": "Merci de mettre à jour vers v1.2.9 pour assurer la compatibilité avec la version 0.5.13 du jeu.",
-    "pl": "Zaktualizuj do v1.2.9, aby zapewnić zgodność z wersją gry 0.5.13."
+    "en": "Please update to v1.3.0 for Game Version 0.6.3 and automatic compatibility updates. Future compatibility fixes should normally apply automatically.",
+    "de": "Bitte auf v1.3.0 für Spielversion 0.6.3 und automatische Kompatibilitätsupdates aktualisieren. Zukünftige Kompatibilitäts-Fixes sollten normalerweise automatisch angewendet werden.",
+    "fr": "Veuillez mettre à jour vers la v1.3.0 pour la version 0.6.3 du jeu et les mises à jour automatiques de compatibilité. Les futurs correctifs de compatibilité devraient normalement être appliqués automatiquement.",
+    "pl": "Zaktualizuj do wersji v1.3.0, aby uzyskać zgodność z wersją gry 0.6.3 i automatyczne aktualizacje kompatybilności. Przyszłe poprawki kompatybilności powinny być zazwyczaj stosowane automatycznie."
   },
   "sections": [
     { "id": "General", "label": "General", "order": 0 },
