@@ -1,6 +1,20 @@
 {
   "schemaVersion": 1,
   "compatibility": {
+    "0.6.3": {
+      "gameManager": "GBCGDHAAJPB",
+      "baseList": "KHLFNIEJNPK",
+      "vehicleList": "MPODMJNHBOH",
+      "employeeList": "JDDNGECDDBE",
+      "employeeBaseId": "LFEOKJBJDJN",
+      "employeeJobType": "LLHGHHFILDM",
+      "hunger": "CGGGDABEIBG",
+      "thirst": "ABMDMHIGLPB",
+      "toilet": "OBEFGAHGNNG",
+      "shower": "JJJODLPIDNO",
+      "energy": "KGJKIIBAPLP",
+      "satisfaction": "CAIOCHDGPGJ"
+    },
     "0.5.13": {
       "gameManager": "EOIDJFBOLBI",
       "baseList": "OAIJNCPGBDC",
